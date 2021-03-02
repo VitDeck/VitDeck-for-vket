@@ -3,6 +3,7 @@ using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
+using VitDeck.Validator.RuleSets;
 
 namespace VitDeck.Validator.Test
 {

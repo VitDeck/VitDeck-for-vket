@@ -1,7 +1,7 @@
 #if VRC_SDK_VRCSDK3
 using UnityEngine;
 
-namespace VitDeck.Validator
+namespace VitDeck.Validator.RuleSets
 {
     public class UdonCubeRuleSet : VketUdonRuleSetBase
     {

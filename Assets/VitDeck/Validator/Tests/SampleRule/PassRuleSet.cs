@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace VitDeck.Validator
+namespace VitDeck.Validator.RuleSets
 {
     /// <summary>
     /// サンプルルールセット

@@ -1,4 +1,4 @@
-namespace VitDeck.Validator
+namespace VitDeck.Validator.RuleSets
 {
     public static class VketUdonOfficialAssetData
     {

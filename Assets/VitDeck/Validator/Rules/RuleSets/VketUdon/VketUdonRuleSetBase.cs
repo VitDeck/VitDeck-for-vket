@@ -4,7 +4,7 @@ using VitDeck.Language;
 using VRC.SDKBase;
 using VRC.Udon;
 
-namespace VitDeck.Validator
+namespace VitDeck.Validator.RuleSets
 {
 
     /// <summary>

@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace VitDeck.Validator
+namespace VitDeck.Validator.RuleSets
 {
     /// <summary>
     /// 実行する検証ルールのセットを定義するための抽象クラス。

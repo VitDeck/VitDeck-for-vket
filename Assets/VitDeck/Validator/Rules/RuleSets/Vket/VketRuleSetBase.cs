@@ -7,7 +7,7 @@ using VRC.SDKBase;
 using VRCSDK2;
 #endif
 
-namespace VitDeck.Validator
+namespace VitDeck.Validator.RuleSets
 {
 
     /// <summary>

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace VitDeck.Validator
+namespace VitDeck.Validator.RuleSets
 {
     public static class VketOfficialAssetData
     {

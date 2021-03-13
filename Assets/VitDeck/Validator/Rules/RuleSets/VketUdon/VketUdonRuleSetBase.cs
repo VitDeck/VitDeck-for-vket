@@ -48,8 +48,8 @@ namespace VitDeck.Validator.RuleSets
                 new UnityVersionRule(LocalizedMessage.Get("VketRuleSetBase.UnityVersionRule.Title", "2018.4.20f1"), "2018.4.20f1"),
 
                 new VRCSDKVersionRule(LocalizedMessage.Get("VketRuleSetBase.VRCSDKVersionRule.Title"),
-                    new VRCSDKVersion("2020.05.06.12.14"),
-                    "https://files.vrchat.cloud/sdk/VRCSDK3-WORLD-2020.08.07.18.18_Public.unitypackage"),
+                    new VRCSDKVersion("2021.03.09.13.57"),
+                    "https://files.vrchat.cloud/sdk/VRCSDK3-WORLD-2021.03.09.13.57_Public.unitypackage"),
 
                 new ExistInSubmitFolderRule(LocalizedMessage.Get("VketRuleSetBase.ExistInSubmitFolderRule.Title"), VketUdonOfficialAssetData.GUIDs, targetFinder),
 
@@ -223,7 +223,7 @@ namespace VitDeck.Validator.RuleSets
                 new UdonBehaviourSyncedVariablesRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonBehaviourSyncedVariablesRule.Title"), UdonScriptSyncedVariablesLimit), 
 
                 // U#においては、全てのクラスは運営よりブース毎に指定するnamespaceに所属させてください
-                new UdonSharpScriptNamespaceRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonSharpNameSpaceRule.Title"), "Vket.Circle"), 
+                new UdonSharpScriptNamespaceRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonSharpNameSpaceRule.Title"), UdonSharpNamespace), 
 
                 // PhysicsクラスのCast関数 layerMaskを設定し、レイヤー23以外のコライダを無視するようにする, maxDistanceは最長で10メートルまで
                 new UdonAssemblyPhysicsCastFunctionRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonAssemblyPhysicsCastFunctionRule.Title"), GetUdonAssemblyPhysicsCastFunctionReferences()), 
@@ -303,8 +303,9 @@ namespace VitDeck.Validator.RuleSets
                 new ComponentReference("VRC Url Input Field", new string[]{"VRC.SDK3.Components.VRCUrlInputField"}, ValidationLevel.DISALLOW),
                 new ComponentReference("VRC Visual Damage", new string[]{"VRC.SDKBase.VRC_VisualDamage", "VRC.SDK3.Components.VRCVisualDamage"}, ValidationLevel.DISALLOW),
                 new ComponentReference("VRC Spacial Audio Source", new string[]{"VRC.SDKBase.VRC_SpatialAudioSource", "VRC.SDK3.Components.VRCSpatialAudioSource"}, ValidationLevel.ALLOW),
-                new ComponentReference("VRC Unity Video Player", new string[]{"VRC.SDK3.Video.Components.VRCUnityVideoPlayer", }, ValidationLevel.DISALLOW),
+                new ComponentReference("VRC Unity Video Player", new string[]{"VRC.SDK3.Video.Components.VRCUnityVideoPlayer", }, MoreAdvancedObjectValidationLevel),
                 new ComponentReference("VRC AV Pro Video Player", new string[]{"VRC.SDK3.Video.Components.AVPro.VRCAVProVideoPlayer", "VRC.SDK3.Video.Components.AVPro.VRCAVProVideoSpeaker", "VRC.SDK3.Video.Components.AVPro.VRCAVProVideoPlayer"}, ValidationLevel.DISALLOW),
+                new ComponentReference("VRC Midi", new string[]{"VRC.SDK3.Midi.VRCMidiHandler", "VRC.SDK3.Midi.VRCMidiListener"}, ValidationLevel.DISALLOW),
                 new ComponentReference("VRC Portal Marker", new string[]{"VRC.SDKBase.VRC_PortalMarker", "VRC.SDK3.Components.VRCPortalMarker"}, ValidationLevel.DISALLOW),
                 new ComponentReference("VRC Scene Descriptor", new string[]{"VRC.SDKBase.VRC_SceneDescriptor", "VRC.SDK3.Components.VRCSceneDescriptor"}, ValidationLevel.DISALLOW),
                 new ComponentReference("VRC Test Marker", new string[]{"VRC.SDK3.VRCTestMarker"}, ValidationLevel.DISALLOW),
@@ -397,6 +398,7 @@ namespace VitDeck.Validator.RuleSets
 
         protected abstract int PickupObjectSyncUsesLimit { get; }
 
+        protected abstract string UdonSharpNamespace { get; }
     }
 }
 #endif

@@ -5,77 +5,25 @@ namespace VitDeck.Validator.RuleSets
 {
     public class UdonCubeRuleSet : VketUdonRuleSetBase
     {
-        public override string RuleSetName
-        {
-            get
-            {
-                return "Vket - UdonCube";
-            }
-        }
+        public override string RuleSetName => "Vket - UdonCube";
 
-        protected override long FolderSizeLimit
-        {
-            get
-            {
-                return 100 * MegaByte;
-            }
-        }
+        protected override string UdonSharpNamespace => "Vket5.Circle";
 
-        protected override Vector3 BoothSizeLimit
-        {
-            get
-            {
-                return new Vector3(10, 10, 10);
-            }
-        }
+        protected override long FolderSizeLimit => 100 * MegaByte;
 
-        protected override int UdonBehaviourCountLimit
-        {
-            get
-            {
-                return 25;
-            }
-        }
+        protected override Vector3 BoothSizeLimit => new Vector3(10, 10, 10);
 
-        protected override int UdonBehaviourSynchronizePositionCountLimit
-        {
-            get
-            {
-                return 10;
-            }
-        }
+        protected override int UdonBehaviourCountLimit => 25;
 
-        protected override int UdonScriptSyncedVariablesLimit
-        {
-            get
-            {
-                return 3;
-            }
-        }
+        protected override int UdonBehaviourSynchronizePositionCountLimit => 10;
 
-        protected override int MaterialUsesLimit
-        {
-            get
-            {
-                return 60;
-            }
-        }
+        protected override int UdonScriptSyncedVariablesLimit => 3;
 
-        protected override int LightmapCountLimit
-        {
-            get
-            {
-                return 2;
-            }
-        }
+        protected override int MaterialUsesLimit => 60;
 
-        protected override int VRCStationCountLimit
-        {
-            get
-            {
-                return 8;
-            }
-        }
+        protected override int LightmapCountLimit => 2;
+
+        protected override int VRCStationCountLimit => 8;
 
         protected override LightConfigRule.LightConfig ApprovedPointLightConfig
         {
@@ -104,13 +52,7 @@ namespace VitDeck.Validator.RuleSets
             }
         }
 
-        protected override int AreaLightUsesLimit
-        {
-            get
-            {
-                return 3;
-            }
-        }
+        protected override int AreaLightUsesLimit => 3;
 
         protected override LightmapBakeType[] unusablePointLightModes
         {
@@ -136,21 +78,9 @@ namespace VitDeck.Validator.RuleSets
             }
         }
 
-        protected override int ChairPrefabUsesLimit
-        {
-            get
-            {
-                return 1;
-            }
-        }
+        protected override int ChairPrefabUsesLimit => 1;
 
-        protected override int PickupObjectSyncUsesLimit
-        {
-            get
-            {
-                return 10;
-            }
-        }
+        protected override int PickupObjectSyncUsesLimit => 10;
     }
 }
 #endif

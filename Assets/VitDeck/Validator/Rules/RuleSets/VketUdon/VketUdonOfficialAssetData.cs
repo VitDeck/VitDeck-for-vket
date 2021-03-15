@@ -1,6 +1,6 @@
 namespace VitDeck.Validator.RuleSets
 {
-    public static class VketUdonOfficialAssetData
+    public class VketUdonOfficialAssetData: IOfficialAssetData
     {
         /// <summary>
         /// 公式配布されたアセット及び前提となるアセットのGUID
@@ -15,7 +15,7 @@ namespace VitDeck.Validator.RuleSets
         /// <item>VketShaderPack</item>
         /// </list>
         /// </summary>
-        public static string[] GUIDs = new string[]
+        public readonly string[] _GUIDs = new string[]
         {
             #region DynamicBone
 
@@ -1510,7 +1510,7 @@ namespace VitDeck.Validator.RuleSets
             #endregion
         };
 
-        public static string[] MaterialGUIDs = new string[]
+        public readonly string[] _MaterialGUIDs = new string[]
         {
             "852b1a8f6b8cf714ab105ed0b009020c",  // Assets/VitDeck/Templates/07_UC/SharedAssets/FloorGrid(07_UC).mat
             "43952b04c671c85499219a62eb939303",  // Assets/VitDeck/Templates/07_UC/SharedAssets/SampleBooth(07_UC).mat
@@ -1585,12 +1585,12 @@ namespace VitDeck.Validator.RuleSets
             "072ae31b0e1564b4eb95e3b4437e7d1d",  // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/XSToon 2.0.mat
         };
 
-        public static string[] PickupObjectSyncPrefabGUIDs = new string[]
+        public readonly string[] _PickupObjectSyncPrefabGUIDs = new string[]
         {
             "304812fb2352c7c419581d8f68b23f94",  // Assets/VketAssets/UdonPrefabs/Udon_PickupObjectSync/PickupObjectSync.prefab
         };
 
-        public static string[] AvatarPedestalPrefabGUIDs = new string[]
+        public readonly string[] _AvatarPedestalPrefabGUIDs = new string[]
         {
             "59261512e4100df488de6ddd9b530829",  // Assets/VketAssets/UdonPrefabs/Udon_AvatarPedestal/AvatarPedestal_2D_L.prefab
             "3e6652d46d6d66d4092650094b064987",  // Assets/VketAssets/UdonPrefabs/Udon_AvatarPedestal/AvatarPedestal_2D_M.prefab
@@ -1603,7 +1603,7 @@ namespace VitDeck.Validator.RuleSets
             "fb107661b9b479d4fa95452f7fd46426",  // Assets/VketAssets/UdonPrefabs/Udon_AvatarPedestal/AvatarPedestal_Default_S.prefab
         };
 
-        public static string[] UdonBehaviourPrefabGUIDs = new string[]
+        public readonly string[] _UdonBehaviourPrefabGUIDs = new string[]
         {
             "304812fb2352c7c419581d8f68b23f94",  // Assets/VketAssets/UdonPrefabs/Udon_PickupObjectSync/PickupObjectSync.prefab
             "59261512e4100df488de6ddd9b530829",  // Assets/VketAssets/UdonPrefabs/Udon_AvatarPedestal/AvatarPedestal_2D_L.prefab
@@ -1623,25 +1623,25 @@ namespace VitDeck.Validator.RuleSets
             "a4471dc2b540f9e46a5e36fe66ede5e9",  // Assets/VketAssets/UdonPrefabs/Udon_CirclePageOpener/CirclePageOpener3D_S.prefab
         };
 
-        public static string[] SizeIgnorePrefabGUIDs = new string[]
+        public readonly string[] _SizeIgnorePrefabGUIDs = new string[]
         {
             "e6d5c31911ec7404e8b613767bc9c944",  // Assets/VketAssets/UdonPrefabs/Udon_WorldBGMFade/WorldBGMFade.prefab
         };
 
 
-        public static string[] AudioSourcePrefabGUIDs = new string[]
+        public readonly string[] _AudioSourcePrefabGUIDs = new string[]
         {
         };
 
-        public static string[] CanvasPrefabGUIDs = new string[]
+        public readonly string[] _CanvasPrefabGUIDs = new string[]
         {
         };
 
-        public static string[] PointLightProbeGUIDs = new string[]
+        public readonly string[] _PointLightProbeGUIDs = new string[]
         {
         };
 
-        public static string[] VRCSDKPrefabGUIDs = new string[]
+        public readonly string[] _VRCSDKPrefabGUIDs = new string[]
         {
 
             #region VRCSDK
@@ -2105,5 +2105,16 @@ namespace VitDeck.Validator.RuleSets
             #endregion
 
         };
+
+        public string[] GUIDs => _GUIDs;
+        public string[] MaterialGUIDs => _MaterialGUIDs;
+        public string[] PickupObjectSyncPrefabGUIDs => _PickupObjectSyncPrefabGUIDs;
+        public string[] AvatarPedestalPrefabGUIDs => _AvatarPedestalPrefabGUIDs;
+        public string[] UdonBehaviourPrefabGUIDs => _UdonBehaviourPrefabGUIDs;
+        public string[] SizeIgnorePrefabGUIDs => _SizeIgnorePrefabGUIDs;
+        public string[] AudioSourcePrefabGUIDs => _AudioSourcePrefabGUIDs;
+        public string[] CanvasPrefabGUIDs => _CanvasPrefabGUIDs;
+        public string[] PointLightProbeGUIDs => _PointLightProbeGUIDs;
+        public string[] VRCSDKPrefabGUIDs => _VRCSDKPrefabGUIDs;
     }
 }

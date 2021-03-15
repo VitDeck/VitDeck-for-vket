@@ -5,6 +5,9 @@ namespace VitDeck.Validator.RuleSets
 {
     public class UdonCubeRuleSet : VketUdonRuleSetBase
     {
+        public UdonCubeRuleSet():base(new VketUdonOfficialAssetData())
+        {
+        }
         public override string RuleSetName => "Vket - UdonCube";
 
         protected override string UdonSharpNamespace => "Vket5.Circle";

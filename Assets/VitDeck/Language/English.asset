@@ -652,3 +652,11 @@ MonoBehaviour:
     Value: UdonBehaviour [AutoResetPickup] must set Synchronize Position is True.
   - Key: VRCPickupUdonBehaviourRule.SynchronizePositionFalse.Solution
     Value: Check UdonBehaviour property Synchronize Position is True.
+  - Key: Booth.ErrorShaderRule.Title
+    Value: Shader Error
+  - Key: Booth.ErrorShaderRule.noMaterialError
+    Value: Renderer that material missing found. 
+  - Key: Booth.ErrorShaderRule.shaderReferenceError
+    Value: Material that shader missing found. 
+  - Key: Booth.ErrorShaderRule.shaderError
+    Value: Shader error found.

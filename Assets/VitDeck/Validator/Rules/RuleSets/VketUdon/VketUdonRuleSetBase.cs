@@ -91,6 +91,10 @@ namespace VitDeck.Validator.RuleSets
                     lightmapCountLimit: LightmapCountLimit,
                     lightmapResolutionLimit: 512),
 
+                // シェーダーエラーの検出
+                new ErrorShaderRule(LocalizedMessage.Get("Booth.ErrorShaderRule.Title")), 
+                // ToDo: シェーダーホワイトリストのチェック
+
                 new GlobalIlluminationBakedRule(LocalizedMessage.Get("VketRuleSetBase.GlobalIlluminationBakedRule.Title")),
 
                 new UsableComponentListRule(LocalizedMessage.Get("VketRuleSetBase.UsableComponentListRule.Title"),

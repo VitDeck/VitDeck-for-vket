@@ -31,8 +31,6 @@ namespace VitDeck.Validator
 
         protected override void Logic(ValidationTarget target)
         {
-            // ホワイトリストの中身が無い場合は判定しない
-            if (shaderNameGUIDPairs == null || shaderNameGUIDPairs.Count == 0) return;
             foreach (var gameObject in target.GetAllObjects())
             {
                 foreach (var shader in this.GetShaders(gameObject))

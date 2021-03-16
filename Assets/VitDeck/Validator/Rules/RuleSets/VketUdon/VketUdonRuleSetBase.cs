@@ -93,7 +93,9 @@ namespace VitDeck.Validator.RuleSets
 
                 // シェーダーエラーの検出
                 new ErrorShaderRule(LocalizedMessage.Get("Booth.ErrorShaderRule.Title")), 
-                // ToDo: シェーダーホワイトリストのチェック
+                // シェーダーホワイトリストのチェック
+                new ShaderWhitelistRule(LocalizedMessage.Get("Booth.ShaderWhiteListRule.Title"),
+                    _officialAssetData.AllowedShaders, LocalizedMessage.Get("Booth.ShaderWhiteListRule.Solution")), 
 
                 new GlobalIlluminationBakedRule(LocalizedMessage.Get("VketRuleSetBase.GlobalIlluminationBakedRule.Title")),
 

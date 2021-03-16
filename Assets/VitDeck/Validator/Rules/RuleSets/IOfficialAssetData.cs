@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace VitDeck.Validator.RuleSets
 {
     public interface IOfficialAssetData
@@ -12,5 +14,6 @@ namespace VitDeck.Validator.RuleSets
         string[] CanvasPrefabGUIDs { get; }
         string[] PointLightProbeGUIDs { get; }
         string[] VRCSDKPrefabGUIDs { get; }
+        Dictionary<string,string> AllowedShaders { get; }
     }
 }

@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace VitDeck.Validator.RuleSets
 {
     public class VketUdonOfficialAssetData: IOfficialAssetData
@@ -2106,6 +2108,10 @@ namespace VitDeck.Validator.RuleSets
 
         };
 
+        public readonly Dictionary<string,string> _AllowedShaders = new Dictionary<string, string>()
+        {
+            
+        };
         public string[] GUIDs => _GUIDs;
         public string[] MaterialGUIDs => _MaterialGUIDs;
         public string[] PickupObjectSyncPrefabGUIDs => _PickupObjectSyncPrefabGUIDs;
@@ -2116,5 +2122,6 @@ namespace VitDeck.Validator.RuleSets
         public string[] CanvasPrefabGUIDs => _CanvasPrefabGUIDs;
         public string[] PointLightProbeGUIDs => _PointLightProbeGUIDs;
         public string[] VRCSDKPrefabGUIDs => _VRCSDKPrefabGUIDs;
+        public Dictionary<string, string> AllowedShaders => _AllowedShaders;
     }
 }

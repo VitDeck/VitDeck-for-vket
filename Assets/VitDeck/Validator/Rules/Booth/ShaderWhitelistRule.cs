@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEditor;
+using VitDeck.Language;
 
 namespace VitDeck.Validator
 {
@@ -30,6 +31,8 @@ namespace VitDeck.Validator
 
         protected override void Logic(ValidationTarget target)
         {
+            // ホワイトリストの中身が無い場合は判定しない
+            if (shaderNameGUIDPairs == null || shaderNameGUIDPairs.Count == 0) return;
             foreach (var gameObject in target.GetAllObjects())
             {
                 foreach (var shader in this.GetShaders(gameObject))
@@ -49,7 +52,7 @@ namespace VitDeck.Validator
                         this.AddIssue(new Issue(
                             gameObject,
                             IssueLevel.Error,
-                            string.Format("シェーダー「{0}」の使用は許可されていません。", shader.name),
+                            LocalizedMessage.Get("Booth.ShaderWhiteListRule.DisallowedShader", shader.name),
                             solution,
                             solutionURL
                         ));
@@ -59,12 +62,9 @@ namespace VitDeck.Validator
                     var guid = AssetDatabase.AssetPathToGUID(path);
                     if (guid != this.shaderNameGUIDPairs[shader.name])
                     {
-                        this.AddIssue(new Issue(gameObject, IssueLevel.Error, string.Format(
-                            "シェーダー「{0}」のGUID「{1}」が「{2}」と一致しません。",
-                            shader.name,
-                            guid,
-                            this.shaderNameGUIDPairs[shader.name]
-                        ), solution, solutionURL));
+                        this.AddIssue(new Issue(gameObject, IssueLevel.Error,
+                            LocalizedMessage.Get("Booth.ShaderWhiteListRule.MismatchGUID", shader.name, guid, this.shaderNameGUIDPairs[shader.name]),
+                            solution, solutionURL));
                         continue;
                     }
                 }

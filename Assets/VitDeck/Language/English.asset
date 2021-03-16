@@ -660,3 +660,11 @@ MonoBehaviour:
     Value: Material that shader missing found. 
   - Key: Booth.ErrorShaderRule.shaderError
     Value: Shader error found.
+  - Key: Booth.ShaderWhiteListRule.Title
+    Value: Unsupported shader found
+  - Key: Booth.ShaderWhiteListRule.DisallowedShader
+    Value: Shader [{0}] is NOT allowed to use.
+  - Key: Booth.ShaderWhiteListRule.MismatchGUID
+    Value: Shader [{0}] has defferent GUID [{1}]. Use [{2}].
+  - Key: Booth.ShaderWhiteListRule.Solution
+    Value: Read Shader Limitation Rules.

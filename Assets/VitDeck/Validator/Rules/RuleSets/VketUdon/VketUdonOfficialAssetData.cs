@@ -1648,6 +1648,12 @@ namespace VitDeck.Validator.RuleSets
             };
         }
 
+        public virtual string[] GetUdonBehaviourGlobalLinkGUIDs()
+        {
+            return new string[]
+            {
+            };
+        }
 
         public virtual string[] GetAudioSourcePrefabGUIDs()
         {
@@ -2148,6 +2154,7 @@ namespace VitDeck.Validator.RuleSets
         public string[] PickupObjectSyncPrefabGUIDs => GetPickupObjectSyncPrefabGUIDs();
         public string[] AvatarPedestalPrefabGUIDs => GetAvatarPedestalPrefabGUIDs();
         public string[] UdonBehaviourPrefabGUIDs => GetUdonBehaviourPrefabGUIDs();
+        public string[] UdonBehaviourGlobalLinkGUIDs => GetUdonBehaviourGlobalLinkGUIDs();
         public string[] SizeIgnorePrefabGUIDs => GetSizeIgnorePrefabGUIDs();
         public string[] AudioSourcePrefabGUIDs => GetAudioSourcePrefabGUIDs();
         public string[] CanvasPrefabGUIDs => GetCanvasPrefabGUIDs();

@@ -9,6 +9,7 @@ namespace VitDeck.Validator.RuleSets
         string[] PickupObjectSyncPrefabGUIDs { get; }
         string[] AvatarPedestalPrefabGUIDs { get; }
         string[] UdonBehaviourPrefabGUIDs { get; }
+        string[] UdonBehaviourGlobalLinkGUIDs { get; }
         string[] SizeIgnorePrefabGUIDs { get; }
         string[] AudioSourcePrefabGUIDs { get; }
         string[] CanvasPrefabGUIDs { get; }

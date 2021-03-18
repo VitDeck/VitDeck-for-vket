@@ -1,4 +1,6 @@
 #if VRC_SDK_VRCSDK3
+using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using VitDeck.Language;
 using VRC.Udon;
@@ -11,8 +13,16 @@ namespace VitDeck.Validator
     /// </summary>
     internal class UdonDynamicObjectParentRule : BaseRule
     {
+
+        private readonly HashSet<string> ignoreIDSet;
+
         public UdonDynamicObjectParentRule(string name) : base(name)
         {
+        }
+
+        public UdonDynamicObjectParentRule(string name, string[] guids) : this(name)
+        {
+            ignoreIDSet = new HashSet<string>(guids);
         }
 
         protected override void Logic(ValidationTarget target)
@@ -96,6 +106,8 @@ namespace VitDeck.Validator
                             // Scene 内配置を検証(Dunamicの子かどうか)
                             if (trans != null && !trans.IsChildOf(dynamicRoot))
                             {
+                                // 無視すべきオブジェクトの場合はスキップ
+                                if (IsExcludeGuid(trans)) continue;
                                 AddIssue(new Issue(
                                     udonBehaviour,
                                     IssueLevel.Error,
@@ -108,6 +120,15 @@ namespace VitDeck.Validator
                 }
             }
 
+        }
+
+        private bool IsExcludeGuid(Object obj)
+        {
+            if (ignoreIDSet == null) return false;
+            var sourceObject = PrefabUtility.GetCorrespondingObjectFromSource(obj);
+            if (sourceObject == null) return false;
+            AssetDatabase.TryGetGUIDAndLocalFileIdentifier(sourceObject, out var guid, out long _);
+            return ignoreIDSet.Contains(guid);
         }
 
     }

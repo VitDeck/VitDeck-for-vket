@@ -23,12 +23,13 @@ namespace VitDeck.Validator
             var udonBehaviours = component.gameObject.GetComponents<UdonBehaviour>();
             if (udonBehaviours == null || udonBehaviours.Length == 0)
             {
-                RaiseNoUdonAutoResetPickupError(component);
                 return;
             }
 
+            var isSync = false;
             foreach (var udonBehaviour in udonBehaviours)
             {
+                if (udonBehaviour.SynchronizePosition) isSync = true;
                 if (udonBehaviour.programSource?.SerializedProgramAsset.name != AutoResetPickupUdonId) continue;
                 if (!udonBehaviour.SynchronizePosition)
                 {
@@ -41,7 +42,7 @@ namespace VitDeck.Validator
                 }
                 return;
             }
-            RaiseNoUdonAutoResetPickupError(component);
+            if (isSync) RaiseNoUdonAutoResetPickupError(component);
         }
 
         private void RaiseNoUdonAutoResetPickupError(Object obj)

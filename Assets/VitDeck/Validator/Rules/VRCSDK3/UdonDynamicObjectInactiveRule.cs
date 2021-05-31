@@ -9,8 +9,10 @@ namespace VitDeck.Validator
     /// </summary>
     internal class UdonDynamicObjectInactiveRule : BaseRule
     {
-        public UdonDynamicObjectInactiveRule(string name) : base(name)
+        private bool isEnabled;
+        public UdonDynamicObjectInactiveRule(string name,bool isEnabled) : base(name)
         {
+            this.isEnabled = isEnabled;
         }
 
         protected override void Logic(ValidationTarget target)
@@ -35,7 +37,7 @@ namespace VitDeck.Validator
                 }
             }
 
-            CheckIsActive("Dynamic", dynamicRoot, false);
+            CheckIsActive("Dynamic", dynamicRoot, !isEnabled);
         }
 
         private void CheckIsActive(string instanceName, GameObject instance, bool isActive)

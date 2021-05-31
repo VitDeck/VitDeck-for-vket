@@ -182,7 +182,7 @@ namespace VitDeck.Validator.RuleSets
                 new UdonDynamicObjectParentRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonDynamicObjectParentRule.Title"), _officialAssetData.UdonBehaviourGlobalLinkGUIDs), 
                 
                 // 全てのUdonBehaviourオブジェクトの親であるDynamicオブジェクトは初期でInactive状態にしてください
-                new UdonDynamicObjectInactiveRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonDynamicObjectInactiveRule.Title")), 
+                new UdonDynamicObjectInactiveRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonDynamicObjectInactiveRule.Title"), UdonInactiveRuleIsEnabled), 
 
                 // UdonBehaviourを含むオブジェクトのLayerはUserLayer23としてください
                 new UdonBehaviourLayerConstraintRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonBehaviourLayerConstraintRule.Title")),
@@ -408,6 +408,8 @@ namespace VitDeck.Validator.RuleSets
         protected abstract int PickupObjectSyncUsesLimit { get; }
 
         protected abstract string UdonSharpNamespace { get; }
+
+        protected abstract bool UdonInactiveRuleIsEnabled { get; }
     }
 }
 #endif

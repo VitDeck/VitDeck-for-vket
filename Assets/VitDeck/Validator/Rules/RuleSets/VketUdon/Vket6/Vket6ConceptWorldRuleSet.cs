@@ -1,32 +1,34 @@
 #if VRC_SDK_VRCSDK3
+using System.Linq;
 using UnityEngine;
+using VitDeck.Language;
 
 namespace VitDeck.Validator.RuleSets
 {
-    public class UdonCubeRuleSet : VketUdonRuleSetBase
+    public class Vket6ConceptWorldRuleSet : VketUdonRuleSetBase
     {
-        public UdonCubeRuleSet():base(new VketUdonOfficialAssetData())
+        public Vket6ConceptWorldRuleSet():base(new Vket6OfficialAssetData())
         {
         }
-        public override string RuleSetName => "Vket - UdonCube";
+        public override string RuleSetName => "Vket6 - ConceptWorld";
 
-        protected override string UdonSharpNamespace => "Vket5.Circle";
+        protected override string UdonSharpNamespace => "Vket6.Circle";
 
         protected override long FolderSizeLimit => 100 * MegaByte;
 
-        protected override Vector3 BoothSizeLimit => new Vector3(10, 10, 10);
+        protected override Vector3 BoothSizeLimit => new Vector3(4, 5, 4);
 
-        protected override int UdonBehaviourCountLimit => 25;
+        protected override int UdonBehaviourCountLimit => 10;
 
         protected override int UdonBehaviourSynchronizePositionCountLimit => 10;
 
         protected override int UdonScriptSyncedVariablesLimit => 3;
 
-        protected override int MaterialUsesLimit => 60;
+        protected override int MaterialUsesLimit => 20;
 
-        protected override int LightmapCountLimit => 2;
+        protected override int LightmapCountLimit => 1;
 
-        protected override int VRCStationCountLimit => 8;
+        protected override int VRCStationCountLimit => 4;
 
         protected override LightConfigRule.LightConfig ApprovedPointLightConfig
         {
@@ -73,19 +75,24 @@ namespace VitDeck.Validator.RuleSets
             }
         }
 
-        protected override ValidationLevel MoreAdvancedObjectValidationLevel
-        {
-            get
-            {
-                return ValidationLevel.ALLOW;
-            }
-        }
+        protected override ValidationLevel MoreAdvancedObjectValidationLevel => ValidationLevel.ALLOW;
 
         protected override int ChairPrefabUsesLimit => 1;
 
-        protected override int PickupObjectSyncUsesLimit => 10;
+        protected override int PickupObjectSyncUsesLimit => 5;
 
-        protected override bool UdonInactiveRuleIsEnabled => true;
+        protected override bool UdonInactiveRuleIsEnabled => false;
+
+        public override IRule[] GetRules()
+        {
+            var rules = base.GetRules().ToList();
+            // シェーダーホワイトリストのチェック
+            rules.Add(
+                new ShaderWhitelistRule(LocalizedMessage.Get("Booth.ShaderWhiteListRule.Title"),
+                    _officialAssetData.AllowedShaders, LocalizedMessage.Get("Booth.ShaderWhiteListRule.Solution")) 
+                );
+            return rules.ToArray();
+        }
     }
 }
 #endif

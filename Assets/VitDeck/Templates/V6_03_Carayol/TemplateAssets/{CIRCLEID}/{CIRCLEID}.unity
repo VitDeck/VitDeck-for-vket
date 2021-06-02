@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 7bc1b7263991d4946a14c51d1665e769,
+    type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
@@ -195,6 +196,86 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!1001 &61446882
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3539250925644828022, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925644828022, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925644828022, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925644828022, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925644828022, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925644828022, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925644828022, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925644828022, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925644828022, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925644828022, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925644828022, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925644828023, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_Name
+      value: ExhibitorBoothManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925644828023, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3539250925676134541, guid: eeee6f39db9cc2e47a9df4dd03220049,
+        type: 3}
+      propertyPath: serializedProgramAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: b9afc9cd1c24b5841be1e4534871c168,
+        type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eeee6f39db9cc2e47a9df4dd03220049, type: 3}
 --- !u!1 &427469625
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,7 +407,7 @@ GameObject:
   - component: {fileID: 522737483}
   - component: {fileID: 522737482}
   m_Layer: 0
-  m_Name: Baked Directional Light(02_VS)
+  m_Name: Baked Directional Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -665,7 +746,7 @@ GameObject:
   - component: {fileID: 1781149890}
   - component: {fileID: 1781149891}
   m_Layer: 0
-  m_Name: Reflection Probe(02_VS)
+  m_Name: Reflection Probe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -730,7 +811,7 @@ GameObject:
   - component: {fileID: 1957493723}
   - component: {fileID: 1957493724}
   m_Layer: 0
-  m_Name: Realtime Directional Light(02_VS)
+  m_Name: Realtime Directional Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

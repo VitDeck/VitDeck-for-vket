@@ -18,6 +18,14 @@ namespace VitDeck.Validator.RuleSets
 
         protected override int UdonBehaviourCountLimit => 25;
 
+        protected override int VRCObjectSyncCountLimit => 5;
+
+        protected override int VRCObjectPoolCountLimit => 1;
+
+        protected override int VRCObjectPoolPoolLimit => 5;
+
+        protected override int VRCPickupCountLimit => 10;
+
         protected override int UdonBehaviourSynchronizePositionCountLimit => 10;
 
         protected override int UdonScriptSyncedVariablesLimit => 3;
@@ -27,6 +35,12 @@ namespace VitDeck.Validator.RuleSets
         protected override int LightmapCountLimit => 2;
 
         protected override int VRCStationCountLimit => 8;
+
+        protected override int ClothCountLimit => 1;
+
+        protected override int AudioSourceCountLimit => 10;
+
+        protected override int VketVideoPlayerUsesLimit => 1;
 
         protected override LightConfigRule.LightConfig ApprovedPointLightConfig
         {

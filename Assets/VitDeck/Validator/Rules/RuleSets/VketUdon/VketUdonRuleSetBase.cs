@@ -3,6 +3,7 @@ using UnityEngine;
 using VitDeck.Language;
 using VRC.SDKBase;
 using VRC.Udon;
+using VRC.SDK3.Components;
 
 namespace VitDeck.Validator.RuleSets
 {
@@ -169,13 +170,20 @@ namespace VitDeck.Validator.RuleSets
                     _officialAssetData.PickupObjectSyncPrefabGUIDs,
                     PickupObjectSyncUsesLimit),
 
+                new PrefabLimitRule(
+                    LocalizedMessage.Get("VketRuleSetBase.VketVideoPlayerPrefabLimitRule.Title", VketVideoPlayerUsesLimit),
+                    new string[]{"73b0727ab433c3140929fbf088cd8b88"},
+                    VketVideoPlayerUsesLimit),
+
                 //// IN SDK3 Video Player is suspended.
                 // new VideoPlayerComponentRule(LocalizedMessage.Get("VketRuleSetBase.VideoPlayerComponentRule.Title")),
 
                 //// IN SDK3 Video Player is suspended.
                 // new VideoPlayerComponentMaxCountRule(LocalizedMessage.Get("VketRuleSetBase.VideoPlayerComponentMaxCountRule.Title"), limit: 1),
 
-                new AnimatorComponentMaxCountRule(LocalizedMessage.Get("VketRuleSetBase.AnimatorComponentMaxCountRule.Title"), limit: 50),
+                //new AnimatorComponentMaxCountRule(LocalizedMessage.Get("VketRuleSetBase.AnimatorComponentMaxCountRule.Title"), limit: 50),
+                new SceneComponentLimitRule(LocalizedMessage.Get("VketRuleSetBase.AnimatorComponentMaxCountRule.Title"),typeof(Animator), limit: 50,_officialAssetData.UdonBehaviourPrefabGUIDs),
+
 
                 // Udon Behaviour
                 // UdonBehaviourを含むオブジェクト、UdonBehaviourによって操作を行うオブジェクトは全て入稿ルール C.Scene内階層規定におけるDynamicオブジェクトの階層下に入れてください
@@ -185,14 +193,54 @@ namespace VitDeck.Validator.RuleSets
                 new UdonDynamicObjectInactiveRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonDynamicObjectInactiveRule.Title"), UdonInactiveRuleIsEnabled), 
 
                 // UdonBehaviourを含むオブジェクトのLayerはUserLayer23としてください
-                new UdonBehaviourLayerConstraintRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonBehaviourLayerConstraintRule.Title")),
+                new UdonBehaviourLayerConstraintRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonBehaviourLayerConstraintRule.Title"),_officialAssetData.UdonBehaviourPrefabGUIDs),
 
                 // UdonBehaviourは1ブースあたり 25 まで
-                new AssetTypeLimitRule(
+                new SceneComponentLimitRule(
                     LocalizedMessage.Get("VketUdonRuleSetBase.UdonBehaviourLimitRule.Title", UdonBehaviourCountLimit),
                     typeof(UdonBehaviour),
                     UdonBehaviourCountLimit,
                     _officialAssetData.UdonBehaviourPrefabGUIDs),
+
+                // VRC Object Syncの使用数が1個以下であること
+                new SceneComponentLimitRule(
+                    LocalizedMessage.Get("VketUdonRuleSetBase.VRCObjectSyncLimitRule.Title", VRCObjectSyncCountLimit),
+                    typeof(VRCObjectSync),
+                    VRCObjectSyncCountLimit,
+                    _officialAssetData.UdonBehaviourPrefabGUIDs),
+
+                // VRC Object Poolの使用数が1個以下であること
+                new SceneComponentLimitRule(
+                    LocalizedMessage.Get("VketUdonRuleSetBase.VRCObjectPoolLimitRule.Title", VRCObjectPoolCountLimit),
+                    typeof(VRCObjectPool),
+                    VRCObjectPoolCountLimit,
+                    _officialAssetData.UdonBehaviourPrefabGUIDs),
+
+                //VRCObjectPoolのPoolに登録するオブジェクトは5個以内にすること
+                new VRCObjectPoolPoolLimitRule(
+                    LocalizedMessage.Get("VketUdonRuleSetBase.VRCObjectPoolPoolLimitRule.Title", VRCObjectPoolPoolLimit),
+                    VRCObjectPoolPoolLimit),
+
+                // VRC Pickupの使用数が10個以下であること
+                new SceneComponentLimitRule(
+                    LocalizedMessage.Get("VketUdonRuleSetBase.VRCObjectPickupLimitRule.Title", VRCPickupCountLimit),
+                    typeof(VRCPickup),
+                    VRCPickupCountLimit,
+                    _officialAssetData.GUIDs),
+
+                // Clothの使用数が1個以下であること
+                new SceneComponentLimitRule(
+                    LocalizedMessage.Get("VketUdonRuleSetBase.ClothLimitRule.Title", ClothCountLimit),
+                    typeof(Cloth),
+                    ClothCountLimit,
+                    _officialAssetData.GUIDs),
+
+                // Clothの使用数が1個以下であること
+                new SceneComponentLimitRule(
+                    LocalizedMessage.Get("VketUdonRuleSetBase.AudioSourceLimitRule.Title", AudioSourceCountLimit),
+                    typeof(AudioSource),
+                    AudioSourceCountLimit,
+                    _officialAssetData.GUIDs),
 
                 // SynchronizePositionが有効なUdonBehaviourは1ブースあたり 10 まで
                 new UdonBehaviourSynchronizePositionCountLimitRule(
@@ -200,8 +248,14 @@ namespace VitDeck.Validator.RuleSets
                     UdonBehaviourSynchronizePositionCountLimit
                 ),
 
+                //運営が配布するprefabs以外でUdonBehaviourコンポーネントを使用する際は、VketUdonControlコンポーネントをアタッチすること
+                new NeedVketUdonControlRule(
+                    LocalizedMessage.Get("VketUdonRuleSetBase.NeedVketUdonControlRule.Title"),
+                    _officialAssetData.GUIDs
+                ),
+
                 // AllowOwnershipTransferOnCollisionは必ずFalseにすること
-                new UdonBehaviourAllowOwnershipTransferOnCollisionIsFalseRule(LocalizedMessage.Get("UdonBehaviourAllowOwnershipTransferOnCollisionIsFalseRule.Title")),
+                new VRCObjectSyncAllowOwnershipTransferOnCollisionIsFalseRule(LocalizedMessage.Get("VRCObjectSyncAllowOwnershipTransferOnCollisionIsFalseRule.Title")),
 
                 // VRCStation は1ブースあたり 8 まで
                 new VRCStationCountLimitRule(LocalizedMessage.Get("VketUdonRuleSetBase.VRCStationCountLimitRule.Title", VRCStationCountLimit), VRCStationCountLimit), 
@@ -237,6 +291,16 @@ namespace VitDeck.Validator.RuleSets
                 // PhysicsクラスのCast関数 layerMaskを設定し、レイヤー23以外のコライダを無視するようにする, maxDistanceは最長で10メートルまで
                 new UdonAssemblyPhysicsCastFunctionRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonAssemblyPhysicsCastFunctionRule.Title"), GetUdonAssemblyPhysicsCastFunctionReferences()), 
 
+                //Is Kinematicを有効にすること
+                new RigidbodyRule(LocalizedMessage.Get("VketUdonRuleSetBase.RigidbodyRule.Title")),
+
+                //AudioSourceの使用数が10個以下であること
+                new AudioSourceRule(LocalizedMessage.Get("VketUdonRuleSetBase.AudioSourceRule.Title")),
+
+                //特定のコールバックの使用禁止
+                new DisabledCallbackRule(LocalizedMessage.Get("VketUdonRuleSetBase.DisabledCallbackRule.Title"),
+                _officialAssetData.DisabledCallback,
+                _officialAssetData.GUIDs),
             };
         }
 
@@ -245,6 +309,14 @@ namespace VitDeck.Validator.RuleSets
         protected abstract Vector3 BoothSizeLimit { get; }
 
         protected abstract int UdonBehaviourCountLimit { get; }
+
+        protected abstract int VRCObjectSyncCountLimit { get; }
+
+        protected abstract int VRCObjectPoolCountLimit { get; }
+
+        protected abstract int VRCObjectPoolPoolLimit { get; }
+
+        protected abstract int VRCPickupCountLimit { get; }
 
         protected abstract int UdonBehaviourSynchronizePositionCountLimit { get; }
 
@@ -255,6 +327,10 @@ namespace VitDeck.Validator.RuleSets
         protected abstract int LightmapCountLimit { get; }
 
         protected abstract int VRCStationCountLimit { get; }
+
+        protected abstract int ClothCountLimit { get; }
+
+        protected abstract int AudioSourceCountLimit { get; }
 
         private ComponentReference[] GetComponentReferences()
         {
@@ -322,6 +398,10 @@ namespace VitDeck.Validator.RuleSets
                 new ComponentReference("VRC_Sdk Builder", new string[]{"VRC.SDK3.Editor.VRC_SdkBuilder"}, ValidationLevel.DISALLOW),
                 new ComponentReference("VRC_Event Handler(Obsolete)", new string[]{"VRC.SDKBase.VRC_EventHandler", "VRC.SDK3.Components.VRCEventHandler"}, ValidationLevel.DISALLOW),
                 new ComponentReference("Udon Behaviour", new string[]{"VRC.Udon.UdonBehaviour", "VRC.SDKBase.VRC_Interactable"}, MoreAdvancedObjectValidationLevel),
+                new ComponentReference("VRC Object Pool", new string[]{"VRC.SDK3.Components.VRCObjectPool"}, ValidationLevel.ALLOW),
+
+                //VketAsset
+                 new ComponentReference("VKet Udon Controll", new string[]{ "Vket.UdonManager.VketUdonControl"}, ValidationLevel.ALLOW),
             };
         }
 
@@ -331,7 +411,7 @@ namespace VitDeck.Validator.RuleSets
             {
                 // Variables
                 new UdonAssemblyReference("Transform.root", new string[]{"__get_root__UnityEngineTransform", "__set_root__UnityEngineTransform"}, ValidationLevel.DISALLOW),
-                new UdonAssemblyReference("GameObject.Layer", new string[]{"UnityEngineGameObject.__get_layer__SystemInt32", "UnityEngineGameObject.__set_layer__SystemInt32"}, ValidationLevel.DISALLOW),
+                //new UdonAssemblyReference("GameObject.Layer", new string[]{"UnityEngineGameObject.__get_layer__SystemInt32", "UnityEngineGameObject.__set_layer__SystemInt32"}, ValidationLevel.DISALLOW),
                 new UdonAssemblyReference("RenderSettings", new string[]{"UnityEngineRenderSettings"}, ValidationLevel.DISALLOW),
 
                 // Functions
@@ -339,7 +419,7 @@ namespace VitDeck.Validator.RuleSets
                 new UdonAssemblyReference("GameObject.Find", new string[]{"__Find__SystemString__UnityEngineGameObject"}, ValidationLevel.DISALLOW),
                 new UdonAssemblyReference("Object.Destroy", new string[]{"UnityEngineObject.__Destroy__UnityEngineObject__SystemVoid"}, ValidationLevel.DISALLOW),
                 new UdonAssemblyReference("Object.DestroyImmediate", new string[]{"UnityEngineObject.__DestroyImmediate__UnityEngineObject__SystemVoid"}, ValidationLevel.DISALLOW),
-                new UdonAssemblyReference("Transform.DetachChildren", new string[]{"UnityEngineTransform.__DetachChildren__SystemVoid"}, ValidationLevel.DISALLOW),
+                //new UdonAssemblyReference("Transform.DetachChildren", new string[]{"UnityEngineTransform.__DetachChildren__SystemVoid"}, ValidationLevel.DISALLOW),
                 new UdonAssemblyReference("VRCSDK3VideoPlayer", new string[]{"VRCSDK3VideoComponentsBaseBaseVRCVideoPlayer"}, ValidationLevel.DISALLOW),
             };
         }
@@ -410,6 +490,9 @@ namespace VitDeck.Validator.RuleSets
         protected abstract string UdonSharpNamespace { get; }
 
         protected abstract bool UdonInactiveRuleIsEnabled { get; }
+
+        protected abstract int VketVideoPlayerUsesLimit { get; }
+
     }
 }
 #endif

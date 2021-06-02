@@ -1,4 +1,6 @@
 #if VRC_SDK_VRCSDK3
+using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using VitDeck.Language;
 using VRC.Udon;
@@ -10,8 +12,11 @@ namespace VitDeck.Validator
     /// </summary>
     internal class UdonBehaviourLayerConstraintRule : BaseUdonBehaviourRule
     {
-        public UdonBehaviourLayerConstraintRule(string name) : base(name)
+        private readonly HashSet<string> excludedAssetGUIDs;
+
+        public UdonBehaviourLayerConstraintRule(string name, string[] excludedAssetGUIDs) : base(name)
         {
+            this.excludedAssetGUIDs = new HashSet<string>(excludedAssetGUIDs);
         }
 
         protected override void ComponentLogic(UdonBehaviour component)
@@ -23,7 +28,8 @@ namespace VitDeck.Validator
             var objs =  hasComponentObject.transform.GetComponentsInChildren<Transform>();
             foreach (var obj in objs)
             {
-                if (obj.gameObject.layer != 23)
+                Object prefab = PrefabUtility.GetPrefabParent(obj);
+                if (obj.gameObject.layer != 23 && !excludedAssetGUIDs.Contains(GetGUID(prefab)))
                 {
                     AddIssue(new Issue(
                             obj, 
@@ -34,6 +40,11 @@ namespace VitDeck.Validator
                     );
                 }
             }
+        }
+
+        private static string GetGUID(Object asset)
+        {
+            return AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(asset));
         }
     }
 }

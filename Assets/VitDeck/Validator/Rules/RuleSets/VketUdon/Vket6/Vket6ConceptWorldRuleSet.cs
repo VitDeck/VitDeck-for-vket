@@ -20,9 +20,17 @@ namespace VitDeck.Validator.RuleSets
 
         protected override int UdonBehaviourCountLimit => 10;
 
+        protected override int VRCObjectSyncCountLimit => 5;
+
+        protected override int VRCObjectPoolCountLimit => 1;
+
+        protected override int VRCObjectPoolPoolLimit => 5;
+
+        protected override int VRCPickupCountLimit => 10;
+
         protected override int UdonBehaviourSynchronizePositionCountLimit => 10;
 
-        protected override int UdonScriptSyncedVariablesLimit => 3;
+        protected override int UdonScriptSyncedVariablesLimit => 10;
 
         protected override int MaterialUsesLimit => 20;
 
@@ -30,12 +38,21 @@ namespace VitDeck.Validator.RuleSets
 
         protected override int VRCStationCountLimit => 4;
 
+        protected override int ClothCountLimit => 1;
+
+        protected override int AudioSourceCountLimit => 10;
+
+        protected override int VketVideoPlayerUsesLimit => 1;
+
         protected override LightConfigRule.LightConfig ApprovedPointLightConfig
         {
             get
             {
                 return new LightConfigRule.LightConfig(
-                            new [] { LightmapBakeType.Baked, LightmapBakeType.Realtime });
+                            new[] { LightmapBakeType.Baked, LightmapBakeType.Realtime },
+                            0, 7,
+                            0, 10,
+                            0, 15);
             }
         }
 
@@ -44,7 +61,10 @@ namespace VitDeck.Validator.RuleSets
             get
             {
                 return new LightConfigRule.LightConfig(
-                            new[] { LightmapBakeType.Baked, LightmapBakeType.Realtime });
+                            new[] { LightmapBakeType.Baked, LightmapBakeType.Realtime },
+                            0, 7,
+                            0, 10,
+                            0, 15);
             }
         }
 
@@ -53,7 +73,10 @@ namespace VitDeck.Validator.RuleSets
             get
             {
                 return new LightConfigRule.LightConfig(
-                            new[] { LightmapBakeType.Baked });
+                            new[] { LightmapBakeType.Baked },
+                            0, 30,
+                            0, 10,
+                            0, 15);
             }
         }
 

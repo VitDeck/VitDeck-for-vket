@@ -625,6 +625,101 @@ namespace VitDeck.Validator.RuleSets
                 "4f06c6b6d95c99e4c9eba1761a599fd6", // Assets/VketAssets/UdonPrefabs/Udon_WorldBGMFade/WorldBGMFade.controller
                 "e6d5c31911ec7404e8b613767bc9c944", // Assets/VketAssets/UdonPrefabs/Udon_WorldBGMFade/WorldBGMFade.prefab
 
+                "31bd08cb1c9908742ab7ced575f28811", // Assets/VketAssets/VketAssets/VketPrefabs/PrefabAssets/Scripts/VketUdonControl.cs
+
+                "9ade6bede296164498060af8ff1eb032", // Assets/VketAssets/VketPrefabs/AudioVolumeSample/vket6_booth_samplemusic_-14lufs_-3db.ogg
+
+                "3c0dbec26839f9b4ea24f9606ec62ce4", // Assets/VketAssets/VketPrefabs/UITemplate/UI_Button.prefab
+                "b4625b5c33c27804d889d16704b81c33", // Assets/VketAssets/VketPrefabs/UITemplate/UI_Image.prefab
+                "4dc5396d6e370ef4fa9b9e9458c3f735", // Assets/VketAssets/VketPrefabs/UITemplate/UI_Text.prefab
+                "333992c7f0890014d9a775e3f2303857", // Assets/VketAssets/VketPrefabs/UITemplate/UI_TextMeshPro.prefab
+
+                "eba1c3ea387350c4681877ab193d1761", // Assets/VketAssets/VketPrefabs/UITemplate/FontAssets/Mplus1-Regular SDF.asset
+
+                "d410c15388ebb13449d51bca1b8724aa", // Assets/VketAssets/Fonts/Mplus1-Regular.ttf
+
+                "da2f193786576d041aa8d2e860314c22", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/VketAvatarPedestal_2D.prefab
+                "9fffe84a94533884eaf481963546643d", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/VketAvatarPedestal_3D.prefab
+                "1e0f83d3ba1d83045866a6a4dc2e8e83", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/VketAvatarPedestal_Default.prefab
+
+                "0294f3138a383d44188238141e43a0d2", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/Animations/Active_2D.anim
+                "8ecf1c1367fda5c45b707eaaf1e6e300", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/Animations/Active_3D.anim
+                "826602674183e284685c8212ca89f3ca", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/Animations/AvatarPedestal_2D.controller
+                "2f0b20cb1dadf3c498b1272896dd3ba5", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/Animations/AvatarPedestal_3D.controller
+                "cc64c7910ebf50249bc5cfdc65ba4729", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/Animations/Deactive_2D.anim
+                "68bbad9fbab0708449c847419d62a17e", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/Animations/Deactive_3D.anim
+                "6b468349f6cba0248a76b7d33570fbad", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/Animations/Idle_2D.anim
+                "8d5e148b91b24cf4dae7e22e010f7603", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/Animations/Idle_3D.anim
+
+                "62a7876d06fb1d645ab6cb81d87d0a3a", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/Scripts/VketAvatarPedestal.asset
+                "ebe3df2ed38fdfd479e2fce1c5403a74", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/Scripts/VketAvatarPedestal.cs
+
+                "62f7352a395147043809a2d315af37ae", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/Textures/Change Avatar.png
+                "96c692c63aeba764081c1e04790fd3f1", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/Textures/Sample.png
+
+                "26e911c1e4e64964ea73100994e7c984", // Assets/VketAssets/VketPrefabs/VketLanguageSwitcher/Scripts/VketLanguageSwitcher.asset
+                "450cb8826e2f672478ba0b27310dd446", // Assets/VketAssets/VketPrefabs/VketLanguageSwitcher/Scripts/VketLanguageSwitcher.cs
+
+                "7f697f0a5403d864a9240a9f0d1e83e4", // Assets/VketAssets/VketPrefabs/VketLanguageSwitcher/Textures/SwitchToEnglish.png
+                "1e87d7c02aa11184aab67f6998f6a03b", // Assets/VketAssets/VketPrefabs/VketLanguageSwitcher/Textures/SwitchToJapanese.png
+
+                "8c011f4ab9cc45c4aaddb76bbd8003c5", // Assets/VketAssets/VketPrefabs/VketLanguageSwitcher/VketLangageSwitcher.prefab
+
+                "3ffeb968a1d1ed244b45c026bb22f30b", // Assets/VketAssets/VketPrefabs/VketPickup/Animations/ModeController.controller
+                "be21e07eff32d7e4fbbf7babfed27d88", // Assets/VketAssets/VketPrefabs/VketPickup/Animations/PickupAnimation.fbx
+
+                "ab981b08fcfada8458fc2ec950e16e17", // Assets/VketAssets/VketPrefabs/VketPickup/Scripts/VketFollowPickup.asset
+                "57498a849a57d5e44bb3fea02cfabbad", // Assets/VketAssets/VketPrefabs/VketPickup/Scripts/VketFollowPickup.cs
+                "fc11049e6474c5e47bc42f47d1a8efca", // Assets/VketAssets/VketPrefabs/VketPickup/Scripts/VketPickup.asset
+                "b5d9b5598ab43f64e8aca7422be14f5c", // Assets/VketAssets/VketPrefabs/VketPickup/Scripts/VketPickup.cs
+
+                "6893d5acfbed8d544856d8eb7cc11133", // Assets/VketAssets/VketPrefabs/VketPickup/AnimationOverrideEmpty.overrideController
+                "ba410268b82f1d940aedd0d418541c83", // Assets/VketAssets/VketPrefabs/VketPickup/VketFollowPickup.prefab
+                "6d1e9170d4533ed448e46b707a3ee47a", // Assets/VketAssets/VketPrefabs/VketPickup/VketPickup.prefab
+
+                "d6755e37e53268542aae9bd79954a6ab", // Assets/VketAssets/VketPrefabs/VketSoundFade/Scripts/VketSoundFade.asset
+                "2a96b9847fc7b3a4cb515cee9955948c", // Assets/VketAssets/VketPrefabs/VketSoundFade/Scripts/VketSoundFade.cs
+
+                "b2a6c13adeda05d40adb398906d58645", // Assets/VketAssets/VketPrefabs/VketSoundFade/VketSoundFade.prefab
+
+                "7c77782274e76654e8cd0aefdfb978ab", // Assets/VketAssets/VketPrefabs/VketTriggerSample/SampleAssets/AnimationMove.anim
+                "c227fd2cc782eef47abc5da50df7eebb", // Assets/VketAssets/VketPrefabs/VketTriggerSample/SampleAssets/Animator.controller
+                "2db0d4bdf2e175a45bfea9d196e184f8", // Assets/VketAssets/VketPrefabs/VketTriggerSample/SampleAssets/InteractActive.asset
+                "107c77d0ec82f9d4e83bfb68de193341", // Assets/VketAssets/VketPrefabs/VketTriggerSample/SampleAssets/InteractAnimation.asset
+
+                "20cf75c90d5e1dc459b132ea44e65c72", // Assets/VketAssets/VketPrefabs/VketTriggerSample/VketTriggerSample.unity
+
+                "5426b85d610dd5a4990a6965e3716f2d", // Assets/VketAssets/VketPrefabs/VketVideoPlayer/Scripts/VketVideoPlayer.asset
+                "9e731e574c230934d9ae7df37f8a2603", // Assets/VketAssets/VketPrefabs/VketVideoPlayer/Scripts/VketVideoPlayer.cs
+
+                "798bf62f082a7a64c9d48e6f992ecfaa", // Assets/VketAssets/VketPrefabs/VketVideoPlayer/Textures/DisabledVideoPlayerImage.mat
+                "866f25587f50b85479e2cf4d2d197fee", // Assets/VketAssets/VketPrefabs/VketVideoPlayer/Textures/DisabledVideoPlayerImage.png
+                "f8768f74f96d1df46be77f6093cafc26", // Assets/VketAssets/VketPrefabs/VketVideoPlayer/Textures/g_t2.png
+                "232b8ac3d18030645a30cb20c9427da8", // Assets/VketAssets/VketPrefabs/VketVideoPlayer/Textures/t_a2.png
+
+                "73b0727ab433c3140929fbf088cd8b88", // Assets/VketAssets/VketPrefabs/VketVideoPlayer/VketVideoPlayer.prefab
+
+                "af49ba9be5e5e2149b9c6dfa6decec82", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Animations/Active_2D.anim
+                "f770e16ed5ac5c149b9e34d271b9fea4", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Animations/Active_3D.anim
+                "495ce3af8d25dcd49ab1eb9da5692373", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Animations/Deactive_2D.anim
+                "a41d2fdf7f5e5eb49ab85919cf41e188", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Animations/Deactive_3D.anim
+                "f93cc62348e48c64cbdb3a9b069a1d11", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Animations/Idle_2D.anim
+                "ff7931a8fe75c2142a4e83797c8c21e9", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Animations/Idle_3D.anim
+                "26ac8287216792149b49a2db74fc0309", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Animations/Open_2D.anim
+                "72fddf1509a7339498051122d1da2ce5", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Animations/Open_3D.anim
+                "251fd152628ba744899b986ab59ff7d3", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Animations/WebPageOpener_2D.controller
+                "aac12a50b7cdf694eb2fc4defc7776da", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Animations/WebPageOpener_3D.controller
+
+                "7704391c33fb5e44a9759bcae27b38a8", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Scripts/VketWebPageOpener.asset
+                "e1e4c1b5ec275be4c832348eed80ecc7", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Scripts/VketWebPageOpener.cs
+
+                "171b9d597b1e63f4590b8d754491769a", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/Textures/BUY.png
+
+                "5d4f49b1d4a5dca43b04aed3bc01b61f", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/VketCirclePageOpener_2D.prefab
+                "829918e636553bf489526e19e7c08a9f", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/VketCirclePageOpener_3D.prefab
+                "249a82240095e1a44b9b4aae5f72d41e", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/VketItemPageOpener_2D.prefab
+                "8b95eab6f59b5e64d9393292aca982ca", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/VketItemPageOpener_3D.prefab
+
                 #endregion
 
                 #region VketShaderPack
@@ -1637,6 +1732,23 @@ namespace VitDeck.Validator.RuleSets
                 "139aa3624bf91214dabb39362ccf4382", // Assets/VketAssets/UdonPrefabs/Udon_CirclePageOpener/CirclePageOpener3D_L.prefab
                 "4cb05397779ec7a48818e05b68c26960", // Assets/VketAssets/UdonPrefabs/Udon_CirclePageOpener/CirclePageOpener3D_M.prefab
                 "a4471dc2b540f9e46a5e36fe66ede5e9", // Assets/VketAssets/UdonPrefabs/Udon_CirclePageOpener/CirclePageOpener3D_S.prefab
+
+                "3c0dbec26839f9b4ea24f9606ec62ce4", // Assets/VketAssets/VketPrefabs/UITemplate/UI_Button.prefab
+                "b4625b5c33c27804d889d16704b81c33", // Assets/VketAssets/VketPrefabs/UITemplate/UI_Image.prefab
+                "4dc5396d6e370ef4fa9b9e9458c3f735", // Assets/VketAssets/VketPrefabs/UITemplate/UI_Text.prefab
+                "333992c7f0890014d9a775e3f2303857", // Assets/VketAssets/VketPrefabs/UITemplate/UI_TextMeshPro.prefab
+                "da2f193786576d041aa8d2e860314c22", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/VketAvatarPedestal_2D.prefab
+                "9fffe84a94533884eaf481963546643d", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/VketAvatarPedestal_3D.prefab
+                "1e0f83d3ba1d83045866a6a4dc2e8e83", // Assets/VketAssets/VketPrefabs/VketAvatarPedestal/VketAvatarPedestal_Default.prefab
+                "8c011f4ab9cc45c4aaddb76bbd8003c5", // Assets/VketAssets/VketPrefabs/VketLanguageSwitcher/VketLangageSwitcher.prefab
+                "ba410268b82f1d940aedd0d418541c83", // Assets/VketAssets/VketPrefabs/VketPickup/VketFollowPickup.prefab
+                "6d1e9170d4533ed448e46b707a3ee47a", // Assets/VketAssets/VketPrefabs/VketPickup/VketPickup.prefab
+                "b2a6c13adeda05d40adb398906d58645", // Assets/VketAssets/VketPrefabs/VketSoundFade/VketSoundFade.prefab
+                "73b0727ab433c3140929fbf088cd8b88", // Assets/VketAssets/VketPrefabs/VketVideoPlayer/VketVideoPlayer.prefab
+                "5d4f49b1d4a5dca43b04aed3bc01b61f", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/VketCirclePageOpener_2D.prefab
+                "829918e636553bf489526e19e7c08a9f", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/VketCirclePageOpener_3D.prefab
+                "249a82240095e1a44b9b4aae5f72d41e", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/VketItemPageOpener_2D.prefab
+                "8b95eab6f59b5e64d9393292aca982ca", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/VketItemPageOpener_3D.prefab
             };
         }
 
@@ -1666,6 +1778,10 @@ namespace VitDeck.Validator.RuleSets
         {
             return new string[]
             {
+                "3c0dbec26839f9b4ea24f9606ec62ce4", // Assets/VketAssets/VketPrefabs/UITemplate/UI_Button.prefab
+                "b4625b5c33c27804d889d16704b81c33", // Assets/VketAssets/VketPrefabs/UITemplate/UI_Image.prefab
+                "4dc5396d6e370ef4fa9b9e9458c3f735", // Assets/VketAssets/VketPrefabs/UITemplate/UI_Text.prefab
+                "333992c7f0890014d9a775e3f2303857", // Assets/VketAssets/VketPrefabs/UITemplate/UI_TextMeshPro.prefab
             };
         }
 
@@ -2144,6 +2260,28 @@ namespace VitDeck.Validator.RuleSets
             };
         }
 
+        public virtual string[] GetDisabledCallbak()
+        {
+            return new string[]
+            {
+                @"(Update)[ ,\n,\t]*\(.*\)",
+                @"(LateUpdate)[ ,\n,\t]*\(.*\)",
+                @"(FixedUpdate)[ ,\n,\t]*\(.*\)",
+                @"(OnPlayerJoined)[ ,\n,\t]*\(.*\)",
+                @"(OnPlayerLeft)[ ,\n,\t]*\(.*\)",
+                @"(InputJump)[ ,\n,\t]*\(.*\)",
+                @"(InputUse)[ ,\n,\t]*\(.*\)",
+                @"(InputGrab)[ ,\n,\t]*\(.*\)",
+                @"(InputDrop)[ ,\n,\t]*\(.*\)",
+                @"(InputMoveHorizontal)[ ,\n,\t]*\(.*\)",
+                @"(InputMoveVertical)[ ,\n,\t]*\(.*\)",
+                @"(InputLookHorizontal)[ ,\n,\t]*\(.*\)",
+                @"(InputLookVertical)[ ,\n,\t]*\(.*\)",
+                @"(OnPlayerRespawn)[ ,\n,\t]*\(.*\)",
+                "(#if)[ ,\n,\t]*(UNITY_EDITOR)",
+            };
+        }
+
         public virtual Dictionary<string,string> GetAllowedShaders()
         {
             return new Dictionary<string, string>();
@@ -2160,6 +2298,7 @@ namespace VitDeck.Validator.RuleSets
         public string[] CanvasPrefabGUIDs => GetCanvasPrefabGUIDs();
         public string[] PointLightProbeGUIDs => GetPointLightProbeGUIDs();
         public string[] VRCSDKPrefabGUIDs => GetVRCSDKPrefabGUIDs();
+        public string[] DisabledCallback => GetDisabledCallbak();
         public Dictionary<string, string> AllowedShaders => GetAllowedShaders();
     }
 }

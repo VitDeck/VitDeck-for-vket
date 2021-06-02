@@ -15,6 +15,7 @@ namespace VitDeck.Validator.RuleSets
         string[] CanvasPrefabGUIDs { get; }
         string[] PointLightProbeGUIDs { get; }
         string[] VRCSDKPrefabGUIDs { get; }
+        string[] DisabledCallback { get; }
         Dictionary<string,string> AllowedShaders { get; }
     }
 }

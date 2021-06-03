@@ -106,6 +106,10 @@ namespace VitDeck.Validator.RuleSets
 
         protected override bool UdonInactiveRuleIsEnabled => false;
 
+        protected override bool ExhibitStructureRuleIsEnabled => true;
+
+        protected override bool UdonDynamicObjectParentRuleIsEnabled => true;
+
         public override IRule[] GetRules()
         {
             var rules = base.GetRules().ToList();

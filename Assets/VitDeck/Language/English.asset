@@ -718,3 +718,5 @@ MonoBehaviour:
     Value: Don't use banned callbacks
   - Key: VketRuleSetBase.VketVideoPlayerPrefabLimitRule.Title
     Value: Only one Vket Video Player can be used per booth.
+  - Key: Booth.ComponentWhitelistRule.Solution
+    Value: Please follow the submission rules for available components.

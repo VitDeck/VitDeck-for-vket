@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Property
   m_EditorClassIdentifier: 
   templateName: 03_AccessoriesB
-  description: This is a template submission scene for  Accessories(Category B)
+  description: This is a template submission scene for AccessoriesB
   lisenseFile: {fileID: 4900000, guid: 9d2484e43fb410f43a21d4bd0eeb8b8c, type: 3}
   developer: Virtual Market
   developerUrl: https://www.v-market.work/
   replaceList:
   - ID: CIRCLEID
     searchString: CIRCLEID
-    label: ItemID
+    label: ExhibitorID

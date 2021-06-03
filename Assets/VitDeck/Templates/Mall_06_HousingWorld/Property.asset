@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8791441c2e8fe6e4dac55f7b669808d5, type: 3}
   m_Name: Property
   m_EditorClassIdentifier: 
-  templateName: 01_HousingWorld
-  description: This is a template submission scene for Housing(World miniature)
+  templateName: 06_HousingWorld
+  description: This is a template submission scene for HousingWorld
   lisenseFile: {fileID: 4900000, guid: 9d2484e43fb410f43a21d4bd0eeb8b8c, type: 3}
   developer: Virtual Market
   developerUrl: https://www.v-market.work/
   replaceList:
   - ID: CIRCLEID
     searchString: CIRCLEID
-    label: ItemID
+    label: ExhibitorID

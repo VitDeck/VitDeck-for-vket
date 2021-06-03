@@ -15,23 +15,27 @@ namespace VitDeck.Validator
     {
 
         private readonly HashSet<string> ignoreIDSet;
-
+        private bool isEnabled;
         public UdonDynamicObjectParentRule(string name) : base(name)
         {
         }
 
-        public UdonDynamicObjectParentRule(string name, string[] guids) : this(name)
+        public UdonDynamicObjectParentRule(string name, string[] guids, bool isEnabled) : this(name)
         {
+            this.isEnabled = isEnabled;
             ignoreIDSet = new HashSet<string>(guids);
         }
 
         protected override void Logic(ValidationTarget target)
         {
-            var rootObjects = target.GetRootObjects();
-
-            foreach (var rootObject in rootObjects)
+            if (isEnabled)
             {
-                LogicForRootObject(rootObject);
+                var rootObjects = target.GetRootObjects();
+
+                foreach (var rootObject in rootObjects)
+                {
+                    LogicForRootObject(rootObject);
+                }
             }
         }
 

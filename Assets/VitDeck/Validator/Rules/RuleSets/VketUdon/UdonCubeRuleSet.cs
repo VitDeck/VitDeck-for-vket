@@ -100,6 +100,10 @@ namespace VitDeck.Validator.RuleSets
         protected override int PickupObjectSyncUsesLimit => 10;
 
         protected override bool UdonInactiveRuleIsEnabled => true;
+
+        protected override bool ExhibitStructureRuleIsEnabled => true;
+
+        protected override bool UdonDynamicObjectParentRuleIsEnabled => true;
     }
 }
 #endif

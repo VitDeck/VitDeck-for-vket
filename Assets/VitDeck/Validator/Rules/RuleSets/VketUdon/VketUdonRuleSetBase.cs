@@ -71,7 +71,7 @@ namespace VitDeck.Validator.RuleSets
 
                 new FolderSizeRule(LocalizedMessage.Get("VketRuleSetBase.FolderSizeRule.Title"), FolderSizeLimit),
 
-                new ExhibitStructureRule(LocalizedMessage.Get("VketRuleSetBase.ExhibitStructureRule.Title")),
+                new ExhibitStructureRule(LocalizedMessage.Get("VketRuleSetBase.ExhibitStructureRule.Title"), ExhibitStructureRuleIsEnabled),
 
                 new StaticFlagRule(LocalizedMessage.Get("VketRuleSetBase.StaticFlagsRule.Title")),
 
@@ -187,7 +187,7 @@ namespace VitDeck.Validator.RuleSets
 
                 // Udon Behaviour
                 // UdonBehaviourを含むオブジェクト、UdonBehaviourによって操作を行うオブジェクトは全て入稿ルール C.Scene内階層規定におけるDynamicオブジェクトの階層下に入れてください
-                new UdonDynamicObjectParentRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonDynamicObjectParentRule.Title"), _officialAssetData.UdonBehaviourGlobalLinkGUIDs), 
+                new UdonDynamicObjectParentRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonDynamicObjectParentRule.Title"), _officialAssetData.UdonBehaviourGlobalLinkGUIDs, UdonDynamicObjectParentRuleIsEnabled), 
                 
                 // 全てのUdonBehaviourオブジェクトの親であるDynamicオブジェクトは初期でInactive状態にしてください
                 new UdonDynamicObjectInactiveRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonDynamicObjectInactiveRule.Title"), UdonInactiveRuleIsEnabled), 
@@ -490,6 +490,10 @@ namespace VitDeck.Validator.RuleSets
         protected abstract string UdonSharpNamespace { get; }
 
         protected abstract bool UdonInactiveRuleIsEnabled { get; }
+
+        protected abstract bool ExhibitStructureRuleIsEnabled { get; }
+
+        protected abstract bool UdonDynamicObjectParentRuleIsEnabled { get; }
 
         protected abstract int VketVideoPlayerUsesLimit { get; }
 

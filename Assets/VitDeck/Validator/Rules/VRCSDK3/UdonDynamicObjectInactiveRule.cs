@@ -17,11 +17,14 @@ namespace VitDeck.Validator
 
         protected override void Logic(ValidationTarget target)
         {
-            var rootObjects = target.GetRootObjects();
-
-            foreach (var rootObject in rootObjects)
+            if (isEnabled)
             {
-                LogicForRootObject(rootObject);
+                var rootObjects = target.GetRootObjects();
+
+                foreach (var rootObject in rootObjects)
+                {
+                    LogicForRootObject(rootObject);
+                }
             }
         }
 

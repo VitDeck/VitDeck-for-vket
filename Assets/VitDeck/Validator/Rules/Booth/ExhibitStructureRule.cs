@@ -7,17 +7,22 @@ namespace VitDeck.Validator
 {
     public class ExhibitStructureRule : BaseRule
     {
-        public ExhibitStructureRule(string name) : base(name)
+        private bool isEnabled;
+        public ExhibitStructureRule(string name,bool isEnabled) : base(name)
         {
+            this.isEnabled = isEnabled;
         }
 
         protected override void Logic(ValidationTarget target)
         {
-            var rootObjects = target.GetRootObjects();
-
-            foreach (var rootObject in rootObjects)
+            if (isEnabled)
             {
-                LogicForRootObject(rootObject);
+                var rootObjects = target.GetRootObjects();
+
+                foreach (var rootObject in rootObjects)
+                {
+                    LogicForRootObject(rootObject);
+                }
             }
         }
 

@@ -20,4 +20,4 @@ MonoBehaviour:
   replaceList:
   - ID: CIRCLEID
     searchString: CIRCLEID
-    label: ItemID
+    label: ExhibitorID

@@ -724,889 +724,960 @@ namespace VitDeck.Validator.RuleSets
 
                 #region VketShaderPack
 
-                "6a1bea8b3245cd44a879612d2d6f40d6", // Assets/VketShaderPack/arktoon Shaders/LICENSE
-                "25bd5054a4b6ffb47b73f6fd436e0f56", // Assets/VketShaderPack/arktoon Shaders/README_ja.txt
-                "1dc24fdcb830de545be12a31d953349b", // Assets/VketShaderPack/arktoon Shaders/Editor/ArktoonInspector.cs
-                "4d5d0929a993a6543b9de355f69555d6", // Assets/VketShaderPack/arktoon Shaders/Editor/ArktoonManager.cs
-                "5034690b290c8b74cb03497a06726ad3", // Assets/VketShaderPack/arktoon Shaders/Editor/ArktoonMigrator.cs
-                "f336693355a393a4ea5a94d414b523c1", // Assets/VketShaderPack/arktoon Shaders/Examples/ExampleScene.unity
-                "b926be28e701612428d98637dc2bf8a7", // Assets/VketShaderPack/arktoon Shaders/Examples/ExampleScene/LightingData.asset
-                "085cf3fedd6bb294eacfbd4bc414ff86", // Assets/VketShaderPack/arktoon Shaders/Examples/ExampleScene/Lightmap-0_comp_dir.png
-                "4e89ae95769497940b832301e2796fe7", // Assets/VketShaderPack/arktoon Shaders/Examples/ExampleScene/Lightmap-0_comp_light.exr
-                "0ec5b0f7100c48f458dcf280614787a1", // Assets/VketShaderPack/arktoon Shaders/Examples/ExampleScene/ReflectionProbe-0.exr
-                "2eb350b0dd339cb49b9824cf13995641", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/cloth-sample.fbx
-                "f1d089ea7b8a9194daa229671bd7487e", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/HalfSphere.fbx
-                "b740ced5626064a469a29ecbad7cde4f", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/HalfSphere.mqo
-                "7f8da376b282b48428e6012d1d6b01e4", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/mannequin.controller
-                "1b5146a1f3281774a9ae9d86d85b7cb0", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/mannequin.fbx
-                "51d178f628b7f114c89afd04967fef93", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/rotate.anim
-                "d4952f2db95a16447a3fc2bb0d342c9d", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/roundedCube.fbx
-                "19a0ba3d86e749546b76bf5acf5d16ea", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/roundedCube.mqo
-                "0bfe6778f100206489baf9dbd0c24646", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/avatar1-helloweenmqo_服_AlbedoTransparency.mat
-                "7882bcb890208a14bb86157b6ff1a481", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/Cubemap.png
-                "af4dae3c66f957c45a9fb9d57f26dcad", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/FadeTextureExample.png
-                "47c95c2343f176e47b666b929de8f68c", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/MaskExample.jpg
-                "2535c9c47d22fa74cb975bc6bf822ac7", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/MaskExample2.jpg
-                "88581c9aef71ea549b2f133599cb89bf", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/mat1.mat
-                "00689565905a91443932ed9b91bac11c", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/Matcap.jpg
-                "d96088e780c661443a32b60fa5a2b7aa", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/Matcap2.jpg
-                "a3ef914d408315f4a866313ae9b15162", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/Matcap3.png
-                "88728f426bf72d74b9abd9ceb8ecbd2c", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material 1.mat
-                "112ba1c1df66b5e47b93c5c355fb8e69", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material 10.mat
-                "27f323571b8327e409c9b9669fb84d93", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material 11.mat
-                "7d4ac9335e1cc82488a383bd849a380c", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material 12.mat
-                "eb0465484fd24bd458c85ad5c6554747", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material 2.mat
-                "d6390657f902d1142a20b5cc7f92ffe2", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material 3.mat
-                "119d5edced9d6bf469181f8497c65731", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material 4.mat
-                "2f2236791569d124eb4b48f19730cb06", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material 5.mat
-                "f651c02bf9fdac1408c87c0e4f6cdd2b", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material 6.mat
-                "345659f361c837b4cab35176f8c8d671", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material 7.mat
-                "57338689439fb4a4fa1a42ebf3816059", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material 8.mat
-                "86c25d309b5f3114ab3f949d7655aea3", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material 9.mat
-                "a2d8565e76f62d14e9c149040f122c19", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/material.mat
-                "3784a951dbf03b645afc723f23aea29b", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/roundedCubeAlbedo.png
-                "5fa80aa54e3d3d64d808f8989e2e7d68", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/roundedCubeNormal.png
-                "1bd6ae9520d378f408445f9d4124d0f7", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/ShadeCap-Soft.png
-                "12f178d108ab0394aa4ed4acf1bad8cb", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/ShadeCap.png
-                "c7e141183bc6c5c40a37d02d5dc415e6", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/starfield.png
-                "a87e62033b0ad4848838ebcf5f89858f", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/violin.mat
-                "b407561bc3f21de4c8808646f3a719ca", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/Walls.mat
-                "f93b9ae325c77ef4ead760d39eca7b5f", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/cloth/avatar1-helloweenmqo_服_AlbedoTransparency.png
-                "b1fd4b404a3a7ae4e99356a0c300f34b", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/cloth/avatar1-helloweenmqo_服_MetallicSmoothness.png
-                "367c23b196b1f6749a03f63febbeb990", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/cloth/avatar1-helloweenmqo_服_Normal.png
-                "5ebfcc9cd374c614dba1f903f8de36ba", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/cloth/Cloth.mat
-                "130e4ea006e957749a3e19016c5b918a", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/EmissiveFreak/EmissiveFreakMaterial 1.mat
-                "6182e5d390ecba149a1f8d75312e956e", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/EmissiveFreak/EmissiveFreakMaterial.mat
-                "5d87d8e428ab7dc43b51a4ace5e8f55c", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/EmissiveFreak/grdient_horizontal.png
-                "4d1297e8a783e3242a35e699af99982c", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/EmissiveFreak/grdient_left.png
-                "358ad584c99802b4da2965f294fdfe92", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/EmissiveFreak/grdient_top.png
-                "7570c67b3d1666f40bd3fdc1605ac116", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/EmissiveFreak/grdient_vertical.png
-                "4329612c3238cc44091f699ba05da324", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/mannequin/mannequin1.mat
-                "5cdca66777e3963468a57b44e76b86c4", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/mannequin/mannequin2.mat
-                "63000287678da044197a3ff745d75c25", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/mannequin-knit/mannequin-knit.mat
-                "f2b7b269124aad04f8ed1394bb7a104b", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/mannequin-knit/mannequin_hada_AlbedoTransparency.png
-                "300593a09f3a3a847a5286da9417f56e", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/mannequin-knit/mannequin_hada_Normal.png
-                "c2c262af144c1b042adc2954103f4e22", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/mannequin-painted-stl/mannequin-green-metal.mat
-                "e9bfebf98ae9cae45b922038482fc4da", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/mannequin-painted-stl/mannequin-steel.mat
-                "baa8c39629448f14f9f7dd8c1428dbe1", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/mannequin-painted-stl/mannequin_hada_AlbedoTransparency.png
-                "d243a1118bcad54469f0c17ced97f1a0", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/mannequin-painted-stl/mannequin_hada_MetallicSmoothness.png
-                "7bd75a18577b92e40b20efe0ae74859a", // Assets/VketShaderPack/arktoon Shaders/Examples/Objects/Materials/mannequin-painted-stl/mannequin_hada_Normal.png
-                "d34ddb690407bf04c8c9788205512415", // Assets/VketShaderPack/arktoon Shaders/Shaders/Cutout.shader
-                "18d9a7533c199e740aace730c78d6c60", // Assets/VketShaderPack/arktoon Shaders/Shaders/EmissiveFreakCutout.shader
-                "3d7739f293019494fb8995a1fc38422c", // Assets/VketShaderPack/arktoon Shaders/Shaders/EmissiveFreakFade.shader
-                "ff81093a7ac88134798d4274c55cc425", // Assets/VketShaderPack/arktoon Shaders/Shaders/EmissiveFreakFadeRefracted.shader
-                "6e08acecbe384864d82690f1704a89bf", // Assets/VketShaderPack/arktoon Shaders/Shaders/EmissiveFreakOpaque.shader
-                "e71575e4ccb008d4e883335c3ad49265", // Assets/VketShaderPack/arktoon Shaders/Shaders/EmissiveFreakStencilReader.shader
-                "24eaadc58de76f74085bddf9621fe48a", // Assets/VketShaderPack/arktoon Shaders/Shaders/EmissiveFreakStencilWriter.shader
-                "fd5c20ab9c5485444b5084f464d91504", // Assets/VketShaderPack/arktoon Shaders/Shaders/Fade.shader
-                "ca4a46b6454383540b9b0b4364a2d7ee", // Assets/VketShaderPack/arktoon Shaders/Shaders/FadeRefracted.shader
-                "9566a373fffe627408d31026ce69389d", // Assets/VketShaderPack/arktoon Shaders/Shaders/Opaque.shader
-                "4867c15b078ab3948ab5a758a9bcb047", // Assets/VketShaderPack/arktoon Shaders/Shaders/StencilReader.shader
-                "0d892e826f730774797c3acfca1b43db", // Assets/VketShaderPack/arktoon Shaders/Shaders/StencilReaderDoubleFadeFade.shader
-                "753d0fc07395b8d499b66e6e00b64079", // Assets/VketShaderPack/arktoon Shaders/Shaders/StencilReaderFade.shader
-                "62d584da6ad09fc409aba9a6ea4c76ad", // Assets/VketShaderPack/arktoon Shaders/Shaders/StencilWriter.shader
-                "abc253a50f12dc0478eb8c149b35af54", // Assets/VketShaderPack/arktoon Shaders/Shaders/StencilWriterMaskTexture.shader
-                "e117484d237f25a4f9c117444d3a4ae0", // Assets/VketShaderPack/arktoon Shaders/Shaders/cginc/arkludeAdd.cginc
-                "41f08346347915f4ab25c430bc631734", // Assets/VketShaderPack/arktoon Shaders/Shaders/cginc/arkludeDecl.cginc
-                "c3830c5b3aa068745afa82287a25ceb8", // Assets/VketShaderPack/arktoon Shaders/Shaders/cginc/arkludeFadeShadowCaster.cginc
-                "b7f00477d8c2131439bc5469d268da66", // Assets/VketShaderPack/arktoon Shaders/Shaders/cginc/arkludeFrag.cginc
-                "97f31596e13b1db489cc69f4f2cbcc9e", // Assets/VketShaderPack/arktoon Shaders/Shaders/cginc/arkludeFragOnlyStencilWrite.cginc
-                "5fd6b70947bef774b882d05c744c3281", // Assets/VketShaderPack/arktoon Shaders/Shaders/cginc/arkludeOther.cginc
-                "875f4a9e268dfff44981f8902e14c44c", // Assets/VketShaderPack/arktoon Shaders/Shaders/cginc/arkludeVertGeom.cginc
-                "82e13d2a938694aedb5dbb01bd3ecf07", // Assets/VketShaderPack/MMS3/LICENSE
-                "8dd7c14dadb834c4e8324f7d08c5674e", // Assets/VketShaderPack/MMS3/MMS3.shader
-                "128f4720891e8914ab7e6673099df0f0", // Assets/VketShaderPack/MMS3/MMS3_Cutout.shader
-                "fbaec084851cef64fbd877b3b15716cb", // Assets/VketShaderPack/MMS3/MMS3_Outline.shader
-                "f889d00a055a0488e9ecbf22c558ae76", // Assets/VketShaderPack/MMS3/MMS3_Stencil_Reader.shader
-                "f55508f2ed8cc477f9574099971bc4eb", // Assets/VketShaderPack/MMS3/MMS3_Stencil_Writer.shader
-                "fda424b70f79d4e5488e1cc3ee100a95", // Assets/VketShaderPack/MMS3/MMS3_Transparent.shader
-                "ece969dbfb97d446ba8f8358a78789b5", // Assets/VketShaderPack/MMS3/Shade_Matcap1.psd
-                "429e21194bb37d8478c543a065bd6a6a", // Assets/VketShaderPack/Mochie/LICENSE
-                "909b3ce927e8cf246b13b1dbdef33f62", // Assets/VketShaderPack/Mochie/Common/Color.cginc
-                "d5468ef40ceedc549a0911e23c0b1568", // Assets/VketShaderPack/Mochie/Common/Noise.cginc
-                "71a928ffb0de3b442ab7e52a33f42d54", // Assets/VketShaderPack/Mochie/Common/Utilities.cginc
-                "5a65d8c24e698b44cbf674e0a232926a", // Assets/VketShaderPack/Mochie/Particle Shader/Particle.shader
-                "d1c93822d1541934c8fa436a39f0351a", // Assets/VketShaderPack/Mochie/Particle Shader/PSDefines.cginc
-                "56a4a30195ab7a4459b604ae189b3ccd", // Assets/VketShaderPack/Mochie/Particle Shader/PSFunctions.cginc
-                "0dfb5dc13a225ca4db23b0ee43932e34", // Assets/VketShaderPack/Mochie/Particle Shader/PSUtilities.cginc
-                "7ab63f31ad43f1e4ebab13ed1d4201cf", // Assets/VketShaderPack/Mochie/Particle Shader/PSXFeatures.cginc
-                "0d1d977ca72938b4bb8f3ed06b9a8645", // Assets/VketShaderPack/Mochie/ScreenFX Shader/SFX.shader
-                "0622846791c27d3499465434f2f63a0f", // Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXBlur.cginc
-                "e06fb4e15a03e164dae45a93c3ab3591", // Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXDefines.cginc
-                "e51e722628c0c834f841cbca164dc53b", // Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXFunctions.cginc
-                "7cbe4084658fd6b4e8b73782d48a461d", // Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXKernel.cginc
-                "9a10756a86708fc4f840711e05cf723c", // Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXPass.cginc
-                "4bd03e585f1830247a19f1af0893e73f", // Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXXFeatures.cginc
-                "87a52d53f3012e448b23af4d55a79d02", // Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXXPasses.cginc
-                "b252ff402bce931488cf8ff5152bf2dc", // Assets/VketShaderPack/Mochie/Uber Shader/Uber (Outline).shader
-                "5398f14cd241f2649988529db4480d1c", // Assets/VketShaderPack/Mochie/Uber Shader/Uber.shader
-                "21947c9bef25458429000c46ca32e021", // Assets/VketShaderPack/Mochie/Uber Shader/USBRDF.cginc
-                "6cd01882b763be542be24bd25c155871", // Assets/VketShaderPack/Mochie/Uber Shader/USDefines.cginc
-                "6e016b6a7bd29c24581e80488f391a0e", // Assets/VketShaderPack/Mochie/Uber Shader/USFunctions.cginc
-                "6390189603c02114c9822185832e97fc", // Assets/VketShaderPack/Mochie/Uber Shader/USKeyDefines.cginc
-                "a517223ef2cd6074b9947340447724b9", // Assets/VketShaderPack/Mochie/Uber Shader/USLighting.cginc
-                "b6948e44e1f92fc4891f424daf8e7bfd", // Assets/VketShaderPack/Mochie/Uber Shader/USPass.cginc
-                "70bd95f95c93df74699e04c703304294", // Assets/VketShaderPack/Mochie/Uber Shader/USSampling.cginc
-                "4ec15cb7a78843d4fb5c7c8bdf19bd9b", // Assets/VketShaderPack/Mochie/Uber Shader/USSSR.cginc
-                "76eed4008ba5d464199dcfc895daf3b7", // Assets/VketShaderPack/Mochie/Uber Shader/USXFeatures.cginc
-                "1da8bba388ad86741b84e6899d501ca7", // Assets/VketShaderPack/Mochie/Uber Shader/USXGeom.cginc
-                "d9b054af17135c745adff39d435e039d", // Assets/VketShaderPack/Mochie/Unity/Editor/Foldouts.cs
-                "e7db49004f057a845a9464ce30210a62", // Assets/VketShaderPack/Mochie/Unity/Editor/MaterialManager.cs
-                "2f59b3e0bf10120419b941583795ef54", // Assets/VketShaderPack/Mochie/Unity/Editor/MGUI.cs
-                "fdc00d0c66b6f3f4eb834fd87b6d760c", // Assets/VketShaderPack/Mochie/Unity/Editor/PSEditor.cs
-                "4689d28cb77840b488838b0a89f5dd78", // Assets/VketShaderPack/Mochie/Unity/Editor/SFXEditor.cs
-                "566cd2268c7d9194087322ca64b68f61", // Assets/VketShaderPack/Mochie/Unity/Editor/Toggles.cs
-                "eed6a60c5f8da544690d739b516ada01", // Assets/VketShaderPack/Mochie/Unity/Editor/USEditor.cs
-                "497f8485774204244abb7ba6c0865927", // Assets/VketShaderPack/Mochie/Unity/Prefabs/Default.mat
-                "3bb643d832d69134f8fbea4efcd0e109", // Assets/VketShaderPack/Mochie/Unity/Prefabs/Depth Light.prefab
-                "cd555b15b892a6342821da231de50d42", // Assets/VketShaderPack/Mochie/Unity/Prefabs/Screen FX.prefab
-                "c5eaa139ce0fb7c4b9ee2604697e997f", // Assets/VketShaderPack/Mochie/Unity/Resources/ClearTexIcon.png
-                "3e38383d19b750046a6fa03b1c2f8bac", // Assets/VketShaderPack/Mochie/Unity/Resources/CollapseIcon.png
-                "09c9c066a27ac424da976a9ae8474231", // Assets/VketShaderPack/Mochie/Unity/Resources/CopyTo1Icon.png
-                "124358866068baa4f90186cb87430c24", // Assets/VketShaderPack/Mochie/Unity/Resources/CopyTo2Icon.png
-                "b69d260e9a20c444cb3ac36d41d2d479", // Assets/VketShaderPack/Mochie/Unity/Resources/ExpandIcon.png
-                "d29b3eb8412f5e64096afc1ab733122d", // Assets/VketShaderPack/Mochie/Unity/Resources/Header.png
-                "29f18c82d04215e4f87185a100e9ff1b", // Assets/VketShaderPack/Mochie/Unity/Resources/Header_Pro.png
-                "1cbf300790ff57b4caf3fbe023eca45f", // Assets/VketShaderPack/Mochie/Unity/Resources/KeyIcon.psd
-                "f632ab1767b9c1e45b285c0731fbd1d8", // Assets/VketShaderPack/Mochie/Unity/Resources/KeyIcon_Pro.psd
-                "8f1c2bbd99970c841b096d9447417468", // Assets/VketShaderPack/Mochie/Unity/Resources/ParticleHeader.png
-                "ca6d24562e19aab4e90be114647a98bb", // Assets/VketShaderPack/Mochie/Unity/Resources/ParticleHeader_Pro.png
-                "31fef82c771a5374b904c64a98fde2ac", // Assets/VketShaderPack/Mochie/Unity/Resources/Patreon_Icon.png
-                "ec636ed50f955cc42a934e1bd42403d0", // Assets/VketShaderPack/Mochie/Unity/Resources/ResetIcon.png
-                "2201e3ff274d60b42ba46809810c7f0e", // Assets/VketShaderPack/Mochie/Unity/Resources/SFXHeader.png
-                "30a883d22a3859443a814b6bba897043", // Assets/VketShaderPack/Mochie/Unity/Resources/SFXHeader_Pro.png
-                "dff4b38eef00de14487e9ee7ee4359b0", // Assets/VketShaderPack/Mochie/Unity/Resources/StandardIcon.png
-                "21cb8a0fd46250e489c418eeff4a2222", // Assets/VketShaderPack/Mochie/Unity/Resources/Watermark.png
-                "0b25d34e04b2c7a4c98d9cc5c69fa830", // Assets/VketShaderPack/Mochie/Unity/Resources/Watermark_Pro.png
-                "7589d70a1d40b7c47857a6722e4a0aae", // Assets/VketShaderPack/Mochie/Unity/Textures/Blend.png
-                "89819f8cb0b9e5d418f6e90ca96ac9c3", // Assets/VketShaderPack/Mochie/Unity/Textures/Distortion.tif
-                "930ac9d4c358e5846af139e693a08bd2", // Assets/VketShaderPack/Mochie/Unity/Textures/Hair Normal.png
-                "2059b62900034054f9f93aafbf8293fb", // Assets/VketShaderPack/Mochie/Unity/Textures/Perlin (Alpha).jpg
-                "dfbb7eeed695dc14d82b08d887041406", // Assets/VketShaderPack/Mochie/Unity/Textures/Perlin.jpg
-                "b8d1261e60bcece48b7708cac8798bfc", // Assets/VketShaderPack/Mochie/Unity/Textures/Shake Noise.png
-                "b7359cc7e3e84444b88656ff6c166220", // Assets/VketShaderPack/Mochie/Unity/Textures/SSR Noise.png
-                "9c8ede69ecd0f824aa80b9929c0b1e5c", // Assets/VketShaderPack/Mochie/Unity/Textures/Transparent 4x4.png
-                "f276a76437cf84847a5986084b4d11f3", // Assets/VketShaderPack/Mochie/Unity/Textures/Ramps/DefaultRamp.png
-                "9674bc46ecefab84b9f135c13b18ce36", // Assets/VketShaderPack/Mochie/Unity/Textures/Ramps/RampImporter.cs
-                "2a5e8a5d481e3574b8274fa7ce4bdc2d", // Assets/VketShaderPack/MToon-3.4/LICENSE
-                "1021e7e6d453b9f4fb2f46a130425deb", // Assets/VketShaderPack/MToon-3.4/README.md
-                "a9bc101fb0471f94a8f99fd242fdd934", // Assets/VketShaderPack/MToon-3.4/MToon/MToon.asmdef
-                "24156f9da0724eb5a159f36c69a7d90a", // Assets/VketShaderPack/MToon-3.4/MToon/Editor/EditorEnums.cs
-                "531922bb16b74a00b81445116c49b09c", // Assets/VketShaderPack/MToon-3.4/MToon/Editor/EditorUtils.cs
-                "dddf8398e965f254cae2d7519d7f67d2", // Assets/VketShaderPack/MToon-3.4/MToon/Editor/MToon.Editor.asmdef
-                "8b43baa9f62f04748bb167ad186f1b1a", // Assets/VketShaderPack/MToon-3.4/MToon/Editor/MToonInspector.cs
-                "1a97144e4ad27a04aafd70f7b915cedb", // Assets/VketShaderPack/MToon-3.4/MToon/Resources/Shaders/MToon.shader
-                "ef6682d138947ed4fbc8fbecfe75cd28", // Assets/VketShaderPack/MToon-3.4/MToon/Resources/Shaders/MToonCore.cginc
-                "084281ffd8b1b8e4a8605725d3b0760b", // Assets/VketShaderPack/MToon-3.4/MToon/Resources/Shaders/MToonSM3.cginc
-                "17d4e0f990fbc794ab41e4fcc196d559", // Assets/VketShaderPack/MToon-3.4/MToon/Resources/Shaders/MToonSM4.cginc
-                "8b731264e8acd0f4b8f56986e5eb2531", // Assets/VketShaderPack/MToon-3.4/MToon/Samples/OutlineWidthModes.unity
-                "4f42a26097c877b40a7616aa60580c43", // Assets/VketShaderPack/MToon-3.4/MToon/Samples/Materials/Ex_OutlineWidth_Screen.mat
-                "e40a129e14e378c4db040df3fd4a6077", // Assets/VketShaderPack/MToon-3.4/MToon/Samples/Materials/Ex_OutlineWidth_World.mat
-                "54da18ba3126f1343924588562df72e0", // Assets/VketShaderPack/MToon-3.4/MToon/Samples/Materials/Ground.mat
-                "9639e17dffc656345a70282f7f216672", // Assets/VketShaderPack/MToon-3.4/MToon/Samples/Materials/Toon.mat
-                "9a3fb070d7eb4114b5cf387e2cd60391", // Assets/VketShaderPack/MToon-3.4/MToon/Scripts/Enums.cs
-                "2849b99d94074fcf9e10c5ca3eab15a8", // Assets/VketShaderPack/MToon-3.4/MToon/Scripts/MToonDefinition.cs
-                "9d2012c170a74b3db0002f7ecda53622", // Assets/VketShaderPack/MToon-3.4/MToon/Scripts/Utils.cs
-                "6724aa45c8c349fabd5954a531301aa8", // Assets/VketShaderPack/MToon-3.4/MToon/Scripts/UtilsGetter.cs
-                "b24a672e82874c9fbfef9c2b2dfdab42", // Assets/VketShaderPack/MToon-3.4/MToon/Scripts/UtilsSetter.cs
-                "4702d4b2c1414cc08b4382c3762eebab", // Assets/VketShaderPack/MToon-3.4/MToon/Scripts/UtilsVersion.cs
-                "ac1db82fd6a079c47aa6194a7798f04a", // Assets/VketShaderPack/Reflex Shader 2/LICENSE
-                "81d254e2967e81746a583f5bafc968af", // Assets/VketShaderPack/Reflex Shader 2/README.md
-                "a17df36c78d69f24c8fb7cfff294e132", // Assets/VketShaderPack/Reflex Shader 2/Reflex Shader 2 Cutout.shader
-                "baa2148099f6f3646bdae4319592905e", // Assets/VketShaderPack/Reflex Shader 2/Reflex Shader 2 Stencil Reader.shader
-                "9fc79fcfadbc2c149970dd12704133c4", // Assets/VketShaderPack/Reflex Shader 2/Reflex Shader 2 Stencil Writer.shader
-                "4d2eda1ffb121d549b437db96574d64e", // Assets/VketShaderPack/Reflex Shader 2/Reflex Shader 2 Transparent.shader
-                "da4e037220e1c9a40b77c4c6ff6dcc93", // Assets/VketShaderPack/Reflex Shader 2/Reflex Shader 2.shader
-                "5c1895a85d4c38a4e9f6a050722d5a97", // Assets/VketShaderPack/Reflex Shader 2/Editor/RSInspector.cs
-                "0205e6023718bab428bc3df400f93cd0", // Assets/VketShaderPack/Reflex Shader 2/Emissive Scroll Tex/Emissive Sample 01.png
-                "700ac6f1880ae4a44b4f4e898f3c9fde", // Assets/VketShaderPack/Reflex Shader 2/Emissive Scroll Tex/Emissive Sample 02.png
-                "ee5d32dbd750a9a42b74b0eedf74b2cb", // Assets/VketShaderPack/Reflex Shader 2/Emissive Scroll Tex/Emissive Sample 03.png
-                "f5d8f584674c8984ab029c8868eb5bf3", // Assets/VketShaderPack/Reflex Shader 2/Functions/Reflex Shader Function.asset
-                "25df7b96fb001804e9f8b60b156dfe34", // Assets/VketShaderPack/Reflex Shader 2/Images/RS_Header.png
-                "a34233ce30b26904cbdc837a2b2f4984", // Assets/VketShaderPack/Reflex Shader 2/Images/RS_Logo.png
-                "7266fc3b47fe69d4eb0e07eae7890fe7", // Assets/VketShaderPack/Reflex Shader 2/Matcaps/Matcap 01.png
-                "e832c7c4b2aa8164188c5fafc6b3157f", // Assets/VketShaderPack/Reflex Shader 2/Matcaps/Matcap 02.png
-                "c62a504aa1f92254580fbba47b5d1d1a", // Assets/VketShaderPack/Reflex Shader 2/Matcaps/Matcap 03.png
-                "320eb42ea75aecf40b6d307100f53280", // Assets/VketShaderPack/Reflex Shader 2/Matcaps/Matcap 04.png
-                "c7dbedf5cb40ba240842f08fe47232f7", // Assets/VketShaderPack/Reflex Shader 2/Matcaps/Shadow 01.png
-                "f6172fea687a4bd498140ef4625ba18b", // Assets/VketShaderPack/Reflex Shader 2/Matcaps/Shadow 02.png
-                "13dcfc05fc9ff46279cd0d8b19b6eb16", // Assets/VketShaderPack/Reflex Shader 2/no_outline/Cutout no_outline.shader
-                "f69d22507846543fba38e64372dfe6a8", // Assets/VketShaderPack/Reflex Shader 2/no_outline/Opaque no_outline.shader
-                "240e6a39b9c4c4df083e49e5f139cff0", // Assets/VketShaderPack/Reflex Shader 2/no_outline/Stencil Reader no_outline.shader
-                "37a618d5b552742348253195161d4a74", // Assets/VketShaderPack/Reflex Shader 2/no_outline/Stencil Writer no_outline.shader
-                "7c2607431430f400f86b6fb4a454bede", // Assets/VketShaderPack/Reflex Shader 2/no_outline/Transparent no_outline.shader
-                "44d0643d490e16f4492b7252c658ea1a", // Assets/VketShaderPack/SCSS-master/LICENSE
-                "4c6ec922fb42b2848a1e6fd88c19bf4a", // Assets/VketShaderPack/SCSS-master/README.md
-                "163fd2e733679b948b23e92b2341f8f6", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/LightRamps/Default MultiGradient.asset
-                "80684a860e75c9a4295d27ead38010c7", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/LightRamps/Info.txt
-                "a7e8258f4d13af1419c0326602f31748", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Sharp.png
-                "70853d21e5cf0a945ba9ef1baa2f37fa", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Skin.png
-                "6af41be6e81954543bfe50e9b2131c4d", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Smooth (old).png
-                "6584ffcc7e2c6a746afd371ec1d6ad5d", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Smooth.png
-                "a8fbd87577f16ea43ac168bbf9ef88f3", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Soft (old).png
-                "51b142bdc7b4f7a428477e77eb815bc7", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Soft.png
-                "d0d2092a7d8176a419858a5536e205ee", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Toon v2.png
-                "7f445efa362f16248af955f190843381", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Toon v3.png
-                "ae6fa37de6d2b4e45a6176091e47455c", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/Mnmr/LICENSE.txt
-                "63a9cd46c7dd97644b42c0721976f257", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/Mnmr/Readme.txt
-                "fb2f01db930474c3fbd62634f03ffe4b", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_Light_Hard.psd
-                "4348a2a80916845739da8629005aef03", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_Light_Hard_Hair2.psd
-                "5306755cc52e04770bf7169839c6b350", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_Light_Soft.psd
-                "1f802a1910910432ca435480b93e70ec", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_Light_Soft_Hair.psd
-                "d247459fa9b47465d92f1eb93eba56e9", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_RimLightMatcap1.psd
-                "c2dda37b49c0b4bde9e211e894f7344d", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_RimLightMatcap2.psd
-                "44d209fdf321840569dd21a5b61e277d", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_ShadowMatcap1.psd
-                "ecfa3da8397834305821fe311f1cbf15", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_ShadowMatcap2.psd
-                "c68fab11bf4dfb044a2f51d7ddc4d064", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/mofuaki_/mofuaki_-1185084491351515136-img1.png
-                "48e16bad9d9551b499dfb08af7ee7e31", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/mofuaki_/mofuaki_-1185084491351515136-img2.png
-                "fb8f4c7cfbfa3f743b381bda894c2eb6", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/mofuaki_/mofuaki_-1185084491351515136.txt
-                "21e7d43547251ef4bb267a4aa24f04b7", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/mofuaki_/mofuaki_-1185084491351515136.url
-                "ebd77ce0e53676d49853f56eb043a827", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LICENSE
-                "c855d2d0c1361d14a841af5aa24d6d26", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/README.txt
-                "b7b167660549b8e48a231f62d2fcb008", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Glare.png
-                "3dd155f12c76e1447bf62608fc1bf572", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Gloss(LargeFlat).png
-                "3dfb01f9d1c32f048ac838f6e3fa8810", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Gloss(LargePoint).png
-                "9a6b29adf08462e4f98ec4a45cc7c57c", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Gloss(MultiFlat).png
-                "bd882f7694bebd04eb144979a8787993", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Gloss(MultiPoint).png
-                "c6cbb49dcbadf93489feca05b6652723", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Gloss(SmallFlat).png
-                "b3d17e4df2a84274f8810d14ad0d1537", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Gloss(SmallPoint).png
-                "5866d4cb591aa9443b2cb4948139b112", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Hair_AngelRing(Blue).png
-                "a369076245553a64eb0f96d537272196", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Hair_AngelRing(Green).png
-                "a8845002a4d852249b1f5b2d0422279c", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Hair_AngelRing(Purple).png
-                "0db92e9598eb9f64c82095d66efe6a1a", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Hair_AngelRing(Red).png
-                "2b71b8337c476dc4b875b2836a0e2720", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Hair_AngelRing(Yellow).png
-                "86e9818d2a3ca7041b09c97748be153d", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Hair_AngelRing.png
-                "70ae0ed388398f14a983b9be841fbf92", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Iridescent(Large).png
-                "431e901af18398a40876e71e33afcb9c", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Iridescent(Multi).png
-                "d3a73c13da3082b499720fd2e340fd58", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Iridescent(Small).png
-                "c3348e9a93cf3f041a47eab885eff5a4", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Dark(Peach).png
-                "81aad2673b3c3564e86273be96df3985", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Dark(Red).png
-                "51458ebc5861843449e59e63cfbe9312", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Dark(White).png
-                "8d80aa31a13e4ca499d7a120c31b5c30", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Dark(Yellow).png
-                "1e1bd6119670c6644b39d585be1c7dd4", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Pale(Peach).png
-                "de1140e088e6df840abef03788989036", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Pale(Red).png
-                "b249fa84e5347e047a14ebd946f5b992", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Pale(White).png
-                "eeb275611fdaf2648b0749546abab7e7", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Pale(Yellow).png
-                "118b92d83e2a11040921f1eb0de754f2", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Tights_HighDensity.png
-                "d7043e6bdc77d9a48bdbfc3fb6dc63b8", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Tights_LowDensity.png
-                "21b34471bb21d714695594ed013671e5", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Gloss(BlackEnamel・Blue).png
-                "4b7f9eac7f86d804fa4651f78c2f77a2", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Gloss(BlackEnamel・Red).png
-                "a86b7309210462d49937588b29ecb453", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Gloss(BlackEnamel・White).png
-                "e789df0d8e991dc46bbbcb776c5a3ada", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Gloss(Rim).png
-                "cfc0ca869f3f6aa488e442597f757c16", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Gloss(RimBright).png
-                "eba422e248e1b7b46a44eca939e97a7c", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Gloss(WhiteEnamel・Rainbow).png
-                "d9eed75190795c742b2a4ad01169a572", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_GradientShadow(Blue).png
-                "981358a9d84b3254796caa2aed07f755", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_GradientShadow(Red).png
-                "cb816f85c59d0594e919df78215b8643", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_GradientShadow(White).png
-                "141320f81a2860f45b14a1de5bb46964", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_GradientShadow.png
-                "228a97a7223a715439f7b999a17cb9d5", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Hair_AngelRing(Blue).png
-                "de0bb15fb581f874b8c33b1cc5ea50e4", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Hair_AngelRing(Green).png
-                "4e89ea8f4509c2d479adc1b6eb4a59b8", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Hair_AngelRing(Purple).png
-                "bf6207586b81cc14fa15f173c8e3e88d", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Hair_AngelRing(Red).png
-                "731335fba7efbcb4c9c77281e6ebf259", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Hair_AngelRing(Yellow).png
-                "7237239c7d9b876468e784c193ea453f", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Hair_AngelRing.png
-                "140f68527af730a42884e180331e2385", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_MetalGloss(Yellow).png
-                "fc5c401b877c1bf4f90c09420e4564cb", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_SimpleShadow(Hemi).png
-                "fb8412e5c0ec1864d94ffbc1c6573070", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_SimpleShadow.png
-                "63de7b1aca5f56547b4566d5c452971d", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_SimpleShadow・BlueReflection.png
-                "cd71180b27fb20b46bd8a67b792511d4", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_SimpleShadow・SideRim.png
-                "cde5a8eff47aab14f956da09db682183", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Skin_BrownSlick_GlosslessFace.png
-                "6019069d567c03e40b2e57285c9cf05b", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Skin_BrownSlick_GlossyBody.png
-                "e2f3f51b74c61cb4fa33d42a0d857e74", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Skin_Brown_GlossStrong.png
-                "b3a2e207de951c44db9c4bacaee6010f", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Skin_Brown_Rim_GlossWeak.png
-                "e2e3379d7afc6c548a77840f6fd5f488", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Glare+Gloss(PointSmall).png
-                "874b5960d1ad3b442b9f03199627562f", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Glare.png
-                "862bb4f308d31a449b8fbfa82451d751", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Gloss(LargeFlat).png
-                "fc0cf484220685d4eafa9ed00ef8cc7e", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Gloss(LargePoint).png
-                "cd6d2060efad2c846afb263d634f1f70", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Gloss(MultiFlat).png
-                "2e2858828b151be4695fd36ca4d19a40", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Gloss(MultiPoint).png
-                "5923f328fc4cb4147ab169d1db94b29c", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Gloss(SmallFlat).png
-                "a3680a23ee096f44b9d976c690a872dd", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Gloss(SmallPoint).png
-                "5ee24b69dfded3240b1e950e8cfea8bb", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Hair_AngelRing(Blue).png
-                "aab7586db9bd139439746510e249d68b", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Hair_AngelRing(Green).png
-                "551ec63cc2428814e811c7b90822a9ea", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Hair_AngelRing(Purple).png
-                "4e03c1e10a8731844ac2136ea96dff4f", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Hair_AngelRing(Red).png
-                "4456fab6540937b4f80185dfcdb32acd", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Hair_AngelRing(Yellow).png
-                "9c2691948a9baf44e8231ff1ddd00b36", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Hair_AngelRing.png
-                "1c368911528c60d429257dc57624517f", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Iridescent(Large).png
-                "3d294a5afc79400468719f6af35dabdf", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Iridescent(Multi).png
-                "efd84db93a4cca24d93687e84f48fdf8", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Iridescent(Small).png
-                "ae7d1c4c107c5794c8c4ec92b3e31630", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Skin_Glare+Gloss(LargePoint).png
-                "96cf3bb60ffe3384fbd847ec4857c9dc", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Skin_Glare.png
-                "a8ca5b675c614d348ac51cc580b8e5e2", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Dark(Peach).png
-                "8ace27bb9234eff44b5ec8f841b8ddaf", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Dark(Red).png
-                "865d0a3b58a86df45ac20e870fcf6255", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Dark(White).png
-                "bf45007d8a3c0aa4098a23916c68e58d", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Dark(Yellow).png
-                "cf7bfae60977d664b911c3e163bb92a8", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Pale(Peach).png
-                "01a3d35c1bc39f646a22769f40bbbb20", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Pale(Red).png
-                "4fed231081a962e428e196625a7a4475", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Pale(White).png
-                "478dd3812b01a39469a08b45e94ea6fa", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Pale(Yellow).png
-                "4ff7604ea3c143144a465740b84499dc", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Tights_HighDensity.png
-                "3d29d801cba569448b6aacb582271a69", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Tights_LowDensity.png
-                "020b20d50dee3b64784514e35d8a53b8", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/HairMat.png
-                "a2b389612cf565643b4b0bbd236f3335", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/Ramp1.png
-                "8339ae69dbe9dcc439ff088723737cfb", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/Ramp2.png
-                "0280c480c48fcbe40ac3bd5b8888b2d7", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/ReadMe.txt
-                "f99f096fbf6cf4d40a2f990e8076c1db", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/ShadowMat.png
-                "401e17d367f33e849a6fdb867b4ce269", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/ShadowMat_BGR.png
-                "10af221457820f04c96c4b2932e290ab", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/SkinMat.png
-                "4e1e2c12906898449933f67285cdc085", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/SpecMat.png
-                "b0a5e22ce82df9b42a386995879e80d0", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/SpecMat2.png
-                "c61dab59da88c87499105c1b046bcf73", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/Sample/Albedo.png
-                "5f8a50cc30df039489b8ee08453375d2", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/Sample/Metal.png
-                "06d8cbe587a3d2c4c967de17cac6c502", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/Sample/Normal.png
-                "721cd36de640a974ca45b613e85cd800", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/Sample/Sample 1.mat
-                "4b8608d176dcf934585ec1b6886e05e4", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/Sample/Sample 2.mat
-                "d469e28ac045d044fb9cb2226a7c9c72", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/Sample/Sample.mat
-                "af8197deebc61ce459480bd679aa6abc", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Assets/YSHT/Sample/Sample_SCSS.mat
-                "a3185396b596ad949854a764984b9171", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Editor/SCSS_Inspector.cs
-                "88a031d938963714a8250672469d5214", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Editor/SCSS_InspectorBase.cs
-                "07e7aaa47f6b9a04caf3a47e59ff4589", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Editor/SCSS_InspectorTools.cs
-                "dd58167f3f5799f4db066008579b778a", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Editor/SCSS_XSGradientEditor.cs
-                "0757509132a7ee748b11bc26b6fd10dd", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Editor/SCSS_XSMultiGradient.cs
-                "a9a812ee108476f4eae9c507264cc297", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/Crosstone (No Outline).shader
-                "932c3f8bb2ba7d04480beb8e4c98b2a8", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/Crosstone.shader
-                "92b4d092592529b4f9a87764c0c44117", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/Flat Lit Toon (Cutout) (No Outline).shader
-                "193c1d1febff24f46bc72d88e8b205f8", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/Flat Lit Toon (Cutout).shader
-                "369d2ecd6fc95bc469360ddecf6b2155", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/Flat Lit Toon (No Outline).shader
-                "f78fe2d8cca2202429d0c2e0d810c763", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/Flat Lit Toon (Transparent) (No Outline).shader
-                "5028bedf4f7ad6a4aaf7727fead41880", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/Flat Lit Toon (Transparent).shader
-                "a883b384ca4bc054aa10b5f554ae85a3", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/Flat Lit Toon.shader
-                "949047d11aa1be843ab010f80e6e1ad7", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/SCSS_Core.cginc
-                "ac54125faed4a1c4d8641c311f115c9d", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/SCSS_Forward.cginc
-                "ad30dacf242f54a49b203e540fe72e8a", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/SCSS_Input.cginc
-                "8acce3fdffc81da43bbff56f95bd5e98", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/SCSS_Shadows.cginc
-                "e4f4f1f16f5f7a940a8a91cda2684a75", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/SCSS_UnityGI.cginc
-                "4918d8dc352c4f14095b785dedffaab1", // Assets/VketShaderPack/SCSS-master/Assets/Silent's Cel Shading Shader/Shaders/SCSS_Utils.cginc
-                "eee1fe122a0b923418524ff036e23119", // Assets/VketShaderPack/SCSS-v1.7/LICENSE
-                "392e02194a1ca6b4392a763f27d228f8", // Assets/VketShaderPack/SCSS-v1.7/README.md
-                "a780591bd355dfb42b8d43171c524127", // Assets/VketShaderPack/Sunao Shader/LICENSE
-                "3e696a6fcbf6c3d48b6b18d391ac27f3", // Assets/VketShaderPack/Sunao Shader/README.txt
-                "52db967a50319a342b8d3e03e2c948c5", // Assets/VketShaderPack/Sunao Shader/Sunao Shader 解説書.url
-                "ac4920ac84fea1840bcc25ab63dd1154", // Assets/VketShaderPack/Sunao Shader/Editor/SunaoShaderGUI.cs
-                "58f628f02e892b441aa26d5402c0fb19", // Assets/VketShaderPack/Sunao Shader/Logo/SS_logo_B.png
-                "28a0ceca2c0231940b7704112685d322", // Assets/VketShaderPack/Sunao Shader/Logo/SS_logo_BS.png
-                "a626f2283039de04e867eeb889b593d2", // Assets/VketShaderPack/Sunao Shader/Logo/SS_logo_W.png
-                "ffa077d687eb240489acb287b977dfa4", // Assets/VketShaderPack/Sunao Shader/Logo/SS_logo_WS.png
-                "f5c1047620033614d8f1f260c8eaaf64", // Assets/VketShaderPack/Sunao Shader/Sample/Sunao_Shader_Samples.unitypackage
-                "01846cdaa65259e48a71d9812e4e1c22", // Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Cutout.shader
-                "09296c4f29b71fb4ba42ef8983d8007f", // Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Cutout_SO.shader
-                "3701d6a6f5f988b4a9cea92f1426a955", // Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Opaque.shader
-                "2fb75b0069e4fe147a396141dcf70627", // Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Opaque_SO.shader
-                "7362334fb65c850469785caac3918093", // Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Stencil_R.shader
-                "a95ac57a344b931459880f4ca527efc4", // Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Stencil_W.shader
-                "0b073aeeaec66294aa00c57784f4a0bb", // Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Transparent.shader
-                "cd2723fb285798b4b801e483a793b3c3", // Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Transparent_SO.shader
-                "0bcbd141d25c3594698232b7cf028e95", // Assets/VketShaderPack/Sunao Shader/Shader/Cginc/SunaoShader_Core.cginc
-                "a0a8cef7d729dd548bea8c0179114e1a", // Assets/VketShaderPack/Sunao Shader/Shader/Cginc/SunaoShader_Frag.cginc
-                "7c91ecb7ec33e624aa825469df256c8d", // Assets/VketShaderPack/Sunao Shader/Shader/Cginc/SunaoShader_Function.cginc
-                "349b3c656072d0444812de08c663ff40", // Assets/VketShaderPack/Sunao Shader/Shader/Cginc/SunaoShader_OL.cginc
-                "331fdc83d13aff84cb82da583877f0d7", // Assets/VketShaderPack/Sunao Shader/Shader/Cginc/SunaoShader_SC.cginc
-                "666562b3b8d23d64fa0f6ee5216239b1", // Assets/VketShaderPack/Sunao Shader/Shader/Cginc/SunaoShader_Vert.cginc
-                "e30857b716beae5479b313fde1a5efaf", // Assets/VketShaderPack/Toon/Editor/CopyMaterialParameter.cs
-                "cad15f56be91b744aaf8e22339bc598c", // Assets/VketShaderPack/Toon/Editor/RemoveUnusedMaterialProperties.cs
-                "a9775daf5f793f64e98ccd6c4a61bbc8", // Assets/VketShaderPack/Toon/Editor/RemoveUnusedShaderKeywordsFromUTS2Material.cs
-                "e403ef4b1d56fce47b49ec46981d9fcb", // Assets/VketShaderPack/Toon/Editor/UTS2GUI.cs
-                "4c57a42f315f467488f69755e6a7d42c", // Assets/VketShaderPack/Toon/Shader/README.txt
-                "96d4d9f975e6c8849bd1a5c06acfae84", // Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather.shader
-                "ccd13b7f8710b264ea8bd3bc4f51f9e4", // Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_Clipping.shader
-                "9c3978743d5db18448a8b945c723a6eb", // Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_Clipping_StencilMask.shader
-                "d7da29588857e774bb0650f1fae494c6", // Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_Clipping_StencilOut.shader
-                "315897103223dab42a0746aa65ec251a", // Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_StencilMask.shader
-                "2e5cc2da6af713844956264245e092e4", // Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_StencilOut.shader
-                "369d674ae1ba36249bb00e2f73b0cd10", // Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping.shader
-                "8600b2bec3ae31145afa80084df20c61", // Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping_StencilMask.shader
-                "43d0eeb4c46f52841b0941e99ac9b16b", // Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping_StencilOut.shader
-                "97b7edb5fc0f5744c9b264c2224a0b1e", // Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_Transparent.shader
-                "3b20fc0febd34f94baf0304bf47841d8", // Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_Transparent_StencilOut.shader
-                "af8454e09b3a41448a4140e792059446", // Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap.shader
-                "295fec4a7029edd4eb9522bef07f41ce", // Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing.shader
-                "e32270aa38f4b664b90f04cc475fdb81", // Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing_StencilOut.shader
-                "29a860a3f3c4cec43ab821338e28eac8", // Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing_TransClipping.shader
-                "d5d9c1f4718235248ad37448b0c74c68", // Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader
-                "6439813c08a1f8947bb0ca6599499dd7", // Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_StencilMask.shader
-                "b39692f1382224b4cbe21c12ae51c639", // Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_StencilOut.shader
-                "cd7e85b59edbb7740841003baeb510b5", // Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_TransClipping.shader
-                "6b4b6d07944415f44b1fc2f0fc24535f", // Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_TransClipping_StencilMask.shader
-                "31c75b34739dfc64fb57bf49005e942d", // Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_TransClipping_StencilOut.shader
-                "7737ca8c4e3939f4086a6e08f93c2ebd", // Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_Transparent.shader
-                "be27d4be45de7dd4ab2e69c992876edb", // Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_Transparent_StencilOut.shader
-                "9baf30ce95c751649b14d96da3a4b4d5", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather.shader
-                "345def18d0906d544b7d12b050937392", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping.shader
-                "7a735f9b121d96349b6da0a077299424", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping_StencilMask.shader
-                "ed7fba947f3bccb4cbc78f55d7a56a70", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping_StencilOut.shader
-                "1d10c7840eb6ba74c889a27f14ba6081", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile.shader
-                "88791c14394118d42a5e176b433af322", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_Clipping.shader
-                "41f4ee183cb66ad40bc74a9f8f944974", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_Clipping_StencilMask.shader
-                "dec01cbdbc5b8da4ca8671815cda1557", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_StencilMask.shader
-                "55e8b9eeaaff205469365133fe7bc744", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_StencilOut.shader
-                "d4c592285a93c3844aafdaafffc07ec7", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_TransClipping.shader
-                "100d373b596f44d49ac9bb944d671d32", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_TransClipping_StencilMask.shader
-                "036bc90bfe3475b4c9fadb85d0520621", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_StencilMask.shader
-                "0a1e4c9dcc0e9ea4db38ae9cb5059608", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_StencilOut.shader
-                "e8e7d781c3155254b9ea8956c5bd1218", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping.shader
-                "79add09e32e5c4541980118f6c4045b6", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping_StencilMask.shader
-                "fb47be5a840097b45bac228446468ef3", // Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping_StencilOut.shader
-                "42a47eda2ed77084c9136507eadb8641", // Assets/VketShaderPack/Toon/Shader/Toon_OutlineObject.shader
-                "2e2edd12fbf6bcb4ea1f34c17ee42df5", // Assets/VketShaderPack/Toon/Shader/Toon_OutlineObject_StencilOut.shader
-                "ca035891872022e4f80c952b3916e450", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap.shader
-                "9aadc53d7cdc63f4898ea042aa9d853b", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_AngelRing.shader
-                "23e399973d807464fb195291a44a614c", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_AngelRing_Mobile.shader
-                "8d33e4e4084e5af449f3e762fecce3c9", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_AngelRing_Mobile_StencilOut.shader
-                "415f07ab6fd766048ac6f8c2f2b406a9", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_AngelRing_StencilOut.shader
-                "b2a70923168ea0c40a3051a013c93a8a", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_AngelRing_TransClipping.shader
-                "d1e11a558d143f14c864edf263332764", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader
-                "f90e11a40dcf4f745ae6b21b857943fa", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_Mobile.shader
-                "206c554c8b0c60041a9d242385f543d3", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_Mobile_StencilMask.shader
-                "cfc201757f2519c4bb6ef9265a046582", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_Mobile_StencilOut.shader
-                "cce1da34c52aff745adf0222f56a356c", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_Mobile_TransClipping.shader
-                "e88039bab21b7894e918126e8fce5d1b", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_Mobile_TransClipping_StencilMask.shader
-                "aa2e05ed58ca15441bd0989f008da78b", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_StencilMask.shader
-                "923058fda1b61544b93d91eeee772086", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_StencilOut.shader
-                "aebd33b74ef849a4882b4a8d55f0f0c9", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_TransClipping.shader
-                "0a05dd221bacbb448afac3d63e6bd833", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_TransClipping_StencilMask.shader
-                "67212ac11ff43b04a833d3986b997a9f", // Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_TransClipping_StencilOut.shader
-                "80bd7ce6cad775a4e9de24e18eb5e61e", // Assets/VketShaderPack/Toon/Shader/UCTS_DoubleShadeWithFeather.cginc
-                "ec7b5c1d006f6be49b412bcd7a789c78", // Assets/VketShaderPack/Toon/Shader/UCTS_Outline.cginc
-                "eca315d4d2d36194b8be3cf2a6869762", // Assets/VketShaderPack/Toon/Shader/UCTS_ShadingGradeMap.cginc
-                "ae8d06deb98501947846000ba6cd3ab2", // Assets/VketShaderPack/Toon/Shader/UCTS_ShadowCaster.cginc
-                "5b8a1502578ed764c9880a7be65c9672", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess.shader
-                "682e6e6cf60a51040ade19437a3f53e2", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader
-                "148d1eca2cf299e4eb949d15c4cf95ee", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader
-                "e987cf9cca0941042aa68d1dd51ee20f", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Tess.shader
-                "97df86a7afe06ef41b2a2c242b10593e", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Tess_StencilMask.shader
-                "b179fb8a87955a347b5f594a18b43475", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Tess_StencilOut.shader
-                "60fe384b76fb67d40bc7e38411073dd6", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_TransClipping_Tess.shader
-                "4a20b66d106d3f5409f759b5193ecdc2", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader
-                "a7842aa9522c7584cae2169b8e1ddb86", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader
-                "0cb6c9e6216a91e4a9d38cd2acb4ccb6", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Transparent_Tess.shader
-                "f28bba8b2f259bb40b697d91849c8794", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Transparent_Tess_StencilOut.shader
-                "4876871966ca2344793e439d7391d7b0", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess.shader
-                "7c48bdc9fed28c14b8ad0748673b1369", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess_StencilOut.shader
-                "d3fb22770ec830b43bdb5ccb973e6f76", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess_TransClipping.shader
-                "11e8f1e181e558a47a387492d3ecdb88", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader
-                "01494e58d87212f44ab51d29caea84e4", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Tess.shader
-                "24c20b8ed5be113499b40f4e3b6b03e6", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Tess_StencilMask.shader
-                "9cf7e8eb46e9128438d50adf7a841de6", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Tess_StencilOut.shader
-                "3c39a77fda28b5043a7a17c7877cf7b2", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess.shader
-                "bf840a439c33c8b4a99d52e6c3d8511f", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess_StencilMask.shader
-                "8eff803eae89c994fae3acf2f686fafa", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess_StencilOut.shader
-                "0959cb8822a344c4da890457e668fdc9", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Transparent_Tess.shader
-                "6d115cf94d14d1842a56dfff76b57f42", // Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Transparent_Tess_StencilOut.shader
-                "f0b2fc9b8a189134da9c7d24f361caf4", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess.shader
-                "8c94ee3046ef0574f87f6b658b4e4691", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader
-                "c4aed8662ca0f194284f3ab649e66d23", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader
-                "1f248db3b28fc5f44aabd7aca618bd1e", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess.shader
-                "a3214384442742648aa664ef0039d397", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light.shader
-                "3073cd2564e4cde45a19c05e0012d22a", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilMask.shader
-                "7e7690a767a07da4f943439680e70db8", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilOut.shader
-                "08c65988dc25d9f44b791fcc18fb543a", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilMask.shader
-                "f937ea4ce96dfbe448afc0fb671198e5", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader
-                "3fb99ac3775edeb4aa9530db5a614c92", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess.shader
-                "9855f226cd8152d4e99085272aceede6", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader
-                "2a0d4af863770404faee6488b86fe3c9", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader
-                "1847c44f729b68e49ba63610abdf9132", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_OutlineObject_Tess.shader
-                "06cae78b869a3234bab02eeb52197e1c", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_OutlineObject_Tess_StencilOut.shader
-                "3a1af221400a61a4b94bae19aa79da2b", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess.shader
-                "a1449ab672051624ca3160737b630f5e", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_Light.shader
-                "79d3dc54c32b69b42be17c48d33575f2", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_Light_StencilOut.shader
-                "18c9172cdf36a344f9aca9bbc0e7002d", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_StencilOut.shader
-                "54a94f776a43a074c8c2d205bb934005", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_TransClipping_Tess.shader
-                "d496a1c70c797ad43836d5bfff575b5f", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader
-                "183ea557143786346b1bfc862ad22636", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess.shader
-                "356dd5af8f0d40e41b647d3d0a0555c1", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_Light.shader
-                "ffadecfbd9e31f840ba4109fea0f0436", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_Light_StencilMask.shader
-                "98ac5d198a471494da681b7b8d1e1727", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_Light_StencilOut.shader
-                "0d799eb857c0e2c45bbdfb2c033d33e6", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_StencilMask.shader
-                "e667137c8b6fd3d4390fc364b2e5c70b", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_StencilOut.shader
-                "feba437d8ff93f745a78828529e9a272", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess.shader
-                "8d1395a9f4bfad44d8fddd0f2af19b1e", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader
-                "08c6bb334aed21c4198cf46b71ebca2d", // Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilOut.shader
-                "6d04fc34e9717d34d9589f39decf8333", // Assets/VketShaderPack/Toon/Shader/Tess/UCTS_DoubleShadeWithFeather_tess.cginc
-                "c139664fde6401f45a09b0f32279484b", // Assets/VketShaderPack/Toon/Shader/Tess/UCTS_Outline_Tess.cginc
-                "ad7807131760d5544843d7424e535b75", // Assets/VketShaderPack/Toon/Shader/Tess/UCTS_ShadingGradeMap_tess.cginc
-                "6261ac20c5dfa024a98d6ce3921bab70", // Assets/VketShaderPack/Toon/Shader/Tess/UCTS_ShadowCaster_Tess.cginc
-                "13aee1e1f6c49d94fa292dca9910126e", // Assets/VketShaderPack/Toon/Shader/Tess/UCTS_Tess.cginc
-                "b8bbbd51c2e41dd4bbcb0da1b7a48808", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/LICENSE
-                "4ebc920fe2745624bbed02e79a222e3d", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/README.txt
-                "b71e250f3c9f9a54cac228148bc800f7", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Editor/WF_Common.cs
-                "6b1a45934e0846141979f322772dc3b8", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Editor/WF_DebugViewEditor.cs
-                "4f0275352c196ca4d864b6611897bfd7", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Editor/WF_ShaderCustomEditor.cs
-                "e3269783b9ab81e4f85d813345bc1a7e", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Editor/WF_ShaderToolWindow.cs
-                "13aceca36091c3546a994c8c02dcc168", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample.unity
-                "c5782c4aad60a544caa7f5383e6a0b90", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/README.txt
-                "06913336b6f92e04a84576e8f9afd6a9", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Avatar_2A-7s.unity
-                "befa386322319ee4587ded7eeba1c19a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornellBox.unity
-                "7f71cab99cc077946b99cc04d93355ff", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/etc/CameraRotation.anim
-                "77eabe6dee64f244b8c92317eb5830c6", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/etc/CameraRotation.controller
-                "cf980f93a9a0e814e8260e4040df7ffc", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/etc/Gem.fbx
-                "58bdbcbbe65f69f48af5d965efb1e31c", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/etc/LightPivot.anim
-                "4c54433c553541d45b13620b67509da5", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/etc/LightPivot.controller
-                "82c58dbbc5f31aa49ab2e0ebbd5328a1", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/etc/Plane.mat
-                "799b0ea89036cc54ab56d421374e38ba", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/etc/ppv_bloom.asset
-                "dfa3d74db8de0af499aaa01fd0ea3d7e", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/etc/UpdateRealGI.cs
-                "af5aea2243dd470499bd0bf866c0b9da", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/GemMaterials/BlackGem.mat
-                "0efac9871ef36134e8cb4e3e0e58e417", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/GemMaterials/GrayGem.mat
-                "d1543206c7f9ed343b13306b48245ca1", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/GemMaterials/LavenderGem.mat
-                "182eea833aea07742bfa8fc0a4569886", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/GemMaterials/PurpleGem.mat
-                "6ac01d29450339841a15c26eba3d8f69", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/GemMaterials/RedGem.mat
-                "670fd4fcf34aac041a7e8e0371e823dd", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/GemMaterials/TurquoiseGem.mat
-                "df3e5d3bc81bf6c46a04d49fc90e6ffe", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/GemMaterials/WhiteGem.mat
-                "9fc65c41a4b61824fa4ceab8da248ccd", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/Gem_Sample_Assets/GemMaterials/YellowAndBlueGem.mat
-                "2d1676c3e8dbb8a4d881b86906f193c8", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Baked_2a7s_2ero_A.asset
-                "3af6ea1e5e16d184da3ddb6d8c119940", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Baked_2a7s_2ero_A.prefab
-                "1e28938dd4d2ace42bb692fb63fcb1cd", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Baked_2a7s_2ero_B.asset
-                "1aba99f0c3bc49e449f300e33ab4d65e", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Baked_2a7s_2ero_B.prefab
-                "84dfbffad7f596740917a1141ee43da2", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/LightBlue.mat
-                "2818ac500dfe28a4a85d13db74f5dcbe", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/LightWhite.mat
-                "f7eefc425eaa92b4ebffefdbb614d3d9", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/Metallic.mat
-                "88355daa712318d4eae5fce35352e6dd", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/SolidGreen.mat
-                "477ec3581917a6d4f8208e7033266223", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/SolidRed.mat
-                "3e5c4d6f454685c48af83064384632f6", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/SolidWhite.mat
-                "2f80c16eced9cb349a82cdbda5bd188d", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/SolidWhiteSmooth.mat
-                "a8131972d52e03346bee8239f2411e6a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/tex_armor(Clone)_asset2.mat
-                "1429d632eff8a234c93a9b7fb5f5668a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/tex_body(Clone)_asset0.mat
-                "a73dfe133639fa84e8e7d782a6aa3b74", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/tex_face(Clone)_asset4.mat
-                "43fa3186550698f47a2b59113d4f7a6f", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/tex_faceoption(Clone)_asset5.mat
-                "442460180ad002b41bb56108bbcfb4dd", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/tex_hair(Clone)_asset3.mat
-                "262edb4e47175d548ba2702c87fce227", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/tex_photon(Clone)_asset1.mat
-                "ca4943be5b3769a489a1cda05ee74f4c", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornelBox_Assets/Materials/Transparent.mat
-                "2327c096edc905747aa18533af892a14", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornellBox/LightingData.asset
-                "307cfcc30b8ff834a9dbb892877b8e12", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornellBox/Lightmap-0_comp_light.exr
-                "77ea737153d8e4b4c90cb950dc010279", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornellBox/ReflectionProbe-0.exr
-                "2bea43a9896c1de4ba6c734dd3841a1c", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornellBox/ReflectionProbe-1.exr
-                "0739262731db5a0478c1bbec35cedbe5", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_CornellBox/ReflectionProbe-2.exr
-                "182cb5733aedff348b9a2f07799d130e", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/2a7s_2ero_Avatar.prefab
-                "389c6d7a40a8f9e4780b541dedda1d1a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/README.txt
-                "15d9dbf5cbf00034cb8d86a1259469a3", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/2a72ero_AllShapes.anim
-                "bc735c1fbb4e03f47b8f9c9cdb3c46e9", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/2a72ero_amazed.anim
-                "f87d81f82cc675d47985484d024fdd18", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/2a72ero_AutoBlink.anim
-                "4a592603109b8214da0035b121e30cd2", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/2a72ero_AutoBlink.controller
-                "340faa19254b3c748a03fe92eb315dd9", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/2a72ero_badsmile.anim
-                "e16dc9fb4aa51014d8ad04405339a2c7", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/2a72ero_battlemode.anim
-                "c39959b49fe31fa4194981cf50b4bf77", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/2a72ero_sit.overrideController
-                "07b354fca8089c444a948bd276683262", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/2a72ero_smile.anim
-                "554ce4688f58f5748a13d70dcf18771a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/2a72ero_smile2.anim
-                "c4979213951708648848ab54301cb2e9", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/2a72ero_stand.overrideController
-                "3e4677f38b648be41a369ff85cf58df5", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/2a72ero_surprise.anim
-                "01b65e05c8d311c4c93f8769c13123b1", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/2a72ero_wink.anim
-                "80d01521a3ebf2640b0ff858fb8b4e13", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/IDLE_2a7.anim
-                "a8b35788e93b1de4c9d5b9725a093640", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/move_back.anim
-                "f549b1c776811c0458accc3efcc44eaa", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/move_front.anim
-                "71edd79917f3a3f4c99e5c267cf4e144", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/move_Left.anim
-                "a8b9b97c6ec1186488573f096fd2a23f", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/move_Right.anim
-                "d937351867d16274d94e7cf182cb5b36", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/SIT_2a7.anim
-                "15317a9f823fb1340a061d070c9949ff", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/anim/編集用2A-7.controller
-                "294a186fb5f0bdf49a1a11378bd8f4d9", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/fbx/2a7s_2eroVRC.fbx
-                "87becb86f20ba0e419af2c5c8a436ba4", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/mat/tex_armor.mat
-                "8b15ad46734538841955a43f514e9eeb", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/mat/tex_body.mat
-                "1004a60cbe00f9c48b9a4416c792490f", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/mat/tex_face.mat
-                "c54ec1195bccfbd4a96cab6eda085d3a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/mat/tex_faceoption.mat
-                "419055f2e83080543a4c34a4f539967e", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/mat/tex_hair.mat
-                "249b5835018dde04aa22f00a83f47552", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/mat/tex_photon.mat
-                "6ad2bcf19007e9d48a7761cf7d060a33", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/2a7s_2ero_armor.png
-                "f8ac13ff4d61a2749b99f8679d818bd9", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/2a7s_2ero_armor_AMask.png
-                "02e92c1301f7bd440973493d264648de", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/2a7s_2ero_body.png
-                "c7701c426ad72f74db46eab5968fd6ec", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/2a7s_2ero_body_MMask.png
-                "96d71c655cb43a0419db3c810507eee1", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/2a7s_2ero_body_Shade1.png
-                "1f406f138ad08c740838a8ca3c5f4866", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/2a7s_2ero_body_Shade2.png
-                "0659339834cb17044be0508e9ffe6b67", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/2a7s_2ero_body_ShadeBase.png
-                "67a76e2e4360845439df1b5f7b74fa84", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/2a7s_2ero_face.png
-                "c4b124e9cad9e8a49ab86cde822a5723", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/2a7s_2ero_faceoption.png
-                "f6a48352392a79e4fb6bb2fe1dc3da35", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/2a7s_2ero_hair.png
-                "932a27bc2fe7702429e2569679724d57", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/eff.png
-                "5c9fbc5e0f4fbfb46ba31c3c08b9e326", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/eff_AMask.png
-                "3d12ade8a7e64f84683bcdadff67bdfc", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Examples/UnToon_Sample_Assets/2a7s_2eroVRC/tex/eff_EMask.png
-                "2a4dc116efeb0db4192f11f17d555b87", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Logo/README.txt
-                "c02ebf9b7a5d66c4ead5f94ef99b20c8", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Logo/UnlitWFロゴ_1024.png
-                "54ed4f64546b23741987a94ff9769567", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Logo/UnlitWFロゴ_256.png
-                "b8e19d3beb8c169458f9b150a00f40ec", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Logo/UnlitWFロゴ_512.png
-                "81bd216f29ecf2f46b29029ec01f55a3", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/README.txt
-                "2d055c29a461c2a45bc8cb64201404e9", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_aft_lounge_1k_128.hdr
-                "3f65007764dcb6e41bae49ab65119aec", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_aft_lounge_1k_32.hdr
-                "c61e595423756a54498716afa385333c", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_circus_arena_1k_128.hdr
-                "05ff7cbb74648c2419d2eb2755729aca", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_circus_arena_1k_32.hdr
-                "31abf9744b47ba14e8df52c79381e957", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_fireplace_1k_128.hdr
-                "e30afce8ff8ab3740a49a6b92e879fa2", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_fireplace_1k_32.hdr
-                "aa3d86f47f6207547b6e68fc337052f4", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_lythwood_lounge_1k_128.hdr
-                "bb9610632e748424586247724588439e", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_lythwood_lounge_1k_32.hdr
-                "4beb010867cc3c74984010f8c168b973", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_lythwood_room_1k_128.hdr
-                "80b684ec03e5e1c40943d9eb0e0d32f4", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_lythwood_room_1k_32.hdr
-                "37389f65764fa0241b75028c86fd22d3", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_museum_of_ethnography_1k_128.hdr
-                "aae74124d783ccb40affc2a1983d4f1d", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_museum_of_ethnography_1k_32.hdr
-                "7e629b3699fb05a49987bde9eec6d9f6", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_royal_esplanade_1k_128.hdr
-                "8715c6cd897127f46a46aa5123b5f1b8", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_royal_esplanade_1k_32.hdr
-                "4df5f1b4f073ee94caf1e0ed00ace798", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_whale_skeleton_1k_128.hdr
-                "1c33a09ae8a21af439ec9a61406c55b8", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_whale_skeleton_1k_32.hdr
-                "55f94f02873c1bb4bb1f43eed973a999", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/README.txt
-                "08bbac06846e8f147844273a67efe456", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_タイツ用_低デニール.png
-                "613d42ca293473648ad045320c99d552", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_タイツ用_高デニール.png
-                "179a7b2e065288849bcc911ef080bdc3", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_ラバー光沢1.png
-                "090079d91337d09499c80aa2e2256d46", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_ラバー光沢2.png
-                "08ab99404bfb3c0468c356d247a7190a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_ラバー光沢3.png
-                "d6224555b7ba6d540ae3dfe0dde6f2c7", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_光沢(フラット多).png
-                "d13ca27834483ea48b672bb915b8dba1", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_光沢(フラット少).png
-                "c0605cdefe210b14abea15ce9fd3417f", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_光沢(ポイント多).png
-                "128fe33f130bcf64bbe54c19e96ec49a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_光沢(ポイント少).png
-                "9ccc1ecb6ffb01b419fae6aba0dcf8de", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_光沢(大型フラット).png
-                "42b40040be19b0d40b96071c8c90e864", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_光沢(大型ポイント).png
-                "ad7caeb1ed0fce748acfd8a284820e23", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_照り返し.png
-                "6158d64813ee5cc43bc3078670c9e5f2", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_美肌効果_色白向け(桃).png
-                "88c0b9178c875ee488073e573092f4c2", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_美肌効果_色白向け(白).png
-                "e56d0d9a30210464cac0f0efa479ede6", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_美肌効果_色白向け(赤).png
-                "591b5e30a15d11e49ab61536fb547dcf", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_美肌効果_色白向け(黄).png
-                "e911f7cd3f4d7d74ab20fa3a09a731ee", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_美肌効果_色黒向け(桃).png
-                "c42959027d59ab841bdfca20a88e4e0d", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_美肌効果_色黒向け(白).png
-                "17b0ab315388e0f46ba4c0a85d64ac7f", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_美肌効果_色黒向け(赤).png
-                "bb8a3f515ded7fb4fb14d017fa3fb77f", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_美肌効果_色黒向け(黄).png
-                "ce16c6abbeafbd44ead076da94cfbea9", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_虹色光沢(多).png
-                "1420cb12f3399a14087808ecf127b252", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_虹色光沢(大型).png
-                "6a6ff8276159f0e458f9d30d4507f0ad", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_虹色光沢(少).png
-                "c46c03a2561c862429e057772da5354d", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_髪用_エンジェルリング(紫).png
-                "5db2aaf0a68c706458a44b6ebb8284d7", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_髪用_エンジェルリング(緑).png
-                "7ca36260c2ddb0945a87c7bc666203cf", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_髪用_エンジェルリング(赤).png
-                "e19fae3455aa0924aaddc7bc3e2892dd", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_髪用_エンジェルリング(青).png
-                "31eccd9da5305c1468ee523f9da69323", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_髪用_エンジェルリング(黄).png
-                "29cc22470c914a14bae0039fb4bf4d2a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/LightCap/lcap_WF_髪用_エンジェルリング.png
-                "f1134c41d474f1d4788962d9e17cf81b", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_タイツ用_低デニール.png
-                "f4dc102937e1110478b0185ed60ab0b1", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_タイツ用_高デニール.png
-                "8797e28fe1f8d2c459bc986a84755baf", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_シンプル影(半球).png
-                "04c7c759eb6253846bab498b29ad5882", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_シンプル影.png
-                "b697412ceb9d5274d95ee0347afbdbf7", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_シンプル影・左右Rim.png
-                "c7b09e8f29efaf34c8cba706ce178111", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_シンプル影・青反射.png
-                "558b69af68dc78943b14fdc787eb120d", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_光沢(Rimあり).png
-                "5b8f370a659d3704d9c3e15a1bfa4f90", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_光沢(Rimあり明るめ).png
-                "e1436203ff040b94b873ed59bcab6678", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_光沢(白エナメル・虹).png
-                "6f4ac56faaf1d2a43a30414b1d679726", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_光沢(黒エナメル・白).png
-                "9363ce1a6bde55e4fa7399d25c7743e9", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_光沢(黒エナメル・赤).png
-                "609254253550b214f914ce959ebb6d30", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_光沢(黒エナメル・青).png
-                "b7f123b5ea2244a4aaba5d042dc00507", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_肌用_褐色_Rimあり光沢弱.png
-                "39203179d751754459e2c90b0376e622", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_肌用_褐色_光沢強.png
-                "e70581dcea3866e4cb251bb4be0a1739", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_肌用_褐色ぬるてか_光沢あり体用.png
-                "0e5bc9a3816fa3d459ad7d38ea598ea3", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_肌用_褐色ぬるてか_光沢あり体用・淡色.png
-                "a695e50ea627f7f41b2848b6de359f15", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_肌用_褐色ぬるてか_光沢あり体用・無彩色.png
-                "98fe32a79800f6c4688ab111d9c49ba1", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_肌用_褐色ぬるてか_光沢なし顔用.png
-                "bdb8b77b018e1c04fa2df61b75411cdd", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_肌用_褐色ぬるてか_光沢なし顔用・淡色.png
-                "5f34a1197ebe183419d78c107bc6e9db", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_金属光沢(黄).png
-                "282f8caa209b5d1488f17f966e5a89b3", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_階調影(白).png
-                "f85649441a33f9144b15a40a0360c44e", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_階調影(赤).png
-                "4fabf7d0aa4e95d49b52276367df77b6", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_階調影(青).png
-                "26e957bfcb2a91548868cd8d6142d158", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_階調影.png
-                "f85432be963532143861e9167b7be9e2", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_髪用_エンジェルリング(紫).png
-                "c07ebf31730a9bb44bd0c487b696f1fd", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_髪用_エンジェルリング(緑).png
-                "071ceeffe98b2f049b10e7f02c90c430", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_髪用_エンジェルリング(赤).png
-                "7a67adccf40eee149ac090548db5450d", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_髪用_エンジェルリング(青).png
-                "9acc4c651a02a2c4da47ac7380c7913f", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_髪用_エンジェルリング(黄).png
-                "ec18245b47abdb448ab5355d170aa59c", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影あり_髪用_エンジェルリング.png
-                "3446e1de8c0404b428b75ad8a6e87eba", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_光沢(フラット多).png
-                "86dccb1fc7795f846a525a8308ee4e54", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_光沢(フラット少).png
-                "5b14fa6fceeea4049ba1068eae680fbe", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_光沢(ポイント多).png
-                "42aefa086f04a0c4da493cba5f967800", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_光沢(ポイント少).png
-                "47c49f8937cce8349b0e0117bdfa74aa", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_光沢(大型フラット).png
-                "51a89fb06dc78e44ab0109350d417f91", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_光沢(大型ポイント).png
-                "63c7cbccd5cbe6e4c9cbcb0161cb3ef4", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_照り返し+光沢(ポイント少).png
-                "26851ace9fa99da41a7ff293022395b5", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_照り返し.png
-                "b2df000ec11e0e14cb19f772ccb7e6ae", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_肌用_照り返し+光沢(フラッシュ多).png
-                "32edf483debd1cd4d836b921d5f84947", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_肌用_照り返し+光沢(フラッシュ少).png
-                "8d0efbd5c578c744cbe63d7555965650", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_肌用_照り返し+光沢(大型ポイント).png
-                "957f1365028d90946921443d6f5b620f", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_肌用_照り返し.png
-                "783503ba129c3f54da129007334ca2f2", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_肌用_褐色ぬるてか.png
-                "2c2a5c30c8ddb3748af2d01f1a170636", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_肌用_褐色ぬるてか_光沢なし.png
-                "8f8b55f4812cf3049afc082c5423314e", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_虹色光沢(多).png
-                "439ee1d7a7da3ff4298b7f19d47074be", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_虹色光沢(大型).png
-                "95b371241f4109f49bcfdf908bbfb8a5", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_虹色光沢(少).png
-                "255a7e166f0b12a488ea9aa33e3e6dc1", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_髪用_エンジェルリング(紫).png
-                "3b905a61940627747a08286346fd6098", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_髪用_エンジェルリング(緑).png
-                "9a12e63cf5c120644a4963b56353fdee", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_髪用_エンジェルリング(赤).png
-                "cd35ff0b3c632c94eaa80cc0273c1d1d", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_髪用_エンジェルリング(青).png
-                "a5659966a921b7c49a5679b70e631df1", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_髪用_エンジェルリング(黄).png
-                "0089774353388424d8f87a85c5dd84b2", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_影なし_髪用_エンジェルリング.png
-                "daef60d7bbc3c9c44a3e80ffe828922d", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_水着の光沢_白.png
-                "361575d1412309749b8ea179be01f36a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_水着の光沢_青.png
-                "cf126589fa05d1346aa939a9565ada80", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_美肌効果_色白向け(桃).png
-                "f4ff8e51f9e7cf14db04dcc841c5d4ec", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_美肌効果_色白向け(白).png
-                "b200b5f176f4401439b00ff94e252daf", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_美肌効果_色白向け(赤).png
-                "945d9c80ea372574fa01168c71306c9a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_美肌効果_色白向け(黄).png
-                "fd06b399266ff8c44aa5446fc64c74f3", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_美肌効果_色黒向け(桃).png
-                "05e94f0d1c6880c4182364d36e85e517", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_美肌効果_色黒向け(白).png
-                "6639c74cf5cfa504787962e571f7368f", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_美肌効果_色黒向け(赤).png
-                "3d3742b7c46abf441a975a99aa5ce800", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/MedianCap/mcap_WF_美肌効果_色黒向け(黄).png
-                "0c90f262b70f7634ea0fb53f2912f537", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/noise_ランダム(粗)_1024.png
-                "02127e119f3a2504987f0798bfcf1746", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/noise_ランダム(細)_1024.png
-                "a441101aa83065349939cbc597424ce4", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/noise_凹凸(粗)_1024.png
-                "441fc4840e1fdb9438db8ff0e4bda024", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/noise_凹凸(細)_1024.png
-                "f89fef9173c00fa4198dc8a319cf21d5", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/noise_平布1_1024.png
-                "ab368b9cd1215154d94cbe2142e3c109", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/noise_平布2_1024.png
-                "47e74ccc09bb85d4c9e273e09f183fcd", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/noise_斑(粗)_1024.png
-                "45c7c44b162f6f64aba19a594b3e9bd9", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/noise_斑(細)_1024.png
-                "0297ab7e9e4a80e4e9bc70a13cc7987b", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/noise_編布(粗)_1024.png
-                "202d4cf5665abdc4ca30ed29f524e886", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/noise_編布(細)_1024.png
-                "bbf41367697302d4eb03deed8d94c784", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/normal_ランダム(粗)_1024.png
-                "c7928488b21f3484391f5060e004cc29", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/normal_ランダム(細)_1024.png
-                "5f156cb39cc17004e953ef176689a79c", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/normal_凹凸(粗)_1024.png
-                "ba587353da6c721418c7a2b4bd4cd7bf", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/normal_凹凸(細)_1024.png
-                "ac6eb3c6294756149a288c2f7f5574c2", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/normal_平布1_1024.png
-                "7153dfc6361998e498d2f7e91713a218", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/normal_平布2_1024.png
-                "385ca7e21b743ff44b3cda515ea10c3b", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/normal_斑(粗)_1024.png
-                "32013e17de26e81429e188422fa26495", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/normal_斑(細)_1024.png
-                "98e490be901bd7c479e60aa479d210f7", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/normal_編布(粗)_1024.png
-                "813ee6eb54e3e3642a0bac40a9e806e2", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise素材/normal_編布(細)_1024.png
-                "c7e5995223250464cac205689e058693", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_DebugView.shader
-                "58bb80b63bec29d4384e105c53ca6970", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_FakeFur_TransCutout.shader
-                "2210f95a2274e9d4faf8a14dac933fdb", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_FakeFur_Transparent.shader
-                "c0f75d3ed420fd144a74722588d3bc21", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_Gem_Opaque.shader
-                "21f6eaa1dd1f25c4cb29a42c4ff5d98f", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_Gem_Transparent.shader
-                "4ba701b07ccc81e4aae7f053bf332eab", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Custom_GhostTransparent.shader
-                "871fd7a51a8ea3e4980c3fe7b8347619", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Custom_PowerCap_Outline_Opaque.shader
-                "58ccf9c912b226146a25726b8a1f04db", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Custom_Tess_PowerCap_Opaque.shader
-                "4bd76f6599a5b8e4d88d81300fb74c37", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Mobile_Opaque.shader
-                "af3422dc9372a89449a9f44d409d9714", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Mobile_TransCutout.shader
-                "0a7a6cdca16a38548a5d81aca8d4e3ba", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Mobile_Transparent.shader
-                "4e4be4aab63a2bd4fbcea2390ae92fdf", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Mobile_TransparentOverlay.shader
-                "a3678756e883b9349ac22fce33313139", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Opaque.shader
-                "a5ae7f40ac53e274ea0bc1262e1f6895", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Outline_Opaque.shader
-                "ab4eb87c406a22f46887cf72178e2685", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Outline_TransCutout.shader
-                "5523e041d29d259439fa14bd131f5c82", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Outline_Transparent.shader
-                "5498b01615002d948bea7542f55e0c07", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Outline_Transparent3Pass.shader
-                "9350854c6e88f3f4eb873d2f94ff3328", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Outline_Transparent_MaskOut.shader
-                "ad88000744b4fb241835ba6ec106caf4", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Outline_Transparent_MaskOut_Blend.shader
-                "0733cfc88032e8d4eafce250263c497c", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_PowerCap_Opaque.shader
-                "2cf66b0706c40744baab089297afa895", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_PowerCap_TransCutout.shader
-                "747bf283d686334469fb662b2fc4a5c2", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_PowerCap_Transparent.shader
-                "d242cb83664caae4f957030870dd801d", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_PowerCap_Transparent3Pass.shader
-                "dd3a683002b3a6f43bdb6c97bd0985c1", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Tess_Opaque.shader
-                "94ee7f8988740fd4887f8b1ce41f0c1c", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Tess_TransCutout.shader
-                "3bde56820d1aece41bd22966876a061c", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Tess_Transparent.shader
-                "78d2e3fa0b8eb674aa9cf9e048f79c93", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Tess_Transparent3Pass.shader
-                "8c7888a4ac175584f81e0b6e7d4af5a7", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_TransCutout.shader
-                "15212414cba0c7a4aac92d94a4ae8750", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Transparent.shader
-                "d1e7b0a18e221a1409ad59065ec157e4", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Transparent3Pass.shader
-                "2efe527cfcbf0e1408b67463225f552f", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Transparent_Mask.shader
-                "0b53cf0bcd0f9db4fa9d1297d255d06d", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Transparent_MaskOut.shader
-                "d01a5c313ada49e488b2ef8c6b00f56d", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Transparent_MaskOut_Blend.shader
-                "0380b1621ab524c43aeb10eba3346ea6", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_Common.cginc
-                "ef1a901a2feeb0a45859ecc184e2e3e2", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_FakeFur.cginc
-                "45af0d16a1af0a947b445e08dd6dead4", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_Gem.cginc
-                "22546fe6fb0bed84e8db3fc80b0b2302", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon.cginc
-                "8e439fa11883d4b429904a7fc398851e", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_Function.cginc
-                "074195645f64a224d9482cb666563c89", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_Meta.cginc
-                "bf91baf439ae72542bd718eb51378f5a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_PowerCap.cginc
-                "ad9922cd501663b4cbfbef594d1b22d0", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_ShadowCaster.cginc
-                "95ae3c73098e55148862b3125c46785e", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_Tessellation.cginc
-                "261cdf12e5bca1442958cf95a815b493", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Old/Unlit_WF_MatcapShadows_Color.shader
-                "805db4766a215044da0cb3847cc05d75", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Old/Unlit_WF_MatcapShadows_ColorFade.shader
-                "1b0e8ee3ccd31b4439fd21a0b74b5bcb", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Old/Unlit_WF_MatcapShadows_Simple.shader
-                "fe2d6dc08f1694b4fb5aca4b85419b93", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Old/Unlit_WF_MatcapShadows_Texture.shader
-                "5b4c1a20adb795441b90d80f2b581d7b", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Old/Unlit_WF_MatcapShadows_TransCutout.shader
-                "c14d7f0d267c3e64ba2ba8c749bcab04", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Old/Unlit_WF_MatcapShadows_Transparent.shader
-                "c640751026d34764b90f5027359d888a", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Old/Unlit_WF_MatcapShadows_Transparent3Pass.shader
-                "46dd63f81fc0acb468f42b4248c47d49", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Old/Unlit_WF_MatcapShadows_Transparent_Mask.shader
-                "c7f33aeb1c9a2994598fcf89d5a3360c", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Old/Unlit_WF_MatcapShadows_Transparent_MaskOut.shader
-                "1ecd76a113e16a443a90ad5932729a36", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Old/Unlit_WF_MatcapShadows_Transparent_MaskOut_Blend.shader
-                "eb442eb4a8a9b8b4e938199b39363da4", // Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Old/WF_MatcapShadows.cginc
-                "8020a337ceab108438d088a3482a4b90", // Assets/VketShaderPack/VRMShaders/CHANGELOG.md
-                "00999fd020bde754ab4ae5f8a5205844", // Assets/VketShaderPack/VRMShaders/LICENSE.md
-                "0905ad83e0b774444bcc48ac9a191d51", // Assets/VketShaderPack/VRMShaders/package.json
-                "4918a8517e721c5429d0f8033ae065c7", // Assets/VketShaderPack/VRMShaders/README.md
-                "21fb6bf38127a35498543f81ba8cc2e2", // Assets/VketShaderPack/VRMShaders/Documentation/VRMShaders.md
-                "bc66ece0f33b52446a0830c05781d4db", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Editor/ShaderProperty.Editor.asmdef
-                "5eb12c186c6337e4db278b5f01d47cae", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Editor/ShaderPropMenu.cs
-                "50935dd2f9f3fa445a687f30d4dd663b", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/PreShaderPropExporter.cs
-                "301b251fd9834274c9228e0532f444f7", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/ShaderProperty.Runtime.asmdef
-                "279964035c950b24cb745511298855dd", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/ShaderProps.cs
-                "90dcef1978c51e74386b76d77689dc82", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/GLTF/PreExportShaders_GLTF.cs
-                "54043e349b047bf4b8f127cd919a757d", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/GLTF/Standard.cs
-                "ad4b6b115b83ecd48a513f697afc95f0", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/GLTF/UniGLTF_UniUnlit.cs
-                "4f91421c5846d5d48933d2ee4ffeeceb", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/GLTF/Unlit_Color.cs
-                "8273e1e61ad8e914baae94d06836f2ad", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/GLTF/Unlit_Texture.cs
-                "b98a8ee8ca13abb43809305cc4e5571a", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/GLTF/Unlit_Transparent.cs
-                "844490f13976543478d82efe28251941", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/GLTF/Unlit_Transparent_Cutout.cs
-                "625b5ee8b5811dc4a915a2fbb2cb319d", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/VRM/PreExportShaders_VRM.cs
-                "4629d794c8969c141a4724e182af082e", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/VRM/VRM_MToon.cs
-                "611b546ea471ad34cb7d94740c63b558", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/VRM/VRM_UnlitCutout.cs
-                "22a8083880389b3498f421e6a5c340d5", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/VRM/VRM_UnlitTexture.cs
-                "140d6538826e0eb448929d3e4bb2f1cd", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/VRM/VRM_UnlitTransparent.cs
-                "165ec79b7aac1564a850fb3d3d19396e", // Assets/VketShaderPack/VRMShaders/ShaderProperty/Runtime/VRM/VRM_UnlitTransparentZWrite.cs
-                "60c8346e00a8ddd4cafc5a02eceeec57", // Assets/VketShaderPack/VRMShaders/UniUnlit/UniUnlit.asmdef
-                "529ce3a240c1a7a4bbbb220bbd59686b", // Assets/VketShaderPack/VRMShaders/UniUnlit/Editor/UniUnlit.Editor.asmdef
-                "4c70714358bb2fb4fa96ef08640763fd", // Assets/VketShaderPack/VRMShaders/UniUnlit/Editor/UniUnlitEditor.cs
-                "8c17b56f4bf084c47872edcb95237e4a", // Assets/VketShaderPack/VRMShaders/UniUnlit/Resources/UniUnlit.shader
-                "e96cbbd810384352a6799dd731533178", // Assets/VketShaderPack/VRMShaders/UniUnlit/Scripts/Utils.cs
-                "0c23e5908bcdfaf498f03fc626fe8a46", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/LICENSE
-                "86d4b790f390cce47810844e4b4a93d0", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/README.md
-                "5686e1cbe30779e4cb12a3cfebd04af4", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/XSToon 2.0 _ Carbon Fiber.mat
-                "80add08b1b71e974cb7445f615a6d45f", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/XSToon 2.0 _ StippledHalftone.mat
-                "072ae31b0e1564b4eb95e3b4437e7d1d", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/XSToon 2.0.mat
-                "56bf125c9c397154ab9ee5a017746a85", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Editor/XSGradientEditor.cs
-                "e89d2df0d1b52e4448cda16d9d6eed7d", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Editor/XSMultiGradient.cs
-                "0e1d31a0eef7c5644832cbcbfc92e7d5", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Editor/XSReimportMyShadersPlease.cs
-                "dee482cbfe1d3634ab799af2c78502f0", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Editor/XSStyles.cs
-                "263ae1c7b2037ed4fbf02e938e8bceb4", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Editor/XSTextureMerger.cs
-                "005c83a3d97ccf040bdbfacbf03b42dc", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Editor/XSToonInspector.cs
-                "65e344abcde5260468f0010b4c73a2fa", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Editor/XSUpdater.cs
-                "be9c15115645ef049adaf17bee497ab7", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Editor/Resources/MultiGradient_Object_Ico.png
-                "d7083d96cb8a0da48beb300faaf2e125", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/CGIncludes/XSDefines.cginc
-                "f7d2bc5531da1c44aa6e753eb1c8636f", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/CGIncludes/XSFrag.cginc
-                "4bc0681c9b92ff74ba271d2b561e56cf", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/CGIncludes/XSGeom.cginc
-                "3007b66203f38424caffb4c058879c59", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/CGIncludes/XSHelperFunctions.cginc
-                "b34fd1827e9b4974db3ee215e80ce465", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/CGIncludes/XSLighting.cginc
-                "59e9937e913f34b4c9335c6f6b288c78", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/CGIncludes/XSLightingFunctions.cginc
-                "5b58e93d18a5b6e4cb9b99f377f4a994", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/CGIncludes/XSShadowCaster.cginc
-                "3e944a29d3c4a044a8bfc8d73ed46f60", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/CGIncludes/XSVert.cginc
-                "1f506dc0051cf3f45a07f5b7f3ec7cac", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Plugins/WireframeOverride/CGInc/XSGeom.cginc
-                "6732df5575ce46d40a726c4b1fd1f922", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Plugins/WireframeOverride/Shaders/XSToon2.0_WireframeOverride.shader
-                "52a12016c80b7754bb152e61e099587e", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Plugins/WireframeOverride/Shaders/XSToon2.0_WireframeOverride_A2C.shader
-                "e5fbf2c44c61cdb4a9f113a0995b488f", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Shaders/XSToon2.0 Cutout.shader
-                "cb3736c178a4f40499e187552b389d4a", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Shaders/XSToon2.0 CutoutA2C Outlined.shader
-                "2eb687a5a03872c4aac5ed4518bfcac2", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Shaders/XSToon2.0 CutoutA2C.shader
-                "a22455601ad4cc4469967733ddbef64e", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Shaders/XSToon2.0 CutoutA2CMasked.shader
-                "1cd7a3c6dcaa5a149be88450dc7b72a6", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Shaders/XSToon2.0 Dithered Outlined.shader
-                "00c5c2cffb09f62419ee035e43cb1027", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Shaders/XSToon2.0 Dithered.shader
-                "dd611dd59dfd3ea4da520b5007f4b549", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Shaders/XSToon2.0 Fade.shader
-                "956a7ff9ce5a1cf4c8735b173dfac4bc", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Shaders/XSToon2.0 Outlined.shader
-                "62a1e86cebad79d4395e32051831724e", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Shaders/XSToon2.0 Transparent RecieveShadowsFromUnderneath.shader
-                "ade84c4423293ed47b5a99a571e4d80c", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Shaders/XSToon2.0 Transparent.shader
-                "85c615217d617204cb497ae6838b8bae", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Shaders/XSToon2.0.shader
-                "39f23e8c24d1e864096d29da0407b88e", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Main/Shaders/XSToonStenciler.shader
-                "f66d026b6ceed614ba4e5242c17e59b5", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/AO/TriaxialWeave_AO.png
-                "40ea18bf7298bd3428adcd1737d4b66e", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/CubeMaps/glass_passage_1k.hdr
-                "efb6603dbbc0ab040848d6b6e2d2091e", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/CubeMaps/short_tunnel_1k.hdr
-                "dab1297d5c0a834408f49a7365015920", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/CubeMaps/XSStudio_3Light.exr
-                "efc14fb6a410a27428a516b78b346c33", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/CubeMaps/XSStudio_SkyLight.exr
-                "8a16b055fdf67054aaea56d1907f39b7", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/CubeMaps/XSStudio_SoftUnder_3Mid.exr
-                "6707d30b9abd3e244b6bb7b3797b013b", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Metal/Anistropic Metal.jpg
-                "4303d29ccd156034d9950aa050a59f3c", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Metal/ArtisticMetal.exr
-                "0ab1477629f706a45bb7b99bbf97e33f", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Metal/FireLitMetal.exr
-                "f740bde6462de5e4b96b07daeeefbff8", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Metal/LightSteel.jpg
-                "2aee663d3fa347b49b73df5d27cef38e", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Metal/MetalAF.exr
-                "2eb97550e316c3347831faf08ac6bb64", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Metal/MetallicPurpleGreen.exr
-                "79db10ff60487f748a5cd3f0065d7400", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Metal/MetallicRegPurple.png
-                "da32fe84b577f0246adf3b4ecc490b69", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Skin/DeepSkintone.exr
-                "1e82fa48fd9295540ab46a89ea403a8f", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Skin/LightSkin.exr
-                "0818273a570e4084a9f9d258b34ae2c2", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Skin/LightSkin2.exr
-                "afa6fb48b4cd0bf48a20623477e78f85", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Skin/Skin.exr
-                "5fb787fb7dd30d849837c095d7bf8e01", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Unique/Amber.exr
-                "1273e32827ed4f04f9516dbbcd0ac25d", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Unique/BlueRedBacklit.exr
-                "2cbdf1f25b78eba409fca976ed98e531", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Unique/Default.exr
-                "6b28500662c4f1f48a8661ed99c56a2e", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Unique/Lightbulb.exr
-                "3335747e6d5447b49b52f863baaaa7dc", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Unique/Normals.exr
-                "420d03330b808f34b8f3f2c0b1c77dfb", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Unique/Painting.jpg
-                "eb13dbc9c89b8424c8f21eabee6af2c4", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Matcap/Unique/resin.exr
-                "0c540c5cf863ea743b3091ace3a20e07", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Normal Maps/CrossWeave_N.png
-                "24055b3e737e1c949ac98a1f42b42f02", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Normal Maps/TriaxialTint.png
-                "1632d2058ed6e554cae477f5a18dbcd6", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Normal Maps/TriaxialWeave_N.png
-                "c907c0321c6c65741942d4b98c578003", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Shadow Ramps/Generated/gray to white.png
-                "a49de73e4c2486943b4fd591c1607441", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Shadow Ramps/Generated/redgradient.png
-                "564b27c878c5df04f86d017bb6f75452", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Shadow Ramps/Generated/skingradient.png
-                "12043050a25113c4099c34d2a3ae1eb4", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Shadow Ramps/Generated/skingradient2.png
-                "1ee69b57a0cfcc24c8fb898e84d8a84f", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Shadow Ramps/Generated/smoothcutoff black to white.png
-                "833058007f71b1b42b6d2a052121d494", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Shadow Ramps/MGPresets/Example_MultiGradient.asset
-                "cf6c1f21161d44548a43bcd566b5bbd0", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Specular Patterns/Abstract1.png
-                "2d494ba3ef3a48e43abe4ae435602b78", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Specular Patterns/Brushed Map.tif
-                "6e3ab83cce46dee44b40d0ea5202fce8", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Specular Patterns/Skulls.png
-                "a9d899b9b5f746b4cbf7ec49e7b32ccd", // Assets/VketShaderPack/Xiexes-Unity-Shaders-2.2.4.1/Textures/Specular Patterns/SpecLines.png
+                "917bb21acbedd3c49b3a66fee0e2a0cd", //Assets/VketShaderPack/ArxCharacterShaders/Changelog.txt
+"10c126862b1dd7c4b975a244eae01be8", //Assets/VketShaderPack/ArxCharacterShaders/LICENSE
+"09a5bf6d0f820794eac61eb205435d54", //Assets/VketShaderPack/ArxCharacterShaders/README.md
+"02a5e10e436c65143afc3f55c8dccfa3", //Assets/VketShaderPack/ArxCharacterShaders/Editor/AxCommon.cs
+"74c2419ffb2b7fc498b21f8a9a2abbf6", //Assets/VketShaderPack/ArxCharacterShaders/Editor/AxInspector.cs
+"0571380a9e1852d4f9f5793db83f0b9e", //Assets/VketShaderPack/ArxCharacterShaders/Editor/AxTips.cs
+"dcc2ee0355c9c784fb78055de8a258b4", //Assets/VketShaderPack/ArxCharacterShaders/Editor/Generator/AxGenerator.cs
+"bccf1a29daed7e347a5365f4ef9714aa", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/Cutout.shader
+"9ce3973bae37a5c43a3c22309be11936", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/EmissiveFreak_Cutout.shader
+"9a50e49ef4da46f42869e7bb359e38ae", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/EmissiveFreak_Fade.shader
+"64c7ca6ee0374bb49928cc04ae72e564", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/EmissiveFreak_FadeRefracted.shader
+"f64626cad72e22a4d9c5b9f2edcae765", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/EmissiveFreak_Opaque.shader
+"82b077c6cd0a1bf49924f2e40bbaa11a", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/EmissiveFreak_StencilReader_Cutout.shader
+"2f13f85e17b00034082d64dcb9f7e465", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/EmissiveFreak_StencilReader_DoubleFade.shader
+"efa8f9f56db47404997e88b85819baea", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/EmissiveFreak_StencilReader_Fade.shader
+"745457dca56c6574fba900c741151b79", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/EmissiveFreak_StencilReader_FadeRefracted.shader
+"8f7fc78e18d31314daa105489df1315e", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/EmissiveFreak_StencilWriter_Cutout.shader
+"d6d2255661809bc4e87babd1a8edaff6", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/Fade.shader
+"0c89b4121f71eb546abb7748e6c7d25f", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/FadeRefracted.shader
+"acaabbe907212b94c85ab392bb1306a1", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/Opaque.shader
+"ed3ee25e40abe154ea5386166422d8fd", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/Outline_Cutout.shader
+"844a9d3f6c0fa1044abe14728e14e7e9", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/Outline_EmissiveFreak_Cutout.shader
+"ed627574387225c449eaccd6fdbc6d15", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/Outline_EmissiveFreak_Opaque.shader
+"f14d4aa117bff4e4e8626947f279fc44", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/Outline_EmissiveFreak_StencilReader_Cutout.shader
+"8da7952f673810b41afcb4fb3dbe2673", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/Outline_EmissiveFreak_StencilWriter_Cutout.shader
+"87d1c60aa88359946943a8f85f3f67ce", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/Outline_Opaque.shader
+"4c3618b923505674184591106c01b13d", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/Outline_StencilReader_Cutout.shader
+"49071b1dd6dced84ebbae1ad62c386c5", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/Outline_StencilWriter_Cutout.shader
+"034f74b4fdca8cc4a941b0de9ce3616f", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/StencilReader_Cutout.shader
+"e8cd3ae42f616ee48875891991c1ecad", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/StencilReader_DoubleFade.shader
+"727d200179b6d6c469453149d0678cd5", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/StencilReader_Fade.shader
+"b1e4cf9f03cc70a4aa9ec9f8b26c967e", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/StencilReader_FadeRefracted.shader
+"1adb078ef83bc634d91fa5a5e4961844", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/StencilWriter_Cutout.shader
+"88114f823868e46499f38529e274c874", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/cginc/arkludeAdd.cginc
+"53197a94cb19cef4f87146e3a60dcbd0", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/cginc/arkludeDecl.cginc
+"6279286c116b40c4b89f4515985a80db", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/cginc/arkludeFadeShadowCaster.cginc
+"bcb34ccca9630de43803b596ab9fb33d", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/cginc/arkludeFrag.cginc
+"6c29e94a661d9564f81f237f71561d0c", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/cginc/arkludeFragOnlyStencilWrite.cginc
+"58d2bd24894859c40bb08f1c498b8773", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/cginc/arkludeOther.cginc
+"347c7b749e91cff4cb7b0751b8f7ec9c", //Assets/VketShaderPack/ArxCharacterShaders/Shaders/cginc/arkludeVertGeom.cginc
+"bea93105aa1daac43974972a792f133f", //Assets/VketShaderPack/ArxCharacterShaders/Textures/Ramps.ai
+"9384d986d3c93e84b896716821787d47", //Assets/VketShaderPack/ArxCharacterShaders/Textures/Ramp_1.png
+"f848c68db2ea54546905195e13b42731", //Assets/VketShaderPack/ArxCharacterShaders/Textures/Ramp_2.png
+"a249399272899034eb992ad37ffd0b81", //Assets/VketShaderPack/ArxCharacterShaders/Textures/Ramp_3.png
+"748abec0e90c15e4983b5d12f2f03917", //Assets/VketShaderPack/ArxCharacterShaders/Textures/Ramp_4.png
+"c164a5690bb1f3646ae8b26e0d170783", //Assets/VketShaderPack/ArxCharacterShaders/Textures/Ramp_5.png
+"5ddbcea7f4f05a44b87e3f5b7af74baa", //Assets/VketShaderPack/ArxCharacterShaders/Textures/Ramp_6.png
+"05c75ecad50759a48afd09f49736b73b", //Assets/VketShaderPack/ArxCharacterShaders/Textures/Ramp_7.png
+"242351f50fe050d40879c196cfd8b0a8", //Assets/VketShaderPack/ArxCharacterShaders/Textures/Ramp_Default.png
+"82e13d2a938694aedb5dbb01bd3ecf07", //Assets/VketShaderPack/MMS3/LICENSE
+"8dd7c14dadb834c4e8324f7d08c5674e", //Assets/VketShaderPack/MMS3/MMS3.shader
+"128f4720891e8914ab7e6673099df0f0", //Assets/VketShaderPack/MMS3/MMS3_Cutout.shader
+"fbaec084851cef64fbd877b3b15716cb", //Assets/VketShaderPack/MMS3/MMS3_Outline.shader
+"f889d00a055a0488e9ecbf22c558ae76", //Assets/VketShaderPack/MMS3/MMS3_Stencil_Reader.shader
+"f55508f2ed8cc477f9574099971bc4eb", //Assets/VketShaderPack/MMS3/MMS3_Stencil_Writer.shader
+"fda424b70f79d4e5488e1cc3ee100a95", //Assets/VketShaderPack/MMS3/MMS3_Transparent.shader
+"ece969dbfb97d446ba8f8358a78789b5", //Assets/VketShaderPack/MMS3/Shade_Matcap1.psd
+"d419788b84c0ad84080f188bcd8d724f", //Assets/VketShaderPack/Mochie/LICENSE.txt
+"909b3ce927e8cf246b13b1dbdef33f62", //Assets/VketShaderPack/Mochie/Common/Color.cginc
+"d5468ef40ceedc549a0911e23c0b1568", //Assets/VketShaderPack/Mochie/Common/Noise.cginc
+"66399fdb22339fe4daa7700e36ae9465", //Assets/VketShaderPack/Mochie/Common/Sampling.cginc
+"71a928ffb0de3b442ab7e52a33f42d54", //Assets/VketShaderPack/Mochie/Common/Utilities.cginc
+"cddaa3a02eb956746b502b80b76e92bc", //Assets/VketShaderPack/Mochie/Mochie Standard/Mochie Standard.shader
+"e1e688f8a6bee854cbf34c599989d152", //Assets/VketShaderPack/Mochie/Mochie Standard/MochieStandardBRDF.cginc
+"3bb158287983274479b31131c42d344b", //Assets/VketShaderPack/Mochie/Mochie Standard/MochieStandardCore.cginc
+"b65452b9b58de00458966db7c742a120", //Assets/VketShaderPack/Mochie/Mochie Standard/MochieStandardCoreForward.cginc
+"8fa3c40715f92f34796f3658af91c019", //Assets/VketShaderPack/Mochie/Mochie Standard/MochieStandardInput.cginc
+"65625153f0e17f645bbe3a88be64e27d", //Assets/VketShaderPack/Mochie/Mochie Standard/MochieStandardParallax.cginc
+"77a161d297d8ae6469a456c3173c84c3", //Assets/VketShaderPack/Mochie/Mochie Standard/MochieStandardShadow.cginc
+"bbbf9947de0eb8f4aa275f897aa4353b", //Assets/VketShaderPack/Mochie/Mochie Standard/MochieStandardSSR.cginc
+"74e814afd5b766447b0de37c532cc8f9", //Assets/VketShaderPack/Mochie/Particle Shader/Particles.shader
+"d1c93822d1541934c8fa436a39f0351a", //Assets/VketShaderPack/Mochie/Particle Shader/PSDefines.cginc
+"56a4a30195ab7a4459b604ae189b3ccd", //Assets/VketShaderPack/Mochie/Particle Shader/PSFunctions.cginc
+"c46a10d001a1d1b4fa634b7e561639ad", //Assets/VketShaderPack/Mochie/Particle Shader/PSKeyDefines.cginc
+"0d1d977ca72938b4bb8f3ed06b9a8645", //Assets/VketShaderPack/Mochie/ScreenFX Shader/SFX.shader
+"0622846791c27d3499465434f2f63a0f", //Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXBlur.cginc
+"e06fb4e15a03e164dae45a93c3ab3591", //Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXDefines.cginc
+"e51e722628c0c834f841cbca164dc53b", //Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXFunctions.cginc
+"7cbe4084658fd6b4e8b73782d48a461d", //Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXKernel.cginc
+"b78f95f931b33c846b19851684cd7cdc", //Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXKeyDefines.cginc
+"9a10756a86708fc4f840711e05cf723c", //Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXPass.cginc
+"4bd03e585f1830247a19f1af0893e73f", //Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXXFeatures.cginc
+"87a52d53f3012e448b23af4d55a79d02", //Assets/VketShaderPack/Mochie/ScreenFX Shader/SFXXPasses.cginc
+"b252ff402bce931488cf8ff5152bf2dc", //Assets/VketShaderPack/Mochie/Uber Shader/Uber (Outline).shader
+"5398f14cd241f2649988529db4480d1c", //Assets/VketShaderPack/Mochie/Uber Shader/Uber.shader
+"21947c9bef25458429000c46ca32e021", //Assets/VketShaderPack/Mochie/Uber Shader/USBRDF.cginc
+"6cd01882b763be542be24bd25c155871", //Assets/VketShaderPack/Mochie/Uber Shader/USDefines.cginc
+"6e016b6a7bd29c24581e80488f391a0e", //Assets/VketShaderPack/Mochie/Uber Shader/USFunctions.cginc
+"6390189603c02114c9822185832e97fc", //Assets/VketShaderPack/Mochie/Uber Shader/USKeyDefines.cginc
+"a517223ef2cd6074b9947340447724b9", //Assets/VketShaderPack/Mochie/Uber Shader/USLighting.cginc
+"b6948e44e1f92fc4891f424daf8e7bfd", //Assets/VketShaderPack/Mochie/Uber Shader/USPass.cginc
+"4ec15cb7a78843d4fb5c7c8bdf19bd9b", //Assets/VketShaderPack/Mochie/Uber Shader/USSSR.cginc
+"76eed4008ba5d464199dcfc895daf3b7", //Assets/VketShaderPack/Mochie/Uber Shader/USXFeatures.cginc
+"1da8bba388ad86741b84e6899d501ca7", //Assets/VketShaderPack/Mochie/Uber Shader/USXGeom.cginc
+"d9b054af17135c745adff39d435e039d", //Assets/VketShaderPack/Mochie/Unity/Editor/Foldouts.cs
+"2adee688b156d3c4f9c32a71869329ed", //Assets/VketShaderPack/Mochie/Unity/Editor/KeywordHunter.cs
+"2f59b3e0bf10120419b941583795ef54", //Assets/VketShaderPack/Mochie/Unity/Editor/MGUI.cs
+"07e2014e25903e548b0e102aebc5851f", //Assets/VketShaderPack/Mochie/Unity/Editor/MochieStandardGUI.cs
+"fdc00d0c66b6f3f4eb834fd87b6d760c", //Assets/VketShaderPack/Mochie/Unity/Editor/PSEditor.cs
+"4689d28cb77840b488838b0a89f5dd78", //Assets/VketShaderPack/Mochie/Unity/Editor/SFXEditor.cs
+"566cd2268c7d9194087322ca64b68f61", //Assets/VketShaderPack/Mochie/Unity/Editor/Toggles.cs
+"eed6a60c5f8da544690d739b516ada01", //Assets/VketShaderPack/Mochie/Unity/Editor/USEditor.cs
+"497f8485774204244abb7ba6c0865927", //Assets/VketShaderPack/Mochie/Unity/Prefabs/Default.mat
+"3bb643d832d69134f8fbea4efcd0e109", //Assets/VketShaderPack/Mochie/Unity/Prefabs/Depth Light.prefab
+"cd555b15b892a6342821da231de50d42", //Assets/VketShaderPack/Mochie/Unity/Prefabs/Screen FX.prefab
+"c5eaa139ce0fb7c4b9ee2604697e997f", //Assets/VketShaderPack/Mochie/Unity/Resources/ClearTexIcon.png
+"3e38383d19b750046a6fa03b1c2f8bac", //Assets/VketShaderPack/Mochie/Unity/Resources/CollapseIcon.png
+"09c9c066a27ac424da976a9ae8474231", //Assets/VketShaderPack/Mochie/Unity/Resources/CopyTo1Icon.png
+"124358866068baa4f90186cb87430c24", //Assets/VketShaderPack/Mochie/Unity/Resources/CopyTo2Icon.png
+"b69d260e9a20c444cb3ac36d41d2d479", //Assets/VketShaderPack/Mochie/Unity/Resources/ExpandIcon.png
+"d29b3eb8412f5e64096afc1ab733122d", //Assets/VketShaderPack/Mochie/Unity/Resources/Header.png
+"29f18c82d04215e4f87185a100e9ff1b", //Assets/VketShaderPack/Mochie/Unity/Resources/Header_Pro.png
+"1cbf300790ff57b4caf3fbe023eca45f", //Assets/VketShaderPack/Mochie/Unity/Resources/KeyIcon.psd
+"f632ab1767b9c1e45b285c0731fbd1d8", //Assets/VketShaderPack/Mochie/Unity/Resources/KeyIcon_Pro.psd
+"8f1c2bbd99970c841b096d9447417468", //Assets/VketShaderPack/Mochie/Unity/Resources/ParticleHeader.png
+"ca6d24562e19aab4e90be114647a98bb", //Assets/VketShaderPack/Mochie/Unity/Resources/ParticleHeader_Pro.png
+"31fef82c771a5374b904c64a98fde2ac", //Assets/VketShaderPack/Mochie/Unity/Resources/Patreon_Icon.png
+"ec636ed50f955cc42a934e1bd42403d0", //Assets/VketShaderPack/Mochie/Unity/Resources/ResetIcon.png
+"2201e3ff274d60b42ba46809810c7f0e", //Assets/VketShaderPack/Mochie/Unity/Resources/SFXHeader.png
+"30a883d22a3859443a814b6bba897043", //Assets/VketShaderPack/Mochie/Unity/Resources/SFXHeader_Pro.png
+"dff4b38eef00de14487e9ee7ee4359b0", //Assets/VketShaderPack/Mochie/Unity/Resources/StandardIcon.png
+"21cb8a0fd46250e489c418eeff4a2222", //Assets/VketShaderPack/Mochie/Unity/Resources/Watermark.png
+"0b25d34e04b2c7a4c98d9cc5c69fa830", //Assets/VketShaderPack/Mochie/Unity/Resources/Watermark_Pro.png
+"7589d70a1d40b7c47857a6722e4a0aae", //Assets/VketShaderPack/Mochie/Unity/Textures/Blend.png
+"89819f8cb0b9e5d418f6e90ca96ac9c3", //Assets/VketShaderPack/Mochie/Unity/Textures/Distortion.tif
+"930ac9d4c358e5846af139e693a08bd2", //Assets/VketShaderPack/Mochie/Unity/Textures/Hair Normal.png
+"2059b62900034054f9f93aafbf8293fb", //Assets/VketShaderPack/Mochie/Unity/Textures/Perlin (Alpha).jpg
+"dfbb7eeed695dc14d82b08d887041406", //Assets/VketShaderPack/Mochie/Unity/Textures/Perlin.jpg
+"b8d1261e60bcece48b7708cac8798bfc", //Assets/VketShaderPack/Mochie/Unity/Textures/Shake Noise.png
+"b7359cc7e3e84444b88656ff6c166220", //Assets/VketShaderPack/Mochie/Unity/Textures/SSR Noise.png
+"9c8ede69ecd0f824aa80b9929c0b1e5c", //Assets/VketShaderPack/Mochie/Unity/Textures/Transparent 4x4.png
+"f276a76437cf84847a5986084b4d11f3", //Assets/VketShaderPack/Mochie/Unity/Textures/Ramps/DefaultRamp.png
+"9674bc46ecefab84b9f135c13b18ce36", //Assets/VketShaderPack/Mochie/Unity/Textures/Ramps/RampImporter.cs
+"2a5e8a5d481e3574b8274fa7ce4bdc2d", //Assets/VketShaderPack/MToon-3.6/LICENSE
+"1021e7e6d453b9f4fb2f46a130425deb", //Assets/VketShaderPack/MToon-3.6/README.md
+"a9bc101fb0471f94a8f99fd242fdd934", //Assets/VketShaderPack/MToon-3.6/MToon/MToon.asmdef
+"24156f9da0724eb5a159f36c69a7d90a", //Assets/VketShaderPack/MToon-3.6/MToon/Editor/EditorEnums.cs
+"531922bb16b74a00b81445116c49b09c", //Assets/VketShaderPack/MToon-3.6/MToon/Editor/EditorUtils.cs
+"dddf8398e965f254cae2d7519d7f67d2", //Assets/VketShaderPack/MToon-3.6/MToon/Editor/MToon.Editor.asmdef
+"8b43baa9f62f04748bb167ad186f1b1a", //Assets/VketShaderPack/MToon-3.6/MToon/Editor/MToonInspector.cs
+"1a97144e4ad27a04aafd70f7b915cedb", //Assets/VketShaderPack/MToon-3.6/MToon/Resources/Shaders/MToon.shader
+"ef6682d138947ed4fbc8fbecfe75cd28", //Assets/VketShaderPack/MToon-3.6/MToon/Resources/Shaders/MToonCore.cginc
+"084281ffd8b1b8e4a8605725d3b0760b", //Assets/VketShaderPack/MToon-3.6/MToon/Resources/Shaders/MToonSM3.cginc
+"17d4e0f990fbc794ab41e4fcc196d559", //Assets/VketShaderPack/MToon-3.6/MToon/Resources/Shaders/MToonSM4.cginc
+"9a3fb070d7eb4114b5cf387e2cd60391", //Assets/VketShaderPack/MToon-3.6/MToon/Scripts/Enums.cs
+"2849b99d94074fcf9e10c5ca3eab15a8", //Assets/VketShaderPack/MToon-3.6/MToon/Scripts/MToonDefinition.cs
+"9d2012c170a74b3db0002f7ecda53622", //Assets/VketShaderPack/MToon-3.6/MToon/Scripts/Utils.cs
+"6724aa45c8c349fabd5954a531301aa8", //Assets/VketShaderPack/MToon-3.6/MToon/Scripts/UtilsGetter.cs
+"b24a672e82874c9fbfef9c2b2dfdab42", //Assets/VketShaderPack/MToon-3.6/MToon/Scripts/UtilsSetter.cs
+"4702d4b2c1414cc08b4382c3762eebab", //Assets/VketShaderPack/MToon-3.6/MToon/Scripts/UtilsVersion.cs
+"c6060936f19cacf47a848143c995221a", //Assets/VketShaderPack/Silent's Cel Shading Shader/LICENSE
+"020a0e50634d4f4459abb3f7e7448eb3", //Assets/VketShaderPack/Silent's Cel Shading Shader/README.txt
+"840c70bb39e48cc43a17ac9279a026d9", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/SCSS Logo.png
+"80684a860e75c9a4295d27ead38010c7", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/LightRamps/Info.txt
+"a7e8258f4d13af1419c0326602f31748", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Sharp.png
+"70853d21e5cf0a945ba9ef1baa2f37fa", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Skin.png
+"6af41be6e81954543bfe50e9b2131c4d", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Smooth (old).png
+"6584ffcc7e2c6a746afd371ec1d6ad5d", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Smooth.png
+"a8fbd87577f16ea43ac168bbf9ef88f3", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Soft (old).png
+"51b142bdc7b4f7a428477e77eb815bc7", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Soft.png
+"d0d2092a7d8176a419858a5536e205ee", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Toon v2.png
+"7f445efa362f16248af955f190843381", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/LightRamps/LightRamp Toon v3.png
+"ae6fa37de6d2b4e45a6176091e47455c", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/Mnmr/LICENSE.txt
+"63a9cd46c7dd97644b42c0721976f257", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/Mnmr/Readme.txt
+"fb2f01db930474c3fbd62634f03ffe4b", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_Light_Hard.psd
+"4348a2a80916845739da8629005aef03", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_Light_Hard_Hair2.psd
+"5306755cc52e04770bf7169839c6b350", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_Light_Soft.psd
+"1f802a1910910432ca435480b93e70ec", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_Light_Soft_Hair.psd
+"d247459fa9b47465d92f1eb93eba56e9", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_RimLightMatcap1.psd
+"c2dda37b49c0b4bde9e211e894f7344d", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_RimLightMatcap2.psd
+"44d209fdf321840569dd21a5b61e277d", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_ShadowMatcap1.psd
+"ecfa3da8397834305821fe311f1cbf15", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/Mnmr/Matcap/MMS_ShadowMatcap2.psd
+"c68fab11bf4dfb044a2f51d7ddc4d064", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/mofuaki_/mofuaki_-1185084491351515136-img1.png
+"48e16bad9d9551b499dfb08af7ee7e31", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/mofuaki_/mofuaki_-1185084491351515136-img2.png
+"fb8f4c7cfbfa3f743b381bda894c2eb6", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/mofuaki_/mofuaki_-1185084491351515136.txt
+"21e7d43547251ef4bb267a4aa24f04b7", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/mofuaki_/mofuaki_-1185084491351515136.url
+"ebd77ce0e53676d49853f56eb043a827", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LICENSE
+"c855d2d0c1361d14a841af5aa24d6d26", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/README.txt
+"b7b167660549b8e48a231f62d2fcb008", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Glare.png
+"3dd155f12c76e1447bf62608fc1bf572", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Gloss(LargeFlat).png
+"3dfb01f9d1c32f048ac838f6e3fa8810", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Gloss(LargePoint).png
+"9a6b29adf08462e4f98ec4a45cc7c57c", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Gloss(MultiFlat).png
+"bd882f7694bebd04eb144979a8787993", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Gloss(MultiPoint).png
+"c6cbb49dcbadf93489feca05b6652723", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Gloss(SmallFlat).png
+"b3d17e4df2a84274f8810d14ad0d1537", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Gloss(SmallPoint).png
+"5866d4cb591aa9443b2cb4948139b112", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Hair_AngelRing(Blue).png
+"a369076245553a64eb0f96d537272196", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Hair_AngelRing(Green).png
+"a8845002a4d852249b1f5b2d0422279c", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Hair_AngelRing(Purple).png
+"0db92e9598eb9f64c82095d66efe6a1a", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Hair_AngelRing(Red).png
+"2b71b8337c476dc4b875b2836a0e2720", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Hair_AngelRing(Yellow).png
+"86e9818d2a3ca7041b09c97748be153d", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Hair_AngelRing.png
+"70ae0ed388398f14a983b9be841fbf92", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Iridescent(Large).png
+"431e901af18398a40876e71e33afcb9c", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Iridescent(Multi).png
+"d3a73c13da3082b499720fd2e340fd58", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Iridescent(Small).png
+"c3348e9a93cf3f041a47eab885eff5a4", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Dark(Peach).png
+"81aad2673b3c3564e86273be96df3985", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Dark(Red).png
+"51458ebc5861843449e59e63cfbe9312", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Dark(White).png
+"8d80aa31a13e4ca499d7a120c31b5c30", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Dark(Yellow).png
+"1e1bd6119670c6644b39d585be1c7dd4", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Pale(Peach).png
+"de1140e088e6df840abef03788989036", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Pale(Red).png
+"b249fa84e5347e047a14ebd946f5b992", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Pale(White).png
+"eeb275611fdaf2648b0749546abab7e7", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Skin_Pale(Yellow).png
+"118b92d83e2a11040921f1eb0de754f2", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Tights_HighDensity.png
+"d7043e6bdc77d9a48bdbfc3fb6dc63b8", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/LightCap/lcap_WF_Tights_LowDensity.png
+"21b34471bb21d714695594ed013671e5", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Gloss(BlackEnamel繝ｻBlue).png
+"4b7f9eac7f86d804fa4651f78c2f77a2", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Gloss(BlackEnamel繝ｻRed).png
+"a86b7309210462d49937588b29ecb453", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Gloss(BlackEnamel繝ｻWhite).png
+"e789df0d8e991dc46bbbcb776c5a3ada", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Gloss(Rim).png
+"cfc0ca869f3f6aa488e442597f757c16", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Gloss(RimBright).png
+"eba422e248e1b7b46a44eca939e97a7c", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Gloss(WhiteEnamel繝ｻRainbow).png
+"d9eed75190795c742b2a4ad01169a572", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_GradientShadow(Blue).png
+"981358a9d84b3254796caa2aed07f755", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_GradientShadow(Red).png
+"cb816f85c59d0594e919df78215b8643", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_GradientShadow(White).png
+"141320f81a2860f45b14a1de5bb46964", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_GradientShadow.png
+"228a97a7223a715439f7b999a17cb9d5", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Hair_AngelRing(Blue).png
+"de0bb15fb581f874b8c33b1cc5ea50e4", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Hair_AngelRing(Green).png
+"4e89ea8f4509c2d479adc1b6eb4a59b8", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Hair_AngelRing(Purple).png
+"bf6207586b81cc14fa15f173c8e3e88d", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Hair_AngelRing(Red).png
+"731335fba7efbcb4c9c77281e6ebf259", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Hair_AngelRing(Yellow).png
+"7237239c7d9b876468e784c193ea453f", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Hair_AngelRing.png
+"140f68527af730a42884e180331e2385", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_MetalGloss(Yellow).png
+"fc5c401b877c1bf4f90c09420e4564cb", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_SimpleShadow(Hemi).png
+"fb8412e5c0ec1864d94ffbc1c6573070", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_SimpleShadow.png
+"63de7b1aca5f56547b4566d5c452971d", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_SimpleShadow繝ｻBlueReflection.png
+"cd71180b27fb20b46bd8a67b792511d4", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_SimpleShadow繝ｻSideRim.png
+"cde5a8eff47aab14f956da09db682183", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Skin_BrownSlick_GlosslessFace.png
+"6019069d567c03e40b2e57285c9cf05b", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Skin_BrownSlick_GlossyBody.png
+"e2f3f51b74c61cb4fa33d42a0d857e74", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Skin_Brown_GlossStrong.png
+"b3a2e207de951c44db9c4bacaee6010f", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shaded_Skin_Brown_Rim_GlossWeak.png
+"e2e3379d7afc6c548a77840f6fd5f488", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Glare+Gloss(PointSmall).png
+"874b5960d1ad3b442b9f03199627562f", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Glare.png
+"862bb4f308d31a449b8fbfa82451d751", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Gloss(LargeFlat).png
+"fc0cf484220685d4eafa9ed00ef8cc7e", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Gloss(LargePoint).png
+"cd6d2060efad2c846afb263d634f1f70", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Gloss(MultiFlat).png
+"2e2858828b151be4695fd36ca4d19a40", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Gloss(MultiPoint).png
+"5923f328fc4cb4147ab169d1db94b29c", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Gloss(SmallFlat).png
+"a3680a23ee096f44b9d976c690a872dd", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Gloss(SmallPoint).png
+"5ee24b69dfded3240b1e950e8cfea8bb", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Hair_AngelRing(Blue).png
+"aab7586db9bd139439746510e249d68b", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Hair_AngelRing(Green).png
+"551ec63cc2428814e811c7b90822a9ea", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Hair_AngelRing(Purple).png
+"4e03c1e10a8731844ac2136ea96dff4f", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Hair_AngelRing(Red).png
+"4456fab6540937b4f80185dfcdb32acd", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Hair_AngelRing(Yellow).png
+"9c2691948a9baf44e8231ff1ddd00b36", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Hair_AngelRing.png
+"1c368911528c60d429257dc57624517f", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Iridescent(Large).png
+"3d294a5afc79400468719f6af35dabdf", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Iridescent(Multi).png
+"efd84db93a4cca24d93687e84f48fdf8", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Iridescent(Small).png
+"ae7d1c4c107c5794c8c4ec92b3e31630", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Skin_Glare+Gloss(LargePoint).png
+"96cf3bb60ffe3384fbd847ec4857c9dc", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Shadeless_Skin_Glare.png
+"a8ca5b675c614d348ac51cc580b8e5e2", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Dark(Peach).png
+"8ace27bb9234eff44b5ec8f841b8ddaf", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Dark(Red).png
+"865d0a3b58a86df45ac20e870fcf6255", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Dark(White).png
+"bf45007d8a3c0aa4098a23916c68e58d", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Dark(Yellow).png
+"cf7bfae60977d664b911c3e163bb92a8", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Pale(Peach).png
+"01a3d35c1bc39f646a22769f40bbbb20", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Pale(Red).png
+"4fed231081a962e428e196625a7a4475", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Pale(White).png
+"478dd3812b01a39469a08b45e94ea6fa", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Skin_Pale(Yellow).png
+"4ff7604ea3c143144a465740b84499dc", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Tights_HighDensity.png
+"3d29d801cba569448b6aacb582271a69", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/WhiteFlare/MedianCap/mcap_WF_Tights_LowDensity.png
+"020b20d50dee3b64784514e35d8a53b8", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/HairMat.png
+"a2b389612cf565643b4b0bbd236f3335", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/Ramp1.png
+"8339ae69dbe9dcc439ff088723737cfb", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/Ramp2.png
+"0280c480c48fcbe40ac3bd5b8888b2d7", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/ReadMe.txt
+"f99f096fbf6cf4d40a2f990e8076c1db", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/ShadowMat.png
+"401e17d367f33e849a6fdb867b4ce269", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/ShadowMat_BGR.png
+"10af221457820f04c96c4b2932e290ab", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/SkinMat.png
+"4e1e2c12906898449933f67285cdc085", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/SpecMat.png
+"b0a5e22ce82df9b42a386995879e80d0", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/SpecMat2.png
+"c61dab59da88c87499105c1b046bcf73", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/Sample/Albedo.png
+"5f8a50cc30df039489b8ee08453375d2", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/Sample/Metal.png
+"06d8cbe587a3d2c4c967de17cac6c502", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/Sample/Normal.png
+"721cd36de640a974ca45b613e85cd800", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/Sample/Sample 1.mat
+"4b8608d176dcf934585ec1b6886e05e4", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/Sample/Sample 2.mat
+"d469e28ac045d044fb9cb2226a7c9c72", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/Sample/Sample.mat
+"af8197deebc61ce459480bd679aa6abc", //Assets/VketShaderPack/Silent's Cel Shading Shader/Assets/YSHT/Sample/Sample_SCSS.mat
+"a3185396b596ad949854a764984b9171", //Assets/VketShaderPack/Silent's Cel Shading Shader/Editor/SCSS_Inspector.cs
+"88a031d938963714a8250672469d5214", //Assets/VketShaderPack/Silent's Cel Shading Shader/Editor/SCSS_InspectorBase.cs
+"4836f67ee2df5b449a778c67c1ead5d2", //Assets/VketShaderPack/Silent's Cel Shading Shader/Editor/SCSS_InspectorData.English.txt
+"07e7aaa47f6b9a04caf3a47e59ff4589", //Assets/VketShaderPack/Silent's Cel Shading Shader/Editor/SCSS_InspectorTools.cs
+"97aa53bd6e8cb564589015cbdc14fa40", //Assets/VketShaderPack/Silent's Cel Shading Shader/Editor/SCSS_ShaderBaking.cs
+"dd58167f3f5799f4db066008579b778a", //Assets/VketShaderPack/Silent's Cel Shading Shader/Editor/SCSS_XSGradientEditor.cs
+"0757509132a7ee748b11bc26b6fd10dd", //Assets/VketShaderPack/Silent's Cel Shading Shader/Editor/SCSS_XSMultiGradient.cs
+"218766231df1c4d4bbd26fe825a2dc8c", //Assets/VketShaderPack/Silent's Cel Shading Shader/Editor/SilentCelShading.Unity.asmdef
+"a9a812ee108476f4eae9c507264cc297", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/Crosstone (No Outline).shader
+"932c3f8bb2ba7d04480beb8e4c98b2a8", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/Crosstone.shader
+"92b4d092592529b4f9a87764c0c44117", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/Flat Lit Toon (Cutout) (No Outline).shader
+"193c1d1febff24f46bc72d88e8b205f8", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/Flat Lit Toon (Cutout).shader
+"369d2ecd6fc95bc469360ddecf6b2155", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/Flat Lit Toon (No Outline).shader
+"f78fe2d8cca2202429d0c2e0d810c763", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/Flat Lit Toon (Transparent) (No Outline).shader
+"5028bedf4f7ad6a4aaf7727fead41880", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/Flat Lit Toon (Transparent).shader
+"a883b384ca4bc054aa10b5f554ae85a3", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/Flat Lit Toon.shader
+"949047d11aa1be843ab010f80e6e1ad7", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/SCSS_Core.cginc
+"ac54125faed4a1c4d8641c311f115c9d", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/SCSS_Forward.cginc
+"ad30dacf242f54a49b203e540fe72e8a", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/SCSS_Input.cginc
+"8acce3fdffc81da43bbff56f95bd5e98", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/SCSS_Shadows.cginc
+"e4f4f1f16f5f7a940a8a91cda2684a75", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/SCSS_UnityGI.cginc
+"4918d8dc352c4f14095b785dedffaab1", //Assets/VketShaderPack/Silent's Cel Shading Shader/Shaders/SCSS_Utils.cginc
+"a780591bd355dfb42b8d43171c524127", //Assets/VketShaderPack/Sunao Shader/LICENSE
+"3e696a6fcbf6c3d48b6b18d391ac27f3", //Assets/VketShaderPack/Sunao Shader/README.txt
+"52db967a50319a342b8d3e03e2c948c5", //Assets/VketShaderPack/Sunao Shader/Sunao Shader 隗｣隱ｬ譖ｸ.url
+"ac4920ac84fea1840bcc25ab63dd1154", //Assets/VketShaderPack/Sunao Shader/Editor/SunaoShaderGUI.cs
+"58f628f02e892b441aa26d5402c0fb19", //Assets/VketShaderPack/Sunao Shader/Logo/SS_logo_B.png
+"28a0ceca2c0231940b7704112685d322", //Assets/VketShaderPack/Sunao Shader/Logo/SS_logo_BS.png
+"a626f2283039de04e867eeb889b593d2", //Assets/VketShaderPack/Sunao Shader/Logo/SS_logo_W.png
+"ffa077d687eb240489acb287b977dfa4", //Assets/VketShaderPack/Sunao Shader/Logo/SS_logo_WS.png
+"01846cdaa65259e48a71d9812e4e1c22", //Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Cutout.shader
+"09296c4f29b71fb4ba42ef8983d8007f", //Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Cutout_SO.shader
+"3701d6a6f5f988b4a9cea92f1426a955", //Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Opaque.shader
+"2fb75b0069e4fe147a396141dcf70627", //Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Opaque_SO.shader
+"7362334fb65c850469785caac3918093", //Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Stencil_R.shader
+"a95ac57a344b931459880f4ca527efc4", //Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Stencil_W.shader
+"0b073aeeaec66294aa00c57784f4a0bb", //Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Transparent.shader
+"cd2723fb285798b4b801e483a793b3c3", //Assets/VketShaderPack/Sunao Shader/Shader/Sunao_Shader_Transparent_SO.shader
+"0bcbd141d25c3594698232b7cf028e95", //Assets/VketShaderPack/Sunao Shader/Shader/Cginc/SunaoShader_Core.cginc
+"a0a8cef7d729dd548bea8c0179114e1a", //Assets/VketShaderPack/Sunao Shader/Shader/Cginc/SunaoShader_Frag.cginc
+"7c91ecb7ec33e624aa825469df256c8d", //Assets/VketShaderPack/Sunao Shader/Shader/Cginc/SunaoShader_Function.cginc
+"349b3c656072d0444812de08c663ff40", //Assets/VketShaderPack/Sunao Shader/Shader/Cginc/SunaoShader_OL.cginc
+"331fdc83d13aff84cb82da583877f0d7", //Assets/VketShaderPack/Sunao Shader/Shader/Cginc/SunaoShader_SC.cginc
+"666562b3b8d23d64fa0f6ee5216239b1", //Assets/VketShaderPack/Sunao Shader/Shader/Cginc/SunaoShader_Vert.cginc
+"e30857b716beae5479b313fde1a5efaf", //Assets/VketShaderPack/Toon/Editor/CopyMaterialParameter.cs
+"cad15f56be91b744aaf8e22339bc598c", //Assets/VketShaderPack/Toon/Editor/RemoveUnusedMaterialProperties.cs
+"a9775daf5f793f64e98ccd6c4a61bbc8", //Assets/VketShaderPack/Toon/Editor/RemoveUnusedShaderKeywordsFromUTS2Material.cs
+"e403ef4b1d56fce47b49ec46981d9fcb", //Assets/VketShaderPack/Toon/Editor/UTS2GUI.cs
+"4c57a42f315f467488f69755e6a7d42c", //Assets/VketShaderPack/Toon/Shader/README.txt
+"96d4d9f975e6c8849bd1a5c06acfae84", //Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather.shader
+"ccd13b7f8710b264ea8bd3bc4f51f9e4", //Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_Clipping.shader
+"9c3978743d5db18448a8b945c723a6eb", //Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_Clipping_StencilMask.shader
+"d7da29588857e774bb0650f1fae494c6", //Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_Clipping_StencilOut.shader
+"315897103223dab42a0746aa65ec251a", //Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_StencilMask.shader
+"2e5cc2da6af713844956264245e092e4", //Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_StencilOut.shader
+"369d674ae1ba36249bb00e2f73b0cd10", //Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping.shader
+"8600b2bec3ae31145afa80084df20c61", //Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping_StencilMask.shader
+"43d0eeb4c46f52841b0941e99ac9b16b", //Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_TransClipping_StencilOut.shader
+"97b7edb5fc0f5744c9b264c2224a0b1e", //Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_Transparent.shader
+"3b20fc0febd34f94baf0304bf47841d8", //Assets/VketShaderPack/Toon/Shader/ToonColor_DoubleShadeWithFeather_Transparent_StencilOut.shader
+"af8454e09b3a41448a4140e792059446", //Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap.shader
+"295fec4a7029edd4eb9522bef07f41ce", //Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing.shader
+"e32270aa38f4b664b90f04cc475fdb81", //Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing_StencilOut.shader
+"29a860a3f3c4cec43ab821338e28eac8", //Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing_TransClipping.shader
+"d5d9c1f4718235248ad37448b0c74c68", //Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader
+"6439813c08a1f8947bb0ca6599499dd7", //Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_StencilMask.shader
+"b39692f1382224b4cbe21c12ae51c639", //Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_StencilOut.shader
+"cd7e85b59edbb7740841003baeb510b5", //Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_TransClipping.shader
+"6b4b6d07944415f44b1fc2f0fc24535f", //Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_TransClipping_StencilMask.shader
+"31c75b34739dfc64fb57bf49005e942d", //Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_TransClipping_StencilOut.shader
+"7737ca8c4e3939f4086a6e08f93c2ebd", //Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_Transparent.shader
+"be27d4be45de7dd4ab2e69c992876edb", //Assets/VketShaderPack/Toon/Shader/ToonColor_ShadingGradeMap_Transparent_StencilOut.shader
+"9baf30ce95c751649b14d96da3a4b4d5", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather.shader
+"345def18d0906d544b7d12b050937392", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping.shader
+"7a735f9b121d96349b6da0a077299424", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping_StencilMask.shader
+"ed7fba947f3bccb4cbc78f55d7a56a70", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Clipping_StencilOut.shader
+"1d10c7840eb6ba74c889a27f14ba6081", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile.shader
+"88791c14394118d42a5e176b433af322", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_Clipping.shader
+"41f4ee183cb66ad40bc74a9f8f944974", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_Clipping_StencilMask.shader
+"dec01cbdbc5b8da4ca8671815cda1557", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_StencilMask.shader
+"55e8b9eeaaff205469365133fe7bc744", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_StencilOut.shader
+"d4c592285a93c3844aafdaafffc07ec7", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_TransClipping.shader
+"100d373b596f44d49ac9bb944d671d32", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_Mobile_TransClipping_StencilMask.shader
+"036bc90bfe3475b4c9fadb85d0520621", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_StencilMask.shader
+"0a1e4c9dcc0e9ea4db38ae9cb5059608", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_StencilOut.shader
+"e8e7d781c3155254b9ea8956c5bd1218", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping.shader
+"79add09e32e5c4541980118f6c4045b6", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping_StencilMask.shader
+"fb47be5a840097b45bac228446468ef3", //Assets/VketShaderPack/Toon/Shader/Toon_DoubleShadeWithFeather_TransClipping_StencilOut.shader
+"42a47eda2ed77084c9136507eadb8641", //Assets/VketShaderPack/Toon/Shader/Toon_OutlineObject.shader
+"2e2edd12fbf6bcb4ea1f34c17ee42df5", //Assets/VketShaderPack/Toon/Shader/Toon_OutlineObject_StencilOut.shader
+"ca035891872022e4f80c952b3916e450", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap.shader
+"9aadc53d7cdc63f4898ea042aa9d853b", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_AngelRing.shader
+"23e399973d807464fb195291a44a614c", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_AngelRing_Mobile.shader
+"8d33e4e4084e5af449f3e762fecce3c9", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_AngelRing_Mobile_StencilOut.shader
+"415f07ab6fd766048ac6f8c2f2b406a9", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_AngelRing_StencilOut.shader
+"b2a70923168ea0c40a3051a013c93a8a", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_AngelRing_TransClipping.shader
+"d1e11a558d143f14c864edf263332764", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader
+"f90e11a40dcf4f745ae6b21b857943fa", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_Mobile.shader
+"206c554c8b0c60041a9d242385f543d3", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_Mobile_StencilMask.shader
+"cfc201757f2519c4bb6ef9265a046582", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_Mobile_StencilOut.shader
+"cce1da34c52aff745adf0222f56a356c", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_Mobile_TransClipping.shader
+"e88039bab21b7894e918126e8fce5d1b", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_Mobile_TransClipping_StencilMask.shader
+"aa2e05ed58ca15441bd0989f008da78b", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_StencilMask.shader
+"923058fda1b61544b93d91eeee772086", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_StencilOut.shader
+"aebd33b74ef849a4882b4a8d55f0f0c9", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_TransClipping.shader
+"0a05dd221bacbb448afac3d63e6bd833", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_TransClipping_StencilMask.shader
+"67212ac11ff43b04a833d3986b997a9f", //Assets/VketShaderPack/Toon/Shader/Toon_ShadingGradeMap_TransClipping_StencilOut.shader
+"80bd7ce6cad775a4e9de24e18eb5e61e", //Assets/VketShaderPack/Toon/Shader/UCTS_DoubleShadeWithFeather.cginc
+"ec7b5c1d006f6be49b412bcd7a789c78", //Assets/VketShaderPack/Toon/Shader/UCTS_Outline.cginc
+"eca315d4d2d36194b8be3cf2a6869762", //Assets/VketShaderPack/Toon/Shader/UCTS_ShadingGradeMap.cginc
+"ae8d06deb98501947846000ba6cd3ab2", //Assets/VketShaderPack/Toon/Shader/UCTS_ShadowCaster.cginc
+"5b8a1502578ed764c9880a7be65c9672", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess.shader
+"682e6e6cf60a51040ade19437a3f53e2", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader
+"148d1eca2cf299e4eb949d15c4cf95ee", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader
+"e987cf9cca0941042aa68d1dd51ee20f", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Tess.shader
+"97df86a7afe06ef41b2a2c242b10593e", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Tess_StencilMask.shader
+"b179fb8a87955a347b5f594a18b43475", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Tess_StencilOut.shader
+"60fe384b76fb67d40bc7e38411073dd6", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_TransClipping_Tess.shader
+"4a20b66d106d3f5409f759b5193ecdc2", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader
+"a7842aa9522c7584cae2169b8e1ddb86", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader
+"0cb6c9e6216a91e4a9d38cd2acb4ccb6", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Transparent_Tess.shader
+"f28bba8b2f259bb40b697d91849c8794", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_DoubleShadeWithFeather_Transparent_Tess_StencilOut.shader
+"4876871966ca2344793e439d7391d7b0", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess.shader
+"7c48bdc9fed28c14b8ad0748673b1369", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess_StencilOut.shader
+"d3fb22770ec830b43bdb5ccb973e6f76", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_Tess_TransClipping.shader
+"11e8f1e181e558a47a387492d3ecdb88", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader
+"01494e58d87212f44ab51d29caea84e4", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Tess.shader
+"24c20b8ed5be113499b40f4e3b6b03e6", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Tess_StencilMask.shader
+"9cf7e8eb46e9128438d50adf7a841de6", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Tess_StencilOut.shader
+"3c39a77fda28b5043a7a17c7877cf7b2", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess.shader
+"bf840a439c33c8b4a99d52e6c3d8511f", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess_StencilMask.shader
+"8eff803eae89c994fae3acf2f686fafa", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_TransClipping_Tess_StencilOut.shader
+"0959cb8822a344c4da890457e668fdc9", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Transparent_Tess.shader
+"6d115cf94d14d1842a56dfff76b57f42", //Assets/VketShaderPack/Toon/Shader/Tess/ToonColor_ShadingGradeMap_Transparent_Tess_StencilOut.shader
+"f0b2fc9b8a189134da9c7d24f361caf4", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess.shader
+"8c94ee3046ef0574f87f6b658b4e4691", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader
+"c4aed8662ca0f194284f3ab649e66d23", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader
+"1f248db3b28fc5f44aabd7aca618bd1e", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess.shader
+"a3214384442742648aa664ef0039d397", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light.shader
+"3073cd2564e4cde45a19c05e0012d22a", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilMask.shader
+"7e7690a767a07da4f943439680e70db8", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_Light_StencilOut.shader
+"08c65988dc25d9f44b791fcc18fb543a", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilMask.shader
+"f937ea4ce96dfbe448afc0fb671198e5", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_Tess_StencilOut.shader
+"3fb99ac3775edeb4aa9530db5a614c92", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess.shader
+"9855f226cd8152d4e99085272aceede6", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader
+"2a0d4af863770404faee6488b86fe3c9", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader
+"1847c44f729b68e49ba63610abdf9132", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_OutlineObject_Tess.shader
+"06cae78b869a3234bab02eeb52197e1c", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_OutlineObject_Tess_StencilOut.shader
+"3a1af221400a61a4b94bae19aa79da2b", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess.shader
+"a1449ab672051624ca3160737b630f5e", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_Light.shader
+"79d3dc54c32b69b42be17c48d33575f2", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_Light_StencilOut.shader
+"18c9172cdf36a344f9aca9bbc0e7002d", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_Tess_StencilOut.shader
+"54a94f776a43a074c8c2d205bb934005", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_TransClipping_Tess.shader
+"d496a1c70c797ad43836d5bfff575b5f", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader
+"183ea557143786346b1bfc862ad22636", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess.shader
+"356dd5af8f0d40e41b647d3d0a0555c1", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_Light.shader
+"ffadecfbd9e31f840ba4109fea0f0436", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_Light_StencilMask.shader
+"98ac5d198a471494da681b7b8d1e1727", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_Light_StencilOut.shader
+"0d799eb857c0e2c45bbdfb2c033d33e6", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_StencilMask.shader
+"e667137c8b6fd3d4390fc364b2e5c70b", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_Tess_StencilOut.shader
+"feba437d8ff93f745a78828529e9a272", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess.shader
+"8d1395a9f4bfad44d8fddd0f2af19b1e", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader
+"08c6bb334aed21c4198cf46b71ebca2d", //Assets/VketShaderPack/Toon/Shader/Tess/Toon_ShadingGradeMap_TransClipping_Tess_StencilOut.shader
+"6d04fc34e9717d34d9589f39decf8333", //Assets/VketShaderPack/Toon/Shader/Tess/UCTS_DoubleShadeWithFeather_tess.cginc
+"c139664fde6401f45a09b0f32279484b", //Assets/VketShaderPack/Toon/Shader/Tess/UCTS_Outline_Tess.cginc
+"ad7807131760d5544843d7424e535b75", //Assets/VketShaderPack/Toon/Shader/Tess/UCTS_ShadingGradeMap_tess.cginc
+"6261ac20c5dfa024a98d6ce3921bab70", //Assets/VketShaderPack/Toon/Shader/Tess/UCTS_ShadowCaster_Tess.cginc
+"13aee1e1f6c49d94fa292dca9910126e", //Assets/VketShaderPack/Toon/Shader/Tess/UCTS_Tess.cginc
+"00999fd020bde754ab4ae5f8a5205844", //Assets/VketShaderPack/UniUnlit/LICENSE.md
+"8c17b56f4bf084c47872edcb95237e4a", //Assets/VketShaderPack/UniUnlit/Resources/UniUnlit.shader
+"b8bbbd51c2e41dd4bbcb0da1b7a48808", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/LICENSE
+"4ebc920fe2745624bbed02e79a222e3d", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/README.txt
+"f9bd228ff6fb34948a32cc6fd10d7d5b", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/version.json
+"b71e250f3c9f9a54cac228148bc800f7", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Editor/WF_Common.cs
+"6b1a45934e0846141979f322772dc3b8", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Editor/WF_DebugViewEditor.cs
+"052a5a21704733543a9cbbf6369ca43c", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Editor/WF_Dictionary.cs
+"3ca4c3d3a4488214db9818862a2eff69", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Editor/WF_MiscUtil.cs
+"4f0275352c196ca4d864b6611897bfd7", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Editor/WF_ShaderCustomEditor.cs
+"e3269783b9ab81e4f85d813345bc1a7e", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Editor/WF_ShaderToolWindow.cs
+"16f6ecebfe3bedf48922ade8760ef404", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Editor/WF_VersionCheck.cs
+"2a4dc116efeb0db4192f11f17d555b87", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Logo/README.txt
+"c02ebf9b7a5d66c4ead5f94ef99b20c8", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Logo/UnlitWF繝ｭ繧ｴ_1024.png
+"54ed4f64546b23741987a94ff9769567", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Logo/UnlitWF繝ｭ繧ｴ_256.png
+"b8e19d3beb8c169458f9b150a00f40ec", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Logo/UnlitWF繝ｭ繧ｴ_512.png
+"81bd216f29ecf2f46b29029ec01f55a3", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/README.txt
+"80b684ec03e5e1c40943d9eb0e0d32f4", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/HDRIHaven_lythwood_room_1k_32.hdr
+"55f94f02873c1bb4bb1f43eed973a999", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/CubeMap/README.txt
+"0c90f262b70f7634ea0fb53f2912f537", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Matcaps/Noise邏�譚�/noise_繝ｩ繝ｳ繝�繝�(邊�)_1024.png
+"c7e5995223250464cac205689e058693", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_DebugView.shader
+"58bb80b63bec29d4384e105c53ca6970", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_FakeFur_TransCutout.shader
+"2210f95a2274e9d4faf8a14dac933fdb", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_FakeFur_Transparent.shader
+"c0f75d3ed420fd144a74722588d3bc21", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_Gem_Opaque.shader
+"21f6eaa1dd1f25c4cb29a42c4ff5d98f", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_Gem_Transparent.shader
+"4ba701b07ccc81e4aae7f053bf332eab", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Custom_GhostTransparent.shader
+"f3f80636c64e389498b3b19e2ee218da", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Custom_LameOnly_Transparent.shader
+"90cac9ec3b2a7524eb99b36ab87f25f1", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Custom_OffsetOutline_Opaque.shader
+"871fd7a51a8ea3e4980c3fe7b8347619", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Custom_PowerCap_Outline_Opaque.shader
+"58ccf9c912b226146a25726b8a1f04db", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Custom_Tess_PowerCap_Opaque.shader
+"af51615040dcdad4cb01c29ea34dbb03", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Hidden.shader
+"4bd76f6599a5b8e4d88d81300fb74c37", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Mobile_Opaque.shader
+"d279a88eda1ae0e4c89e92539639eb16", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Mobile_OutlineOnly_Opaque.shader
+"e0b93fdad2eeedf42baccbc0975cdd1d", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Mobile_OutlineOnly_TransCutout.shader
+"af3422dc9372a89449a9f44d409d9714", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Mobile_TransCutout.shader
+"0a7a6cdca16a38548a5d81aca8d4e3ba", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Mobile_Transparent.shader
+"4e4be4aab63a2bd4fbcea2390ae92fdf", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Mobile_TransparentOverlay.shader
+"a3678756e883b9349ac22fce33313139", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Opaque.shader
+"4eef00f52cc21b04e9e34e4caefa6bbf", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_OutlineOnly_Opaque.shader
+"64bf3ca653a7b274fab3e8a87016bfb0", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_OutlineOnly_TransCutout.shader
+"660abd485057f4740ac9050f7ab3237d", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_OutlineOnly_Transparent.shader
+"3c07b964e541eef45bc195a029b878b3", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_OutlineOnly_Transparent_MaskOut.shader
+"a5ae7f40ac53e274ea0bc1262e1f6895", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Outline_Opaque.shader
+"ab4eb87c406a22f46887cf72178e2685", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Outline_TransCutout.shader
+"5523e041d29d259439fa14bd131f5c82", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Outline_Transparent.shader
+"5498b01615002d948bea7542f55e0c07", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Outline_Transparent3Pass.shader
+"9350854c6e88f3f4eb873d2f94ff3328", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Outline_Transparent_MaskOut.shader
+"ad88000744b4fb241835ba6ec106caf4", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Outline_Transparent_MaskOut_Blend.shader
+"0733cfc88032e8d4eafce250263c497c", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_PowerCap_Opaque.shader
+"2cf66b0706c40744baab089297afa895", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_PowerCap_TransCutout.shader
+"747bf283d686334469fb662b2fc4a5c2", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_PowerCap_Transparent.shader
+"d242cb83664caae4f957030870dd801d", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_PowerCap_Transparent3Pass.shader
+"dd3a683002b3a6f43bdb6c97bd0985c1", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Tess_Opaque.shader
+"94ee7f8988740fd4887f8b1ce41f0c1c", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Tess_TransCutout.shader
+"3bde56820d1aece41bd22966876a061c", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Tess_Transparent.shader
+"78d2e3fa0b8eb674aa9cf9e048f79c93", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Tess_Transparent3Pass.shader
+"8c7888a4ac175584f81e0b6e7d4af5a7", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_TransCutout.shader
+"15212414cba0c7a4aac92d94a4ae8750", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Transparent.shader
+"d1e7b0a18e221a1409ad59065ec157e4", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Transparent3Pass.shader
+"2efe527cfcbf0e1408b67463225f552f", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Transparent_Mask.shader
+"0b53cf0bcd0f9db4fa9d1297d255d06d", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Transparent_MaskOut.shader
+"d01a5c313ada49e488b2ef8c6b00f56d", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_Transparent_MaskOut_Blend.shader
+"a220e3e0675cc3f4f817a485688788d6", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_TriShade_Opaque.shader
+"2d294f328149d944eb0899b452ff879c", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_TriShade_TransCutout.shader
+"1435581bcf13e7a47b5bf5636f8d8252", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_TriShade_Transparent.shader
+"e7263331a8ee0a04aa4a271fc1fef104", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_TriShade_Transparent3Pass.shader
+"0299954f2a9b0994f8c9587945948766", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_TriShade_Transparent_Mask.shader
+"06e9294a93df4474cac2f4157b5e1d1d", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_TriShade_Transparent_MaskOut.shader
+"dfb821bc7afadc14591e4338a8ec865f", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/Unlit_WF_UnToon_TriShade_Transparent_MaskOut_Blend.shader
+"0380b1621ab524c43aeb10eba3346ea6", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_Common.cginc
+"578346e318940304389ae3dda992ac86", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_Common_BuiltinRP.cginc
+"2762fae01792d2745ad5d02376392d52", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_Common_LightweightRP.cginc
+"ef1a901a2feeb0a45859ecc184e2e3e2", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_FakeFur.cginc
+"b892a7ae3359eb0428b2f8aebf24d314", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_FakeFur_Uniform.cginc
+"45af0d16a1af0a947b445e08dd6dead4", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_Gem.cginc
+"34a1cdb7cd82cd045a521aa2db90ba27", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_Gem_Uniform.cginc
+"77ee5292cc4f46649a13611c8d76c85b", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_INPUT_FakeFur.cginc
+"e33666b113c868d41bfa058f5bc50d9c", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_INPUT_Gem.cginc
+"be668f2e5a5e4ef46838001f79babcef", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_INPUT_UnToon.cginc
+"22546fe6fb0bed84e8db3fc80b0b2302", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon.cginc
+"93e68367384c3bd42a3a37868cc25554", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_DepthOnly.cginc
+"8e439fa11883d4b429904a7fc398851e", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_Function.cginc
+"afa8b2842288b044b9cdccd7508670a7", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_LineCanceller.cginc
+"074195645f64a224d9482cb666563c89", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_Meta.cginc
+"bf91baf439ae72542bd718eb51378f5a", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_PowerCap.cginc
+"ad9922cd501663b4cbfbef594d1b22d0", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_ShadowCaster.cginc
+"95ae3c73098e55148862b3125c46785e", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_Tessellation.cginc
+"bad784f674c77404f8234c8d284656d2", //Assets/VketShaderPack/Unlit_WF_ShaderSuite/Shaders/WF_UnToon_Uniform.cginc
+"0c23e5908bcdfaf498f03fc626fe8a46", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/LICENSE
+"86d4b790f390cce47810844e4b4a93d0", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/README.md
+"5686e1cbe30779e4cb12a3cfebd04af4", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/XSToon 2.0 _ Carbon Fiber.mat
+"80add08b1b71e974cb7445f615a6d45f", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/XSToon 2.0 _ StippledHalftone.mat
+"072ae31b0e1564b4eb95e3b4437e7d1d", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/XSToon 2.0.mat
+"56bf125c9c397154ab9ee5a017746a85", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Editor/XSGradientEditor.cs
+"e89d2df0d1b52e4448cda16d9d6eed7d", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Editor/XSMultiGradient.cs
+"0e1d31a0eef7c5644832cbcbfc92e7d5", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Editor/XSReimportMyShadersPlease.cs
+"dee482cbfe1d3634ab799af2c78502f0", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Editor/XSStyles.cs
+"263ae1c7b2037ed4fbf02e938e8bceb4", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Editor/XSTextureMerger.cs
+"005c83a3d97ccf040bdbfacbf03b42dc", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Editor/XSToonInspector.cs
+"65e344abcde5260468f0010b4c73a2fa", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Editor/XSUpdater.cs
+"be9c15115645ef049adaf17bee497ab7", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Editor/Resources/MultiGradient_Object_Ico.png
+"4dbcda476eefc6a4286ec65191ef2495", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Main/Test.mat
+"d7083d96cb8a0da48beb300faaf2e125", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Main/CGIncludes/XSDefines.cginc
+"f7d2bc5531da1c44aa6e753eb1c8636f", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Main/CGIncludes/XSFrag.cginc
+"4bc0681c9b92ff74ba271d2b561e56cf", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Main/CGIncludes/XSGeom.cginc
+"3007b66203f38424caffb4c058879c59", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Main/CGIncludes/XSHelperFunctions.cginc
+"b34fd1827e9b4974db3ee215e80ce465", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Main/CGIncludes/XSLighting.cginc
+"59e9937e913f34b4c9335c6f6b288c78", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Main/CGIncludes/XSLightingFunctions.cginc
+"3e944a29d3c4a044a8bfc8d73ed46f60", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Main/CGIncludes/XSVert.cginc
+"956a7ff9ce5a1cf4c8735b173dfac4bc", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Main/Shaders/XSToon2.0 Outlined.shader
+"85c615217d617204cb497ae6838b8bae", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Main/Shaders/XSToon2.0.shader
+"39f23e8c24d1e864096d29da0407b88e", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Main/Shaders/XSToonStenciler.shader
+"f66d026b6ceed614ba4e5242c17e59b5", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/AO/TriaxialWeave_AO.png
+"40ea18bf7298bd3428adcd1737d4b66e", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/CubeMaps/glass_passage_1k.hdr
+"efb6603dbbc0ab040848d6b6e2d2091e", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/CubeMaps/short_tunnel_1k.hdr
+"dab1297d5c0a834408f49a7365015920", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/CubeMaps/XSStudio_3Light.exr
+"efc14fb6a410a27428a516b78b346c33", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/CubeMaps/XSStudio_SkyLight.exr
+"8a16b055fdf67054aaea56d1907f39b7", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/CubeMaps/XSStudio_SoftUnder_3Mid.exr
+"6707d30b9abd3e244b6bb7b3797b013b", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Metal/Anistropic Metal.jpg
+"4303d29ccd156034d9950aa050a59f3c", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Metal/ArtisticMetal.exr
+"0ab1477629f706a45bb7b99bbf97e33f", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Metal/FireLitMetal.exr
+"f740bde6462de5e4b96b07daeeefbff8", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Metal/LightSteel.jpg
+"2aee663d3fa347b49b73df5d27cef38e", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Metal/MetalAF.exr
+"2eb97550e316c3347831faf08ac6bb64", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Metal/MetallicPurpleGreen.exr
+"79db10ff60487f748a5cd3f0065d7400", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Metal/MetallicRegPurple.png
+"da32fe84b577f0246adf3b4ecc490b69", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Skin/DeepSkintone.exr
+"1e82fa48fd9295540ab46a89ea403a8f", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Skin/LightSkin.exr
+"0818273a570e4084a9f9d258b34ae2c2", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Skin/LightSkin2.exr
+"afa6fb48b4cd0bf48a20623477e78f85", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Skin/Skin.exr
+"5fb787fb7dd30d849837c095d7bf8e01", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Unique/Amber.exr
+"1273e32827ed4f04f9516dbbcd0ac25d", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Unique/BlueRedBacklit.exr
+"2cbdf1f25b78eba409fca976ed98e531", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Unique/Default.exr
+"6b28500662c4f1f48a8661ed99c56a2e", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Unique/Lightbulb.exr
+"3335747e6d5447b49b52f863baaaa7dc", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Unique/Normals.exr
+"420d03330b808f34b8f3f2c0b1c77dfb", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Unique/Painting.jpg
+"eb13dbc9c89b8424c8f21eabee6af2c4", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Matcap/Unique/resin.exr
+"0c540c5cf863ea743b3091ace3a20e07", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Normal Maps/CrossWeave_N.png
+"24055b3e737e1c949ac98a1f42b42f02", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Normal Maps/TriaxialTint.png
+"1632d2058ed6e554cae477f5a18dbcd6", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Normal Maps/TriaxialWeave_N.png
+"c907c0321c6c65741942d4b98c578003", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Shadow Ramps/Generated/gray to white.png
+"a49de73e4c2486943b4fd591c1607441", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Shadow Ramps/Generated/redgradient.png
+"564b27c878c5df04f86d017bb6f75452", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Shadow Ramps/Generated/skingradient.png
+"12043050a25113c4099c34d2a3ae1eb4", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Shadow Ramps/Generated/skingradient2.png
+"1ee69b57a0cfcc24c8fb898e84d8a84f", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Shadow Ramps/Generated/smoothcutoff black to white.png
+"833058007f71b1b42b6d2a052121d494", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Shadow Ramps/MGPresets/Example_MultiGradient.asset
+"549c0a5d52c1f8042b0a2e090d9f0d22", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Shadow Ramps/MGPresets/Skin_Multi.asset
+"cf6c1f21161d44548a43bcd566b5bbd0", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Specular Patterns/Abstract1.png
+"2d494ba3ef3a48e43abe4ae435602b78", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Specular Patterns/Brushed Map.tif
+"6e3ab83cce46dee44b40d0ea5202fce8", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Specular Patterns/Skulls.png
+"a9d899b9b5f746b4cbf7ec49e7b32ccd", //Assets/VketShaderPack/Xiexes-Unity-Shaders-2.5/Textures/Specular Patterns/SpecLines.png
+"969cb948c36a8c04aa8a33d82bc34085", //Assets/VketShaderPack/_PoiyomiShaders/LICENSE.txt
+"c1886b825430ada47a42d52f33c03cac", //Assets/VketShaderPack/_PoiyomiShaders/poiToonPresets.txt
+"3f398d68f8c01b54485d2a04a13c958b", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/poi-tools/Editor/BakeToVertexColorsEditor.cs
+"8f58036675b906e4797a5c394781b2a0", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/poi-tools/Editor/PoiData.cs
+"32406f186e960c04ab7448ec0b4ca0e0", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/poi-tools/Editor/PoiHelpers.cs
+"1e29ffa815f2cd648839d9b094a4631f", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/poi-tools/Editor/TextureChannelPackerEditor.cs
+"71129bd3774e04d48827a25fc98d45a7", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/poi-tools/Resources/PoiTexturePacker.shader
+"245e67c21ccaa9a43ad7e84d1c7bb5fc", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/poi-tools/Resources/PoiTextureUnpacker.shader
+"11eeab9ab5997bf419f83bfb9ffa1ba7", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/docs.html
+"eae8b588a2e3ab84e834f00087295749", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/LICENSE.md
+"30877c6905d94034c8c91a9aba08fc01", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/thry_editor_locale.csv
+"5b48f91946ace6944a90d8313e080259", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/Config.cs
+"42f9390784d11e84bbf6366e794e6b20", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/DataStructs.cs
+"f835e027ceb24bf4b8607004ce304fa7", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/Drawers.cs
+"2512996118f494a44972192a9fafb1a3", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/EditorChanger.cs
+"02b9c440c777db4458c2284c28736ca0", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/EditorStructs.cs
+"73c53de23fe449f41b1272569a42147a", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/GradiantEditor.cs
+"86ee0d31fc0c2e740bb6237d6281a257", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/GUIHelper.cs
+"878844302fe9a8b498f7002ac13ffc7a", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/Helper.cs
+"907a3ff8fb013c44f8e504603af2a4a6", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/HelperWeb.cs
+"75c479cb152ec084c918f69a99c3ac18", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/Locale.cs
+"811f88ca7752d5f458c12b5864202fc9", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/MaterialLinker.cs
+"404e4ca46c4f1c045a13674ca45d73d4", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/Mediator.cs
+"8349089a9d8124c4bb52b5d414ddca2a", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/ModuleHandler.cs
+"3b95745f9a604df4bbc5a00933f516d0", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/Parser.cs
+"bd711b7c02d5bb54ba06a46dbd46f9d4", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/Settings.cs
+"01a32216cdf0b0e44af9eb3d82fff780", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/ShaderOptimizer.cs
+"0b3a6712cb451dc4fa105ca3acd64957", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/Styles.cs
+"1efbd8ef56fbc0146a62083b5af6074c", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/ThryAssemblyDefinition.asmdef
+"d0ba26704202cee44b1927fe3b60da4e", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/ThryEditor.cs
+"e2d2cf739465a3b49aad32cfd86f0f83", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/ThryFileBuilder.cs
+"fcf19c9e085d3b442a2974d5c193c268", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Editor/Unity.cs
+"8a38f752c293b5548b674637c2a6f99a", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Examples/Example1.shader
+"0b436e0db169bde429124bf491f28cef", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Examples/Example2.shader
+"dfe226dc787c45b4780d5cc939390f76", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Examples/ThryLabelExample.txt
+"cf52f15671610fa4a80b4ee95174e3cc", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Examples/ThryPresetsExample.txt
+"901c2a6413418de44ab1678f66fa3826", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Examples/thry_locale_example.csv
+"5d5070d92080a424695a221a1bfe96a0", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Resources/thry_animated_icon.png
+"db7186aa7d058ea48884c28a5543afd4", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Resources/thry_arrow.png
+"cc6bb2a1394d82948a6c734598b1efa0", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Resources/thry_dark_rect.png
+"9623e09f716407743aa3eed4d4c1122a", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Resources/thry_link_icon_active.png
+"8ff5341a1d25fba4b952596fc0899701", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Resources/thry_link_icon_inactive.png
+"22364bdf4781da6458a421602e204912", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Resources/thry_magnifying_glass_icon.png
+"bfe72896029084143b99b3ae9f31f683", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Resources/thry_presets_icon.png
+"ac423ab0eabbdd445a050b2057d909fe", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Resources/thry_settings_dropdown.png
+"ca6ab0375b0d6884e860c28f87c8fbf2", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Resources/thry_settings_icon.png
+"d8b879c5a5cb2cb4d9f3d0436f4c1111", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Resources/thry_visiblity_icon.png
+"2329f8696fd09a743a5baf2a5f4986af", //Assets/VketShaderPack/_PoiyomiShaders/Scripts/ThryEditor/Resources/thry_white_rect.png
+"0a61a58ee74a4074e96d62e63f4e3354", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/PoiLabels.txt
+"a49dd2fba12886c499261512c6eaaa80", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Extras/InvisStencil.shader
+"add1d40d10695a24b9e91e172ccb9525", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Extras/MasterScanner.shader
+"2e376fd109ce87a41b889d93e88c6639", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_FunctionsArtistic.cginc
+"89ff22574b0f92e49a4b10267d737637", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiAlphaToCoverage.cginc
+"b4f547d93a614ad4d86c09ba02a0ba8d", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiAudioLink.cginc
+"9ee086be5141bcb458615f8ad9f54d79", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiBackFace.cginc
+"49ee29e0fa0a33c48a51991dc965e8eb", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiBlackLight.cginc
+"9f7b9815516b9bd45afc0657803fde91", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiBlending.cginc
+"0543f339ffab97d418a5577bd4cd049c", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiBRDF.cginc
+"c49023d4328abbe4dbce068a8f1ded2d", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiBulge.cginc
+"05e2de0df0c3a8147a1f7989db8ebd19", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiClearCoat.cginc
+"d0e3e8cd70bfa154ab69be067aba0d59", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_Poicludes.cginc
+"221d9e3fa8c8639449704bdb192dbc4f", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiData.cginc
+"1cc16395659ad2b4b886b2caaeb83829", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiDebug.cginc
+"664de60cb14b4194ba278cf1f8d8cec5", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiDecal.cginc
+"7c4268f3614d17d49ba4a6865bd104de", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiDefines.cginc
+"051133829be575149906a0cbe6572012", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiDepthColor.cginc
+"e737055de48f98a4587f09a286ede08f", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiDissolve.cginc
+"07d19319226672d40891a9cf8095bb1d", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiDithering.cginc
+"fb39e9f722d93614d8bb1b9b708f60e6", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiEmission.cginc
+"a1c11292ccd8b1d41887e0f69e6695dd", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiEnvironmentalRimLighting.cginc
+"87a9dab4f8128cd41bf38bac18075b14", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiFlipbook.cginc
+"60cd78e9ddf39f8488c9f5574a8a5a7b", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiFrag.cginc
+"951e19b6f0892c246b81926ee196e733", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiGlitter.cginc
+"31b4450700d5cc244853b4488e455231", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiGrab.cginc
+"fb03052ea8dc42740b104275ae961ae0", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiHelpers.cginc
+"ea5f0a88cd7909642be3bb003cd6c291", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiHologram.cginc
+"72605619fbb558a40926b8b605114f53", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiIridescence.cginc
+"be833b6d97385124b8b1cbbcf36275b6", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiLighting.cginc
+"6e064571b72c98948b7726439d667d07", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiMacros.cginc
+"543c4fafdae39c64ebbb99654c35c4b6", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiMainTex.cginc
+"ea56da5c525e5e441bf82593f3151cac", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiMatcap.cginc
+"382dd34f82ef0a742b5bb3e691f224f6", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiMath.cginc
+"ef435eef1f3062442a396ae471e4c023", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiMetal.cginc
+"6a90225807e1d2943a87f41b64493968", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiMirror.cginc
+"39347a84f5d044c4d917618f2cad9661", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiMSDF.cginc
+"7db374de8ad35a74e8b931bcef6e3ba8", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiOutlineFrag.cginc
+"3ffaf29d05947a14fa6c536ce06612d5", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiOutlineVert.cginc
+"1181a36e0475df340b0a8d40fc95f05b", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiPanosphere.cginc
+"3737980e09be8994e929a4a8aca17fd4", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiParallax.cginc
+"fa1dff6cd1c9b9f4891de1a7c880523d", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiPass.cginc
+"0fe97530a72193b4faea2c5e3dd997a6", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiPassOutline.cginc
+"94f93700d2c2f3946ba884cd83881c8e", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiPassShadow.cginc
+"4c432851cf0d1dd44b21e0713429604a", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiPenetration.cginc
+"b6260b56386a2b743a6bc537a3307cc7", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiRandom.cginc
+"5a887d6c0dfbbba48a780737a0351a55", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiRGBMask.cginc
+"a87bd1004a9f61d4da9d5159ced4fcc8", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiRimLighting.cginc
+"6f029ac6c95637345af7f9fa039b835d", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiShadowFrag.cginc
+"388afdf5d08890a498d21c55347c0a2c", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiShadowIncludes.cginc
+"85240e87020438747a5fa50f428e5cdf", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiShadowVert.cginc
+"7913db65c40101341a2f9d4c1b15f96d", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiSpawnInFrag.cginc
+"73fa7e501ae5f2643ac34be3ad11b72a", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiSpawnInVert.cginc
+"da46d1a0fb2f8cc48a64a10aabc5df20", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiSpecular.cginc
+"c86cb17bac1d3ae469535ac16b47fcf9", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiSubsurfaceScattering.cginc
+"cb923a9217d969d40a045da0c480df7e", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiTessellation.cginc
+"b781c7822eb79cd4d94941b850ec86fd", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiUVDistortion.cginc
+"ef2c28e0e6cae3d49989341119faa165", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiV2F.cginc
+"c608d4e6f9b40dc4a854fca20604e6b6", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiVert.cginc
+"8f221171da2883d41ab5a08dd1de9779", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiVertexManipulations.cginc
+"ff77987a6a6483746ae074933182b0e0", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiVideo.cginc
+"e434761b466d9634bb3659a0b8ec52b8", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiVoronoi.cginc
+"65110f189ab785a48b0a0d99d987ea15", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/CGI_PoiWireframe.cginc
+"572baf09485ff2d4b9e074da2bba81bb", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Includes/Notes.txt
+"d91e0db3d0441454e8f7d1d26d2ec2e4", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Shaders/7PlusLabels.txt
+"917b37092bae034459c28c00a3a19b54", //Assets/VketShaderPack/_PoiyomiShaders/Shaders/Pro/Shaders/S_Poiyomi_Toon.shader
+"f0639686d59f97549bb28e5ee83a6710", //Assets/VketShaderPack/_PoiyomiShaders/Textures/DiscordBannerTrans.png
+"bb7711dde80ffc949b3171744eb92cdd", //Assets/VketShaderPack/_PoiyomiShaders/Textures/UV_Check.png
+"8fc1b64e56c5c6540a4fe651abb8e855", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Cubemaps/T_Clouds_CM.jpg
+"4c4ee3a819827ba44982aa9914a492c1", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Cubemaps/T_Gold_CM.png
+"137e423b84d592745900f40e96109a42", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Cubemaps/T_iridescent_CM.png
+"926fb776fa6806b4ab672dc408235d54", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Cubemaps/T_Shine_CM.png
+"8c08eedd2cd5c4341b81cbad4b78bc14", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Cubemaps/T_ToonLit_CM.psd
+"26945f7417f404a4991f14e10add5cbe", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Debug/T_SecretMessage.png
+"1f79f71b84fc2844bb81e9ae4f5bc384", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Defaults/T_Default_CM.exr
+"61bd594533da4fc42bd46ef93ba5a4f6", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Defaults/T_Default_SR.png
+"a6d6984545cde4a4f9317b17d6dca225", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Defaults/T_MainTex_D.png
+"0e5adf556c7cd744cb68a0358216904f", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Detail/T_Cracks_D.jpg
+"07f0a54a3a4e7754eabc8ced70d7b30c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Distortion/T_DistortionMap0_DM.png
+"70cd704e7a9550241b8a8b51fffc1a68", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Distortion/T_DistortionMap1_DM.png
+"fa80ac020379e5047896d6c7551b216a", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fonts/T_DigitalBold_FONT.png
+"bb52cc9d00ce83f49a4c555ae9ceeb45", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fonts/T_RobotoBlack_FONT.png
+"bd25b8c9bd6d54b4bbf037665d011bc1", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fonts/T_RobotoMedium_FONT.png
+"02efa160dddcf4d4b98cd9c8f73ea0c2", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fonts/T_RobotoRegular_FONT.png
+"b2d5844398779944897100ab02debb3f", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (1).jpg
+"6dd6638e8d91f324383b214a129f143d", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (1).png
+"fefe6a3985f51034d940687be8f7202c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (10).jpg
+"0b48796ae2eff2e4592f97849436677a", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (11).jpg
+"1427eb7067b0ff84fbb3c12c2a3da7a9", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (12).jpg
+"f6678285637dca9478005297b797c3e5", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (13).jpg
+"e449b338bcb7aa04d856b0fca929c017", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (14).jpg
+"10a7a1354002a1044ad5ef6a7d65eb07", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (15).jpg
+"7e8ded856e9486c45a0c72a2ca9b2cfe", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (16).jpg
+"86ca19b5a4decea4ea533b7f1f0a80f0", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (17).jpg
+"ef2cd5ae79f431f488a863cda3cb1fd1", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (18).jpg
+"14f9237ca5b8ac04e933d8f136c013cf", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (19).jpg
+"dad9afee739f8254ab2dd517e4cf7da0", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (2).jpg
+"c0125b075311ac74c93f83b0e6558dc0", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (2).png
+"5925e757158e2d241b10165ea723b9ef", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (21).jpg
+"e3f0167066cb8de40a2a6e03c35c1812", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (22).jpg
+"ef0eddc6bbd1fe44f8535592c33c8286", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (23).jpg
+"85673f25242c2fd42bc72f6a2d75a1b7", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (24).jpg
+"2c9b1fc62caa05245b2d5691922ed7e9", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (3).jpg
+"8ddce56e0290541428b1143f3df5259e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (4).jpg
+"b974fce48120c9b408a637334056614e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (4).png
+"b96cad894c8c3cd4c8b72e4ef06afc01", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (5).jpg
+"66fa20c31f3fd964795803c2209f2254", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (6).jpg
+"1aff2597cadef9442ab67b460bbd6241", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (7).jpg
+"a0623b299d92a564e8f308dd645856a1", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (8).jpg
+"d3b42841e5cd27d4bb0f683ec498000e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/Fur (9).jpg
+"4936f95df08752e46940d871d9288f05", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/FurHeightMap.gif
+"d5e4a521aa43ec742a51e66e8da2871a", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/noise_simplex.png
+"336f8973abdb4564e901d06333a17ce9", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Fur/ornage-fur-texture.jpg
+"3219b69a8562db0439012ae282fc6eb1", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Gifs/T_2ColorLines_GIF.gif
+"81515002c3860be4f915641814f9b491", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Gifs/T_3ColorLines_GIF.gif
+"4366357a39e155f4582cd3fcc18ea692", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Gifs/T_FireWorks_GIF.gif
+"51e12303b2e7b6047ace7411e66b3988", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Gifs/T_GrayThing_GIF.gif
+"a937e2d8cd8cb8840ab729392c896c42", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Gifs/T_Hearts_GIF.gif
+"effb638e91144eb4780b51a79c07fe4c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Gifs/T_HorizontalCircles_GIF.gif
+"6863931c533eef040bb9ff8f6341c075", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Gifs/T_Matrix_GIF.gif
+"5c4dcd6a4d55c704a830a6e4145c556f", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Gifs/T_Ovals_GIF.gif
+"b9f11add051c1244aa4e36fe23bc24c1", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Gifs/T_Snakes_GIF.gif
+"4defab4eefbca0d45a9cfe92f54d8f3f", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Gifs/VerticalCircles.gif
+"ac094b6695c5d1940a30a73008adef44", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Gifs/Waves.gif
+"1bd6fecb7f38f1d449b84445a83e7c3e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Gifs/zigzags.gif
+"30c88667252e4f14baa78199305d0f9e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Icons/T_icon-discord.png
+"27bc48bbcc0ee57449b438e68a16dfa6", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Icons/T_icon-github.png
+"61cb1accaca1c8f4db4dc55dbfa567bb", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Icons/T_icon-patreon.png
+"c52984d0a6817cd4997ffe016a84b55d", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Icons/T_icon-twitter.png
+"3687bc92cd8dea14bbae5ee5f2a6a4bd", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Icons/T_icon-youtube.png
+"39505ec18a2256247be0f9ff777b8ef6", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Masks/T_circuit_MBW.png
+"47a1e48d03a0094499c5ebdd30e29495", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Masks/T_Grid_MBW.png
+"e615f84c8371ebd4fa56258f42800739", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Masks/T_RampTest_MRGBA.tif
+"e21db298689c4f84abe7200bc9c130da", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Masks/T_Star_MBW.jpg
+"1db11fa2fd2d3fe47b1f585645db2a5a", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/LatexMatcap2.png
+"18bc3c3625266ef4b8fee18269619212", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/MatcapLatex.png
+"b66c2d17fdb7f5a4197a759142e82c96", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap.png
+"d52ce43dad0c07d4ba39d794d17f4639", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_MatcapPinkBlue_MC.png
+"119bfe51061529d40929df43ea5b5687", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (1).bmp
+"22e746c3d444b3c43b687229e8263cfc", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (1).jpg
+"3dbb3be39df7e7c4eac60386a0f67ea8", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (1).png
+"0e0d81b6be9daaf459ba80b0e93f2ce1", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (10).jpg
+"c9e5ea5d5e5e6f740815297d05d53ed4", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (10).png
+"82136e8697de6eb4394177338725876f", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (11).jpg
+"652deaaf3db3ffd49ac1658c5feed917", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (11).png
+"16cfdbf57bd4a5f4e8a240217503734a", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (12).jpg
+"c5758d4a5402db14c856bc927fcd9582", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (12).png
+"64eda4a30094fd24198f44b0c9d41208", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (13).jpg
+"bd0cc922d6a571e438eee900fe57a5b1", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (13).png
+"ee08a1bb6cc9ce44284b711477c79df4", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (14).jpg
+"b70fb87bdaed04d4db351ed4a1cf8433", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (14).png
+"3d2cce892a030694d9a72a92dad5e82f", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (15).jpg
+"5ff5ddb61accef94bbd8aaad130b93e6", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (15).png
+"507ec010e33595d4ca0fadcc45844169", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (16).jpg
+"b2af0c8d2bd641648a8d1ec0b9536b17", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (16).png
+"bca7518f2d385c340b84b107c599abe2", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (17).jpg
+"b2a2a720253b640459f15f64a371a83e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (17).png
+"7bd1664c669e2e94683e48d235b1bb27", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (18).jpg
+"55b34dc98a1beda49a9004a81b46af61", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (18).png
+"97b53db9a7bc7a64181a216a90907e39", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (19).jpg
+"b9031c1f7aa3af84a9c6db1738c1ba59", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (19).png
+"ffefc5ef27c0c5542b545dd6169d0428", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (2).jpg
+"7960f3b319c2a4e4baad0c57ba8f9d48", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (2).png
+"9069ac80b6926394eaefe7ef40fafcfb", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (20).jpg
+"5f94789d7f6da9b449e4cb1139ebecc6", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (20).png
+"b5e71f00f5605f64bb2b7e60473e750c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (21).jpg
+"5586e7d602e5b49408769f87e8c907d2", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (21).png
+"760bc4ee5d362ff4da1ba3ca0e2efc76", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (22).jpg
+"b36a67a8cb824694cbd0f71b5ba9de5e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (22).png
+"cabfaa2a3d851a448929f9ef1807bb05", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (23).jpg
+"6fe30ec40a285ae4f90a2656a59b8048", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (23).png
+"6123b53d024ac0b489e5d7a87528c5da", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (24).jpg
+"bf41ad2e79589774f97ac0e6b7f950bf", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (24).png
+"0585906ec08a78346b9fe60a303e12ee", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (25).jpg
+"194efd6ff3768ab44b7ad9647dcd9d7e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (25).png
+"58b5b74caaea4b74ab0e210d080d43da", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (26).jpg
+"be401e0134922d1429f57d073a05f469", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (26).png
+"f6a76475a220f20468f16ec0e17d67b1", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (27).jpg
+"57b8918006ce46f478039228a2880c63", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (27).png
+"54a1fdb38de704840acc087caf4683bf", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (28).jpg
+"3eac3478dda6e6d42860167a61d0c39e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (28).png
+"7a28f4ace6d11af4a8b1e41c0e74e245", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (29).jpg
+"893868d7303292244881c1e37a3113b4", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (29).png
+"8d2fc396afb45da4bb76782b8fc0f4a5", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (3).jpg
+"f5303b4da8057574c84c7322a19702b7", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (3).png
+"0108fa829c99c56478b917b81937622c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (30).jpg
+"8b0294a2d71b5044180c0ace903cd6bf", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (30).png
+"25bab4ee27508ec419f44b2357baa9ea", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (31).jpg
+"c481b4ce3da24254d8535e039bddd9a2", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (31).png
+"789f2ef616997194d9a6075249378b36", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (32).jpg
+"3c1b5b63bfcf1d64a85ae92a997559ad", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (32).png
+"9093fc5a69128ad4b8d57fdfa63614ad", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (33).jpg
+"c2900629045488a4b89b252f60b7ba80", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (33).png
+"fa2e476756e68e54d8218936d92f44de", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (34).png
+"f5d590d6f058eab4ca5501856f5b48d2", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (35).png
+"19d43460f5d9e824ca794439434578de", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (36).png
+"3e5c458f086955147b31f6fc5f0e118a", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (37).png
+"96af20914dee77340aa59723bee8417f", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (38).png
+"9d10c0c5b584761468fae139861a42de", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (39).png
+"ad62a319e566fdd4c8c6441b7250ba61", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (4).jpg
+"2b5e0b031839238468f548ae5e30d127", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (4).png
+"9c38b9b79d5e16b43b79b9c7d3f0fe7e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (40).png
+"8db27ba22c9f17c408dd81739495da48", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (41).png
+"aa27df79f39a4aa4f9e59e56f202da35", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (42).png
+"46ec5de8b6955e74b85a8173d64fd30f", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (43).png
+"e2f800df165ce7b42bc331a89805b4b0", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (44).png
+"cbecb892fa166824ab4114ffc7f27c17", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (45).png
+"191938ee788301d408ee03ab53a3d47d", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (46).png
+"0aac4adcdab886c46a45ab1b9d264123", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (47).png
+"625ea777e073d1644a0e1eb481eec64a", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (5).jpg
+"caf2f79a23000a84599416e236287616", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (5).png
+"9bb7c453de514554db5dbb8a2cfc672b", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (6).jpg
+"33148cf06f81cac40b9b18a9aa5b3bff", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (6).png
+"a24496aa77800b24c960741cb4c32203", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (7).jpg
+"0e50551111e650f44bebc5d6f589d704", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (7).png
+"30c6e066a187de543a9e1bae3a6c6852", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (8).jpg
+"e8626a4d5c2f311438c72481922d7efe", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (8).png
+"612476841a11fb94ca01633cc01282df", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (9).jpg
+"f712d8b4373eba943baf1989e0aeb15f", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Matcap_MC (9).png
+"fc239b868ef86f94087bad300518901e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Matcaps/T_Rainbow_Matcap.png
+"4ce40eff399b11a4fb5cddbc29ee2227", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Misc/T_Black.png
+"ce440cfbe62dfdd4abc464cf7b031b8c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Misc/T_Circle.png
+"5e54fd3fa7d2eb2448d1afc2697bf8a4", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Misc/T_LightRainbowVertical.png
+"bc453e8dc8d53ae42a9930a8b0de1dc5", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Misc/T_PastelRainbowVertical.png
+"fb2cd373b18d16146922f755a1109a94", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Misc/T_RainbowHorizontal.png
+"68238ea52b01b4646a834ac408126548", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Misc/T_RainbowVertical.png
+"f8f2f125174239f44bbd65262132328c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/Gradient.jpg
+"efad3a5f6f0666945bb3a8dd0dc9afe9", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/Gradient2.jpg
+"5b4e56cbe10b0ab48ba4a4f8e21be893", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Abstract2_Noise.png
+"b60b8211733a76c4b9a4322bfcf0b581", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Abstract_Noise.png
+"3f0ebc93eb910fa4e83d2dbdc92fedb7", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Blotch_Noise.png
+"f70e10900053fb44986fb2d3d6bf8454", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Brick2_Noise.png
+"65cfe9f1e5990e8448929ef8a4b649d4", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Brick_Noise.png
+"aded3d8bdb52eb744964762b45920654", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Caustic_Noise.png
+"d2b08e9dd82d76b4fa5e07bb95ff2196", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Cell_Noise.png
+"41c4dd3ec1abf6e42964db04353440bc", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Checker_Noise.png
+"39587adffa9ad98488e3d4c7c56a92a9", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Cloudy_Noise.png
+"5757e282ae2aac54e99d40378b103e7c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_InvertedHex_Noise.png
+"39bb96d456be4a84f926ee715e5b626a", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (1).jpg
+"1539e659b3b7d4940b051f702bc0c13e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (1).png
+"83350d98782a3f64cb46dd7bb928271c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (10).jpg
+"c2523251ed02cab4f9261d7a4c0678f9", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (11).jpg
+"1b65b9963ccf248489844c4d18ebd6a2", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (12).jpg
+"73dcc3a84b09e3146b6194acca5be1fb", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (12).TGA
+"7a5009302aa7c3d44b67e520541750a7", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (13).jpg
+"c0264675a41c58142ac2cd8e1e2c60d8", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (13).TGA
+"feb2e298e2fdcfc4ea372610bddb4ab4", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (14).jpg
+"0b021ae2081d45541a752b1d7ad0d570", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (15).jpg
+"948d051b07279294088742d8154223f9", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (16).jpg
+"588b1cf3457e893429b891d9e309773c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (16).TGA
+"f09ed133d3c2ea743880f31ed4c4ec60", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (17).jpg
+"7f726d3d09907a74e8ca61caef91350c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (18).jpg
+"384585c1d1eb2ae4293c37bc13542310", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (19).jpg
+"faaad765f99ebf042892806a43c5acee", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (2).jpg
+"71eb1cadc5880074bb3788081492b75e", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (2).png
+"50407170ac45a6c49a6044f71e0413c3", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (20).jpg
+"1ff8ebef6b28683499c6fa04a4098e70", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (21).jpg
+"d2fc7e621ee2eac4b986c465de92c6bf", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (22).jpg
+"ea37624af93d96943b2dd93ab64a1128", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (23).jpg
+"a43e3197e3af367458fa25637d0ace57", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (3).jpg
+"04adfac2018725f43bf17158a3b6991a", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (4).jpg
+"68b47bf7b40cbbd4d98fb5edba9c6b08", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (5).jpg
+"64318b6160916704db4495c99e14d9bb", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (6).jpg
+"5cd2541f2a58a49439b03b255264c50c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (7).jpg
+"8c2ba11c031f30747abe2e9d52d3483d", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (8).jpg
+"e645408cc6f35154bb09808bc39471b3", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (9).jpg
+"a174f25610aa260419d13c28372ca403", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No (9).TGA
+"3d2855f84e40fc0479ba50c9b2822793", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (1).png
+"12d2a54817ebe334db38e85a687d9439", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (10).png
+"a239bf9efb27401409c75b90cc73007a", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (11).png
+"0f65047a52bd6484d968e94f2c6777cb", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (12).png
+"abc13b08eb4023448b37a833482f82ff", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (13).png
+"ea593121750048e49b98c3f20671a5b8", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (14).png
+"2586df9a3b5ce4e4b83b617390ce682c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (15).png
+"0cd62273cab4ce24bade5b72b2e02127", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (16).png
+"84cd2c832f417e147879a1b683213016", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (17).png
+"69cd5ad91b4778c46ae1cd2a81ed3760", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (18).png
+"689a97b4b90b8b94baea6243cdc7a0d6", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (2).png
+"98a08c318257af648b4288a136e3d523", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (3).png
+"fd389a4cbaf52d945b09babc7cce4e91", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (4).png
+"bf57ae9997325ec44af94043bbfce786", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (5).png
+"dc45c2a31dc431b4489192aac5b85cf2", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (6).png
+"db2de0fac2c4b2040a6b7807330991ee", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (7).png
+"0fa953077ee3b4d49b74e56801a27e77", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (8).png
+"e87e3d84ef8b649469166e2afa88c1c5", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Noise_No.png (9).png
+"19ddda4f7d303094db07b8fda5037a03", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Pattern2_Noise.jpg
+"e0764bbcb1913ce4eb038fe89988a396", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Pattern_Noise.jpg
+"6bfa05600af138847bc516fd43534e52", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Sketch_Noise.png
+"e90e0fb9119be9b4db37ee3b86de6440", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Smudge_Noise.png
+"3e93baabe07c2e443ab3cf659438417c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Vornoi2_Noise.png
+"71c08610deb243144888703479205c12", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Voronoi_Noise.png
+"8b5a4f787794c584ab3fdb7f40d4ac37", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_Wiggly_Noise.png
+"ef36503fcb9106a4e982cc94d83685e9", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Noise/T_ZigZag_Noise.png
+"f3dc3d4e2a6de754d93047830bdc5d15", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Normals/T_Cloth_N.jpg
+"ed3986805d60eda499042ce23b1be705", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Normals/T_couch_N.jpg
+"446cd9992afb87f45b237154fea5f570", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Normals/T_crystal_N.jpg
+"95569409267572b49813657ae5de18e1", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Normals/T_Fabric_N.jpg
+"f771a6313a5869d44b53020b3dc105b7", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Normals/T_Random_N.jpg
+"ab89d0b40a0410c4aa787b95750cb036", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Normals/T_Wave_N.jpg
+"b8960a088bdbdad478c88078ffab9d8c", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Normals/WaterNorm.png
+"d13510bb2be49aa40a66a0101efb6a36", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Ramps/SkinLUT.png
+"49bcc4a51b69ddc438f1914cfa7f41f0", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Ramps/T_Hair_SR.tga
+"7ff3cc732aae9734f85c697329ee371f", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Ramps/T_Metal_SR.png
+"0901749828304e340844c78be88fe2e8", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Ramps/T_Mihoyo_MCSR.tga
+"6982ddf13e4f7ab4cb10c88cb6ba3ba4", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Ramps/T_Neitri_skin_SR.png
+"b4ae486ee54de7243a507d6356e7537d", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Ramps/T_Skin_SR.tga
+"9bb77cf8c1bd8184680cdfdc7f7b4c46", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Ramps/T_SoftHardBlack_SR.png
+"732b4977557d2954f822f01846fa0dba", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Ramps/T_SoftHardGrey_SR.png
+"56b3aaba9b026e84887babe35c1969f8", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Ramps/T_ToonSkin_SR.png
+"3739010f030632a4fa615f9a0a4a62ec", //Assets/VketShaderPack/_PoiyomiShaders/Textures/Shapes/T_Snowflake.png
+
 
                 #endregion
+
             };
         }
         public virtual string[] GetMaterialGUIDs()

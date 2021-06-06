@@ -1,0 +1,20 @@
+{
+    "name": "VitDeck.PerformanceCalculator",
+    "references": [
+        "VitDeck.Language",
+        "VitDeck.Utilities",
+        "VitDeck.Main",
+        "Unity.EditorCoroutines.Editor",
+        "UniTask"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

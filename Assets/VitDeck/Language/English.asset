@@ -720,3 +720,11 @@ MonoBehaviour:
     Value: Only one Vket Video Player can be used per booth.
   - Key: Booth.ComponentWhitelistRule.Solution
     Value: Please follow the submission rules for available components.
+  - Key: Vket6KujaBoothBoxRule.Title
+    Value: Selecting the outline to use
+  - Key: Vket6KujaBoothBoxRule.Select
+    Value: Exhibitor at the Nine Serpents will select the outer wall to be used for
+      their booth.
+  - Key: Vket6KujaBoothBoxRule.Select.Solution
+    Value: Activate the outline you want to use from the BoothBox under Reference
+      Object.

@@ -114,10 +114,10 @@ namespace VitDeck.Validator.RuleSets
         {
             var rules = base.GetRules().ToList();
             // シェーダーホワイトリストのチェック
-            rules.Add(
-                new ShaderWhitelistRule(LocalizedMessage.Get("Booth.ShaderWhiteListRule.Title"),
-                    _officialAssetData.AllowedShaders, LocalizedMessage.Get("Booth.ShaderWhiteListRule.Solution")) 
-                );
+            //rules.Add(
+            //    new ShaderWhitelistRule(LocalizedMessage.Get("Booth.ShaderWhiteListRule.Title"),
+            //        _officialAssetData.AllowedShaders, LocalizedMessage.Get("Booth.ShaderWhiteListRule.Solution")) 
+            //    );
 
             rules.Add(
                 new Vket6KujaBoothBoxRule(LocalizedMessage.Get("Vket6KujaBoothBoxRule.Title"))

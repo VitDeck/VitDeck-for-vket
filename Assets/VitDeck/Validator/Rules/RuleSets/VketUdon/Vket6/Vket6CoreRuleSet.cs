@@ -50,7 +50,7 @@ namespace VitDeck.Validator.RuleSets
             {
                 return new LightConfigRule.LightConfig(
                             new[] { LightmapBakeType.Baked, LightmapBakeType.Realtime },
-                            0, 7,
+                            0, 15,
                             0, 10,
                             0, 15);
             }
@@ -62,7 +62,7 @@ namespace VitDeck.Validator.RuleSets
             {
                 return new LightConfigRule.LightConfig(
                             new[] { LightmapBakeType.Baked, LightmapBakeType.Realtime },
-                            0, 7,
+                            0, 15,
                             0, 10,
                             0, 15);
             }

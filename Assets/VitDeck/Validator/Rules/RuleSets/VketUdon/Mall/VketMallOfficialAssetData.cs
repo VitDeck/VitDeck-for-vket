@@ -261,6 +261,8 @@ namespace VitDeck.Validator.RuleSets
 "57498a849a57d5e44bb3fea02cfabbad", //Assets/VketAssets/VketPrefabs/VketPickup/Scripts/VketFollowPickup.cs
 "fc11049e6474c5e47bc42f47d1a8efca", //Assets/VketAssets/VketPrefabs/VketPickup/Scripts/VketPickup.asset
 "b5d9b5598ab43f64e8aca7422be14f5c", //Assets/VketAssets/VketPrefabs/VketPickup/Scripts/VketPickup.cs
+"f29d54e013551c04c907cfe68520b996", //Assets/VketAssets/VketPrefabs/ItemTeleportMarker/ItemTeleportMarker.prefab
+"d518776ec98e79640b97fbd20f474b05", //Assets/VketAssets/VketPrefabs/ItemTeleportMarker/Scripts/ItemTeleportMarker.cs
 
 
                 #endregion

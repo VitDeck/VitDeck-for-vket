@@ -140,6 +140,7 @@ namespace VitDeck.Validator.RuleSets
                 new ComponentReference("LightProbeGroup", new string[]{"UnityEngine.LightProbeGroup"}, ValidationLevel.ALLOW),
                 new ComponentReference("LightProbeProxyVolume", new string[]{"UnityEngine.LightProbeProxyVolume"}, ValidationLevel.ALLOW),
                 new ComponentReference("ReflectionProbe", new string[]{"UnityEngine.ReflectionProbe"}, ValidationLevel.ALLOW),
+                new ComponentReference("ItemTeleportMarker", new string[]{"Vket.UdonManager.ItemTeleportMarker"}, ValidationLevel.ALLOW),
             };
         }
     }

@@ -2335,9 +2335,9 @@ namespace VitDeck.Validator.RuleSets
         {
             return new string[]
             {
-                @"(Update)[ ,\n,\t]*\(.*\)",
-                @"(LateUpdate)[ ,\n,\t]*\(.*\)",
-                @"(FixedUpdate)[ ,\n,\t]*\(.*\)",
+                @"( Update)[ ,\n,\t]*\(.*\)",
+                @"( LateUpdate)[ ,\n,\t]*\(.*\)",
+                @"( FixedUpdate)[ ,\n,\t]*\(.*\)",
                 @"(OnPlayerJoined)[ ,\n,\t]*\(.*\)",
                 @"(OnPlayerLeft)[ ,\n,\t]*\(.*\)",
                 @"(InputJump)[ ,\n,\t]*\(.*\)",

@@ -117,7 +117,11 @@ namespace VitDeck.Validator
                 }
 
                 // PUSHスタックを集める
-                if (assembly[1] == "PUSH,")
+                if (assembly.Length <= 1)
+                {
+                    pushStack.Clear();
+                }
+                else if (assembly[1] == "PUSH,")
                 {
                     pushStack.Add( Convert.ToUInt32(assembly[2].Trim(), 16));
                 }

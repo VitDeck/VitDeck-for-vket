@@ -402,6 +402,7 @@ namespace VitDeck.Validator.RuleSets
 
                 //VketAsset
                  new ComponentReference("VKet Udon Controll", new string[]{ "Vket.UdonManager.VketUdonControl"}, ValidationLevel.ALLOW),
+                 new ComponentReference("Item Teleport Marker", new string[]{ "Vket.UdonManager.ItemTeleportMarker"}, ValidationLevel.ALLOW),
             };
         }
 

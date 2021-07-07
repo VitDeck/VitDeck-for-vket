@@ -720,6 +720,9 @@ namespace VitDeck.Validator.RuleSets
                 "249a82240095e1a44b9b4aae5f72d41e", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/VketItemPageOpener_2D.prefab
                 "8b95eab6f59b5e64d9393292aca982ca", // Assets/VketAssets/VketPrefabs/VketWebPageOpener/VketItemPageOpener_3D.prefab
 
+                "d518776ec98e79640b97fbd20f474b05", // Assets/VketAssets/VketPrefabs/ItemTeleportMarker/Scripts/ItemTeleportMarker.cs
+                "f29d54e013551c04c907cfe68520b996", // Assets/VketAssets/VketPrefabs/ItemTeleportMarker/ItemTeleportMarker.prefab
+
                 #endregion
 
                 #region VketShaderPack

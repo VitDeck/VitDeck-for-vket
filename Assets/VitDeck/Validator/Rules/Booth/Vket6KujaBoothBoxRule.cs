@@ -48,7 +48,7 @@ namespace VitDeck.Validator
             for (int i = 0; i < obj.transform.childCount; i++)
             {
                 Object prefab = PrefabUtility.GetPrefabParent(obj);
-                if (GetGUID(prefab) == "750eed323838fe448951af4a1d2e25d6" && obj.transform.GetChild(i).gameObject.active)
+                if (GetGUID(prefab) == "4f2538bedbd7e6c49b13896a3e946141" && obj.transform.GetChild(i).gameObject.active)
                 {
                     box = obj.transform.GetChild(i).gameObject;
                 }

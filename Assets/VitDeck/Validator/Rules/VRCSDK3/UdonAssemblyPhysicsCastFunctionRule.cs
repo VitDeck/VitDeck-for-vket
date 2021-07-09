@@ -21,7 +21,7 @@ namespace VitDeck.Validator
     /// </remarks>
     internal class UdonAssemblyPhysicsCastFunctionRule : BaseUdonBehaviourRule
     {
-        private const float _maxDistance = 10.0f; // 0.0f < x <= 10.0f あれば任意
+        private float _maxDistance = 10.0f; // 0.0f < x <= 10.0f あれば任意
         private const int _layerMask = 8388608;  // Layer23 mask (固定値)
 
         private readonly UdonAssemblyFunctionEssentialArgumentReference[] _references;
@@ -41,6 +41,7 @@ namespace VitDeck.Validator
         /// <param name="ignorePrefabGUIDs">例外Prefabのリスト</param>
         public UdonAssemblyPhysicsCastFunctionRule(string name,
             UdonAssemblyFunctionEssentialArgumentReference[] references,
+            float maxDistance = 10.0f,
             string[] ignorePrefabGUIDs = null)
             : base(name)
         {
@@ -50,6 +51,7 @@ namespace VitDeck.Validator
                 ignorePrefabGUIDs = new string[0];
             }
             _ignorePrefabs = new HashSet<string>(ignorePrefabGUIDs);
+            _maxDistance = maxDistance;
         }
 
         protected override void ComponentLogic(UdonBehaviour component)

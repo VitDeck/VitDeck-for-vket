@@ -44,6 +44,8 @@ namespace VitDeck.Validator.RuleSets
 
         protected override int VketVideoPlayerUsesLimit => 0;
 
+        protected override float RayCastLength => 10.0f;
+
         protected override LightConfigRule.LightConfig ApprovedPointLightConfig
         {
             get

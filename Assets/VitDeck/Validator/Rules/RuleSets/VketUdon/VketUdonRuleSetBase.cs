@@ -289,7 +289,7 @@ namespace VitDeck.Validator.RuleSets
                 new UdonSharpScriptNamespaceRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonSharpNameSpaceRule.Title"), UdonSharpNamespace), 
 
                 // PhysicsクラスのCast関数 layerMaskを設定し、レイヤー23以外のコライダを無視するようにする, maxDistanceは最長で10メートルまで
-                new UdonAssemblyPhysicsCastFunctionRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonAssemblyPhysicsCastFunctionRule.Title"), GetUdonAssemblyPhysicsCastFunctionReferences()), 
+                new UdonAssemblyPhysicsCastFunctionRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonAssemblyPhysicsCastFunctionRule.Title"), GetUdonAssemblyPhysicsCastFunctionReferences(),RayCastLength), 
 
                 //Is Kinematicを有効にすること
                 new RigidbodyRule(LocalizedMessage.Get("VketUdonRuleSetBase.RigidbodyRule.Title")),
@@ -331,6 +331,8 @@ namespace VitDeck.Validator.RuleSets
         protected abstract int ClothCountLimit { get; }
 
         protected abstract int AudioSourceCountLimit { get; }
+
+        protected abstract float RayCastLength { get; }
 
         private ComponentReference[] GetComponentReferences()
         {

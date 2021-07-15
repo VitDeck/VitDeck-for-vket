@@ -193,7 +193,7 @@ namespace VitDeck.Validator.RuleSets
                 new UdonDynamicObjectInactiveRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonDynamicObjectInactiveRule.Title"), UdonInactiveRuleIsEnabled), 
 
                 // UdonBehaviourを含むオブジェクトのLayerはUserLayer23としてください
-                new UdonBehaviourLayerConstraintRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonBehaviourLayerConstraintRule.Title"),_officialAssetData.UdonBehaviourPrefabGUIDs),
+                // new UdonBehaviourLayerConstraintRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonBehaviourLayerConstraintRule.Title"),_officialAssetData.UdonBehaviourPrefabGUIDs),
 
                 // UdonBehaviourは1ブースあたり 25 まで
                 new SceneComponentLimitRule(

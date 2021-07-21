@@ -50,6 +50,18 @@ namespace VitDeck.Validator.RuleSets
                 "55548138ddf20b3499f66c54f60b37d7",  // Assets/GamVGimmicks/VideoPlayer_system/Udon/UdonScripts/BoothVideoPlayerMaster.cs
 
                 #endregion
+
+                #region vket6
+
+                "1056f83269d9ee04eaf9b0a0db30fbd4",  // \Assets\VketAssets\VketPrefabs\PrefabAssets\Scripts\Editor\AssemblyBuilder.cs
+                "e125af3ba7da62a41aefb41197b4d195",  // \Assets\VketAssets\VketPrefabs\PrefabAssets\Scripts\Editor\DictionaryExtension.cs
+                "672a8dec0156e614f9de64ffecd0ac01",  // \Assets\VketAssets\VketPrefabs\PrefabAssets\Scripts\Editor\TriggerParameters.cs
+                "96557f785ce40c0469ee40407efc4ac1",  // \Assets\VketAssets\VketPrefabs\PrefabAssets\Scripts\Editor\VketInteractProgramAsset.cs
+                "1056f83269d9ee04eaf9b0a0db30fbd4",  // \Assets\VketAssets\VketPrefabs\PrefabAssets\Scripts\Editor\VketOnBoothProgramAsset.cs
+                "c00c2e468a7ad97489ae83db8c039100",  // \Assets\VketAssets\VketPrefabs\PrefabAssets\Scripts\Editor\VketTriggerProgramAsset.cs
+                "9da245cf3d6f1ab4c98ba350e3dc81a9",  // \Assets\VketAssets\VketPrefabs\PrefabAssets\Scripts\Editor\VketInteractProgramAsset.cs
+
+                #endregion
             };
             guids.AddRange(addGuids);
             return guids.ToArray();

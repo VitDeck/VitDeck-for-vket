@@ -20,8 +20,7 @@ namespace VitDeck.Validator
                 AddIssue(new Issue(
                         component, 
                         IssueLevel.Error, 
-                        LocalizedMessage.Get("UdonBehaviourAllowOwnershipTransferOnCollisionIsFalseRule.isTrue"),
-                        LocalizedMessage.Get("UdonBehaviourAllowOwnershipTransferOnCollisionIsFalseRule.isTrue.solution")
+                        LocalizedMessage.Get("VRCObjectSyncAllowOwnershipTransferOnCollisionIsFalseRule.Title")
                     )
                 );
             }

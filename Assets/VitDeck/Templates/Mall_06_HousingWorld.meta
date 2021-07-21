@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: cfc4fedd3c644fa4a8159d9b5435965f
+labels:
+- VitDeck.ReadOnly
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

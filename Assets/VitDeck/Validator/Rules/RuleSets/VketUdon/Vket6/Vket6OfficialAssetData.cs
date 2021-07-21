@@ -62,6 +62,31 @@ namespace VitDeck.Validator.RuleSets
                 "9da245cf3d6f1ab4c98ba350e3dc81a9",  // \Assets\VketAssets\VketPrefabs\PrefabAssets\Scripts\Editor\VketInteractProgramAsset.cs
 
                 #endregion
+
+                #region kuja
+
+                "460332fbf0074aa4baf184c9c3702832", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Material/beercase_MAT.mat
+                "4f7074bb7ed798b4183564ea198d14da", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Material/BoothBox_MIX_mat.002.mat
+                "21cc69956e67d1046a0423571fc9d7ac", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Material/BoothBox_MIX_mat.mat
+                "034ce32a5bfe58441a11e544f475a93e", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Material/clothtable_mat.mat
+                "5308217d11ff3674abe438adafc8304c", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Material/counter_MAT.mat
+                "292460bb39225714c8b9a18368647fd9", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Material/Steel_Table.mat
+                "fe6ff9608d3066f49a137d1600f258a1", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Prop/2F_Floor.fbx
+                "bca68ec67ab732f4aa146a0fe7709238", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Prop/BeerCase.fbx
+                "42539c74349b37148b517bcdd68003c3", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Prop/Chair_G.fbx
+                "6f1a4d7b1e5e03246bed3dec972dec58", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Prop/Chair_R.fbx
+                "494a247e0fce1d241b94d3119ea2a469", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Prop/Counter.fbx
+                "665127115f050a0448bde3c2fcc1be90", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Prop/Table01.fbx
+                "7483fe5283282224f86373021c3999b5", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Prop/Table02.fbx
+                "95875555afc00ca41a9a59d991fadf6a", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Prop/Table03.fbx
+                "65b7415f8018aa84bbb8ae7cdf8e8de5", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Texture/beercase_TEX.png
+                "315f3e5a4c24235439c074b87068a3f7", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Texture/Cloth_TEX.png
+                "855ac97e15136c34c9ecb5f2a12391aa", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Texture/Counter_TEX.png
+                "8b103ce203eca504f8ca7fd084c4b741", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Texture/kuja_BoothBox_MIX_TEX.png
+                "29e713b4086026c4ea42ad812ac83d3d", //Assets/VitDeck/Templates/V6_05_Kuja/SharedAssets/Texture/SteelTable_TEX.png
+
+
+                #endregion
             };
             guids.AddRange(addGuids);
             return guids.ToArray();

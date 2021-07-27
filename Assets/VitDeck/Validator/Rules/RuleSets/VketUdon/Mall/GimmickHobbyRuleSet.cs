@@ -46,6 +46,8 @@ namespace VitDeck.Validator.RuleSets
 
         protected override float RayCastLength => 10.0f;
 
+        protected override bool AllowIsKinematic => true;
+
         protected override LightConfigRule.LightConfig ApprovedPointLightConfig
         {
             get

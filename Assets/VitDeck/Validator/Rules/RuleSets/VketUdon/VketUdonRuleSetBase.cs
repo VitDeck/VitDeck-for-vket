@@ -292,7 +292,7 @@ namespace VitDeck.Validator.RuleSets
                 new UdonAssemblyPhysicsCastFunctionRule(LocalizedMessage.Get("VketUdonRuleSetBase.UdonAssemblyPhysicsCastFunctionRule.Title"), GetUdonAssemblyPhysicsCastFunctionReferences(),RayCastLength), 
 
                 //Is Kinematicを有効にすること
-                new RigidbodyRule(LocalizedMessage.Get("VketUdonRuleSetBase.RigidbodyRule.Title")),
+                new RigidbodyRule(LocalizedMessage.Get("VketUdonRuleSetBase.RigidbodyRule.Title"),AllowIsKinematic),
 
                 //AudioSourceの使用数が10個以下であること
                 new AudioSourceRule(LocalizedMessage.Get("VketUdonRuleSetBase.AudioSourceRule.Title")),
@@ -500,6 +500,7 @@ namespace VitDeck.Validator.RuleSets
 
         protected abstract int VketVideoPlayerUsesLimit { get; }
 
+        protected abstract bool AllowIsKinematic { get; }
     }
 }
 #endif

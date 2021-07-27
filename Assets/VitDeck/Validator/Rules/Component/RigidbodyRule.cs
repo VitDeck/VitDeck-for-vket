@@ -6,18 +6,24 @@ namespace VitDeck.Validator
 {
     internal class RigidbodyRule : ComponentBaseRule<Rigidbody>
     {
-        public RigidbodyRule(string name) : base(name)
+        private bool allowIsKinematic;
+
+        public RigidbodyRule(string name,bool allowIsKinematic) : base(name)
         {
+            this.allowIsKinematic = allowIsKinematic;
         }
 
         protected override void ComponentLogic(Rigidbody component)
         {
-            if (!component.isKinematic)
+            if (!allowIsKinematic)
             {
-                AddIssue(new Issue(
-                    component,
-                    IssueLevel.Error,
-                    LocalizedMessage.Get("RigidbodyRule.UseIsKinematic")));
+                if (!component.isKinematic)
+                {
+                    AddIssue(new Issue(
+                        component,
+                        IssueLevel.Error,
+                        LocalizedMessage.Get("RigidbodyRule.UseIsKinematic")));
+                }
             }
         }
 

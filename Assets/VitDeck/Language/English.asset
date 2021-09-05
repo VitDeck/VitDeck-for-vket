@@ -652,3 +652,79 @@ MonoBehaviour:
     Value: UdonBehaviour [AutoResetPickup] must set Synchronize Position is True.
   - Key: VRCPickupUdonBehaviourRule.SynchronizePositionFalse.Solution
     Value: Check UdonBehaviour property Synchronize Position is True.
+  - Key: Booth.ErrorShaderRule.Title
+    Value: Shader Error
+  - Key: Booth.ErrorShaderRule.noMaterialError
+    Value: Renderer that material missing found.
+  - Key: Booth.ErrorShaderRule.shaderReferenceError
+    Value: Material that shader missing found.
+  - Key: Booth.ErrorShaderRule.shaderError
+    Value: Shader error found.
+  - Key: Booth.ShaderWhiteListRule.Title
+    Value: Unsupported shader found
+  - Key: Booth.ShaderWhiteListRule.DisallowedShader
+    Value: Shader [{0}] is NOT allowed to use.
+  - Key: Booth.ShaderWhiteListRule.MismatchGUID
+    Value: Shader [{0}] has defferent GUID [{1}]. Use [{2}].
+  - Key: Booth.ShaderWhiteListRule.Solution
+    Value: Read Shader Limitation Rules.
+  - Key: VketUdonRuleSetBase.VRCObjectPoolPoolLimitRule.Title
+    Value: VRCObjectPool  Pool must be kept under {0}
+  - Key: VRCObjectPoolPoolLimitRule.Overuse
+    Value: 'VRCObjectPool Pool exceeded limit of {0}. (Current count: {1})'
+  - Key: VRCObjectPoolPoolLimitRule.Overuse.Solution
+    Value: Please reduce the Pool.
+  - Key: SceneComponentLimitRule.Overuse
+    Value: '{0} count exceeded limit of {1}. (Current count: {2})'
+  - Key: SceneComponentLimitRule.Overuse.Solution
+    Value: Please reduce the component count.
+  - Key: VketUdonRuleSetBase.VRCObjectPoolLimitRule.Title
+    Value: Only one VRC Object Pool can be used per booth.
+  - Key: VketUdonRuleSetBase.VRCObjectSyncLimitRule.Title
+    Value: VRC Object Sync component must be kept under {0}
+  - Key: VketUdonRuleSetBase.VRCObjectPickupLimitRule.Title
+    Value: VRC Pickup component must be kept under {0}
+  - Key: VketUdonRuleSetBase.ClothLimitRule.Title
+    Value: Cloth component must be kept under {0}
+  - Key: VRCObjectSyncAllowOwnershipTransferOnCollisionIsFalseRule.Title
+    Value: Always set AllowOwnershipTransferOnCollision to False.
+  - Key: VketUdonRuleSetBase.NeedVketUdonControlRule.Title
+    Value: Attach the VketUdonControl component when using UdonBehaviour components
+      other than the prepubs distributed by the administration.
+  - Key: NeedVketUdonControlRule.Need
+    Value: The VketUdonControl component is not attached to {0}.
+  - Key: NeedVketUdonControlRule.Need.Solution
+    Value: Attach the VketUdonControl component
+  - Key: CameraComponentRule.NeedRenderTexture
+    Value: Be sure to specify RenderTexture as the TargetTexture.
+  - Key: CameraComponentRule.NeedRenderTexture.Solution
+    Value: Attach the VketUdonControl component
+  - Key: VketUdonRuleSetBase.AudioSourceLimitRule.Title
+    Value: AudioSource component must be kept under {0}
+  - Key: AudioSourceRuleRule.SpatialBlend
+    Value: AudioSource Spatial Blend should be set to 1.0
+  - Key: VketUdonRuleSetBase.AudioSourceRule.Title
+    Value: Spatial Blend should be set to 1.0
+  - Key: AudioSourceRule.DefaultDisabled
+    Value: The component must be initially Disabled.
+  - Key: AudioSourceRule.DefaultDisabled.Solution
+    Value: Make sure to leave the component unchecked and activate it with animation
+      or SetComponentActive of VRC_Trigger.
+  - Key: VketUdonRuleSetBase.DisabledCallbackRule.Title
+    Value: Don't use banned callbacks
+  - Key: DisabledCallbackRule.Use
+    Value: Don't use {0}
+  - Key: DisabledCallbackRule.Use.Solution
+    Value: Don't use banned callbacks
+  - Key: VketRuleSetBase.VketVideoPlayerPrefabLimitRule.Title
+    Value: Only one Vket Video Player can be used per booth.
+  - Key: Booth.ComponentWhitelistRule.Solution
+    Value: Please follow the submission rules for available components.
+  - Key: Vket6KujaBoothBoxRule.Title
+    Value: Selecting the outline to use
+  - Key: Vket6KujaBoothBoxRule.Select
+    Value: Exhibitor at the Nine Serpents will select the outer wall to be used for
+      their booth.
+  - Key: Vket6KujaBoothBoxRule.Select.Solution
+    Value: Activate the outline you want to use from the BoothBox under Reference
+      Object.

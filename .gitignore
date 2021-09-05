@@ -57,3 +57,26 @@ Assets/VRChat Examples*
 # Destination folder for exporter
 /Assets/Exports*
 /Assets/Vket_Exports*
+
+#VRChat SDK3
+Assets/Udon*
+# VRCSDK3 Package
+/Packages/com.vrchat.vrcsdk3/
+Assets/guid.txt.meta
+Assets/NewBehaviourScript.cs
+Assets/NewBehaviourScript.cs.meta
+
+# Official Udon Scripts
+/Assets/SerializedUdonPrograms/*
+!/Assets/SerializedUdonPrograms/0d2cf2386895ff5499a1660a4327ad75.*
+!/Assets/SerializedUdonPrograms/73398b290b7c5ec43a2e158bfc1c45db.*
+!/Assets/SerializedUdonPrograms/fe9c6cf6073f2514e82259a4142d6932.*
+!/Assets/SerializedUdonPrograms/6ea1e8fa7533f9647996810212fa976e.*
+
+# Official Udon Scripts GameVket0
+!/Assets/SerializedUdonPrograms/6280669e97dfe384988401d2c650a08f.*
+!/Assets/SerializedUdonPrograms/361d89e8564f96c4ea161a47f9fb2871.*
+
+# Official Udon Scripts VideoPlayer
+!/Assets/SerializedUdonPrograms/414a471b5fafc3246a7c33b2ae29f2b9.*
+!/Assets/SerializedUdonPrograms/6abc392e5dd9c1848b09205e404a5adf.*

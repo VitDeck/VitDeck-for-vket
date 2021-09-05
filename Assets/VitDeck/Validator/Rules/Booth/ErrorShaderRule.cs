@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Linq;
+using VitDeck.Language;
 
 namespace VitDeck.Validator
 {
@@ -28,19 +29,19 @@ namespace VitDeck.Validator
                 {
                     if (material == null)
                     {
-                        AddIssue(new Issue(obj, IssueLevel.Info, "オブジェクトのRendererにマテリアルの参照がありません。", string.Empty, string.Empty));
+                        AddIssue(new Issue(obj, IssueLevel.Info, LocalizedMessage.Get("Booth.ErrorShaderRule.noMaterialError"), string.Empty, string.Empty));
                         continue;
                     }
 
                     if (material.shader.name == "Hidden/InternalErrorShader")
                     {
-                        AddIssue(new Issue(obj, IssueLevel.Error, "オブジェクトのマテリアルで正しいシェーダーが参照されていません。", string.Empty, string.Empty));
+                        AddIssue(new Issue(obj, IssueLevel.Error, LocalizedMessage.Get("Booth.ErrorShaderRule.shaderReferenceError"), string.Empty, string.Empty));
                         continue;
                     }
 
                     if (material.shader.name == string.Empty || material.shader.name == null)
                     {
-                        AddIssue(new Issue(obj, IssueLevel.Error, "オブジェクトでシェーダーエラーが検出されました。", string.Empty, string.Empty));
+                        AddIssue(new Issue(obj, IssueLevel.Error, LocalizedMessage.Get("Booth.ErrorShaderRule.shaderError"), string.Empty, string.Empty));
                     }
                 }
             }

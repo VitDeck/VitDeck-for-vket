@@ -15,6 +15,7 @@ namespace VitDeck.Validator
         protected override void ComponentLogic(Camera component)
         {
             DefaultDisabledLogic(component);
+            NeedRenderTextureLogic(component);
             MaxRenderTextureSizeLogic(component, maxRenderTextureSize);
         }
 
@@ -31,6 +32,20 @@ namespace VitDeck.Validator
                     IssueLevel.Error,
                     message,
                     solution));
+            }
+        }
+
+        private void NeedRenderTextureLogic(Camera component)
+        {
+            if (component.targetTexture == null)
+            {
+
+                var message = LocalizedMessage.Get("CameraComponentRule.NeedRenderTexture");
+
+                AddIssue(new Issue(
+                    component,
+                    IssueLevel.Error,
+                    message));
             }
         }
 

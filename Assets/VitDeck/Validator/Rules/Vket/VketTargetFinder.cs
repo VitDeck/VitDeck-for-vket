@@ -95,11 +95,31 @@ namespace VitDeck.Validator
 
         private static IReadonlyReferenceDictionary GetContainsAndReferredAssets(string baseFolder, GameObject[] gameObjects)
         {
+            GameObject[] Objects = new GameObject[0];
+            foreach (GameObject obj in gameObjects)
+            {
+                ParticleSystem part = obj.GetComponent<ParticleSystem>();
+                if (part != null)
+                {
+                    if (part.shape.shapeType == ParticleSystemShapeType.SkinnedMeshRenderer)
+                    {
+                        
+                    }
+                    else
+                    {
+                        Objects.Append<GameObject>(obj);
+                    }
+                }
+                else
+                {
+                    Objects.Append<GameObject>(obj);
+                }
+            }
             var referenceChain = UnityObjectReferenceChain
                 .ExploreFrom(
                     Enumerable.Concat(
                         VitDeck.Utilities.AssetUtility.EnumerateAssets(baseFolder),
-                        gameObjects
+                        Objects
                     ));
 
             return referenceChain.Result;

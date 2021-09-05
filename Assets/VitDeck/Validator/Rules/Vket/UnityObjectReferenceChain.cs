@@ -130,6 +130,7 @@ namespace VitDeck.Validator
 
         private static void FindSerializedObjectReferenceRecursive(Object unityObject, HashSet<Object> searchedAsset, ReferenceDictionary dictionary)
         {
+        
             var serializedObject = new SerializedObject(unityObject);
 
             var iterator = serializedObject.GetIterator();
